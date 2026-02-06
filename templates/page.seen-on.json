@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_max_width": 500
+      }
+    },
+    "rich_text_w67RAY": {
+      "type": "rich-text",
+      "blocks": {
+        "overline_9kCwmW": {
+          "type": "overline",
+          "settings": {
+            "overline": ""
+          }
+        },
+        "title_cc788z": {
+          "type": "title",
+          "settings": {
+            "title": "AS SEEN ON",
+            "text_max_width": 50
+          }
+        },
+        "text_CHXajB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yara Shoemaker’s designs have graced some of the most exclusive stages and events across the globe, embraced by renowned figures who embody elegance and sophistication.</p>",
+            "text_max_width": 50
+          }
+        }
+      },
+      "block_order": [
+        "overline_9kCwmW",
+        "title_cc788z",
+        "text_CHXajB"
+      ],
+      "settings": {
+        "section_style": "contrast",
+        "section_padding": "regular",
+        "enable_animation": true,
+        "alignment": "center"
+      }
+    },
+    "1729696031c5f6f45b": {
+      "type": "apps",
+      "blocks": {
+        "xo_gallery_xo_gallery_awKn94": {
+          "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "id": 6,
+            "mid": ""
+          }
+        }
+      },
+      "block_order": [
+        "xo_gallery_xo_gallery_awKn94"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_w67RAY",
+    "1729696031c5f6f45b"
+  ]
+}

@@ -1,0 +1,518 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_hero_w9UyFh": {
+      "type": "video-hero",
+      "settings": {
+        "enable_animation": true,
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/fae0fe4cf607495192d332316aabb8a7.mp4",
+        "focal_point": "image_presentation",
+        "alignment": "right_bottom",
+        "text_container_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "color_text_button": "#181818",
+        "color_background_button": "#ffffff",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 10
+      }
+    },
+    "text_columns_with_images_U6bPDa": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "column_FM3aaF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Yara_Shoemaker_fw26_details_IG_Yara_Shoemaker_fw26_details_IG_081.jpg",
+            "image_max_width": 50,
+            "title": "",
+            "subheading": "",
+            "text_max_width": 36,
+            "link": "shopify://pages/our-couture-process",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FM3aaF"
+      ],
+      "settings": {
+        "section_style": "contrast",
+        "enable_animation": true,
+        "columns": 1,
+        "overline": "Yara Shoemaker",
+        "title": "HAUTE COUTURE",
+        "subheading": "<p>Exquisite craftsmanship distills centuries of culture into the epitome of luxury. Yara is devoted to the creation of breathtaking, desire-inducing designs that transcend time and trends, each piece a testament to our unwavering commitment to artistry and sophistication.</p>",
+        "link": "",
+        "link_text": "",
+        "text_alignment": "center",
+        "text_max_width": 50
+      }
+    },
+    "video_hero_eaKHnW": {
+      "type": "video-hero",
+      "blocks": {
+        "overline_7k6HQG": {
+          "type": "overline",
+          "settings": {
+            "overline": "FIND OUT MORE"
+          }
+        },
+        "heading_Dw4cmc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Yara Shoemaker's commitment to excellence",
+            "heading_text_size": 32,
+            "text_max_width": 60
+          }
+        },
+        "button_De938P": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/about-the-founder-aug-26",
+            "link_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "overline_7k6HQG",
+        "heading_Dw4cmc",
+        "button_De938P"
+      ],
+      "settings": {
+        "enable_animation": true,
+        "image_aspect": "custom",
+        "desktop_height": 75,
+        "mobile_height": 100,
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/2065ddef1cde43618d6adc1fea5fc7bd.mp4",
+        "focal_point": "image_presentation",
+        "alignment": "center_center",
+        "text_container_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "color_text_button": "#181818",
+        "color_background_button": "#ece7da",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 50
+      }
+    },
+    "gallery_1": {
+      "type": "gallery",
+      "blocks": {
+        "image_4zBtX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/21File_cd3c85db-752e-4357-8dd4-7cf6f6e42a1f.png",
+            "description": "BRIDAL",
+            "link": "shopify://collections/bridal-1"
+          }
+        },
+        "image_ydBWPy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Yara_Shoemaker_fw26_runway_press_look01.jpg",
+            "description": "FALL / WINTER 2025-2026",
+            "link": "shopify://collections/fall-winter-2025-2026"
+          }
+        },
+        "image_y7z7ir": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2025-07-30_YARA_SHOEMAKER_LOOK_08_007.jpg",
+            "description": "EDITORIAL",
+            "link": "shopify://collections/editorial"
+          }
+        },
+        "image_gCNnpP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Yara_Shoemaker_ss25_runway_IG_01.png",
+            "description": "SPRING / SUMMER 2025",
+            "link": "shopify://collections/spring-summer-2025"
+          }
+        },
+        "image_1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FallWinter2024BK_Page_03.png",
+            "description": "FALL / WINTER \n2024-2025",
+            "link": "shopify://collections/fall-winter-2024-2025"
+          }
+        },
+        "image_3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image00013.png",
+            "description": "SPRING / SUMMER \n2024",
+            "link": "shopify://collections/spirng-summer-2024"
+          }
+        },
+        "image_4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fovari_HCFW23_IG_005B_2d1994ba-cc78-4b31-8434-eecfa561283f.jpg",
+            "description": "FALL / WINTER \n2023-2024",
+            "link": "shopify://collections/fall-winter-2023-2024"
+          }
+        },
+        "image_5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FovariHCS23027.jpg",
+            "description": "SPRING / SUMMER\n2023",
+            "link": "shopify://collections/paris-runway"
+          }
+        }
+      },
+      "block_order": [
+        "image_4zBtX3",
+        "image_ydBWPy",
+        "image_y7z7ir",
+        "image_gCNnpP",
+        "image_1",
+        "image_3",
+        "image_4",
+        "image_5"
+      ],
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 3,
+        "aspect_ratio": "portrait",
+        "text_position": "top_center",
+        "overline": "EXPLORE THE DESIGNS",
+        "title": "Our Collections",
+        "subheading": "<p>Discover the most recent Haute Couture collections from Yara Shoemaker.</p>",
+        "link": "",
+        "link_text": "",
+        "text_max_width": 50
+      }
+    },
+    "mosaic_grid_j7HBFq": {
+      "type": "mosaic-grid",
+      "blocks": {
+        "small_square_W8fCQH": {
+          "type": "small_square",
+          "settings": {
+            "image": "shopify://shop_images/Yara_Shoemaker_ss25_details_press_229.jpg",
+            "video_url": "",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "overline": "",
+            "title": "",
+            "subheading": "",
+            "text_max_width": 28,
+            "link_text": "",
+            "link": "",
+            "text_position": "center_center",
+            "background_color": "",
+            "color_text": "#ffffff",
+            "color_text_button": "#181818",
+            "color_background_button": "#ffffff",
+            "color_text_container": "",
+            "overlay_color": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "medium_vertical_rect_iFNTmr": {
+          "type": "medium_vertical_rect",
+          "settings": {
+            "video_url": "",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "overline": "YARA SHOEMAKER",
+            "title": "Bridal Collection",
+            "subheading": "<p>An exclusive collection of the highest quality Bridal designs by Yara Shoemaker.</p>",
+            "text_max_width": 24,
+            "link_text": "DISCOVER COLLECTION",
+            "link": "shopify://collections/bridal",
+            "text_position": "center_center",
+            "background_color": "#fcfcfc",
+            "color_text": "#1b1b1b",
+            "color_text_button": "#1b1b1b",
+            "color_background_button": "#ece7da",
+            "color_text_container": "",
+            "overlay_color": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "small_square_dDXCg4": {
+          "type": "small_square",
+          "settings": {
+            "image": "shopify://shop_images/Craftsmanship_6.jpg",
+            "video_url": "",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "overline": "",
+            "title": "",
+            "subheading": "",
+            "text_max_width": 28,
+            "link_text": "",
+            "link": "",
+            "text_position": "center_center",
+            "background_color": "",
+            "color_text": "#ffffff",
+            "color_text_button": "#181818",
+            "color_background_button": "#ffffff",
+            "color_text_container": "",
+            "overlay_color": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "small_square_WzUtW3": {
+          "type": "small_square",
+          "settings": {
+            "image": "shopify://shop_images/Craftsmanship_3.jpg",
+            "video_url": "",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "overline": "",
+            "title": "",
+            "subheading": "",
+            "text_max_width": 28,
+            "link_text": "",
+            "link": "",
+            "text_position": "center_center",
+            "background_color": "",
+            "color_text": "#ffffff",
+            "color_text_button": "#181818",
+            "color_background_button": "#ffffff",
+            "color_text_container": "",
+            "overlay_color": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "small_square_xniCYb": {
+          "type": "small_square",
+          "settings": {
+            "image": "shopify://shop_images/Yara_Shoemaker_ss25_details_press_224.jpg",
+            "video_url": "",
+            "media_fit": "cover",
+            "focal_point": "center_top",
+            "overline": "",
+            "title": "",
+            "subheading": "",
+            "text_max_width": 28,
+            "link_text": "",
+            "link": "",
+            "text_position": "center_center",
+            "background_color": "",
+            "color_text": "#ffffff",
+            "color_text_button": "#181818",
+            "color_background_button": "#ffffff",
+            "color_text_container": "",
+            "overlay_color": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "small_square_W8fCQH",
+        "medium_vertical_rect_iFNTmr",
+        "small_square_dDXCg4",
+        "small_square_WzUtW3",
+        "small_square_xniCYb"
+      ],
+      "settings": {
+        "section_style": "contrast",
+        "enable_animation": true,
+        "title": "",
+        "heading": "",
+        "subheading": "",
+        "heading_alignment": "center",
+        "text_max_width": 42,
+        "mobile_content_placement": "after",
+        "mobile_text_align": "left"
+      }
+    },
+    "text_columns_with_images_1": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "Craftsmanship",
+            "subheading": "<p>Where meticulous attention to detail defines each creation.</p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "One-of-a-Kind",
+            "subheading": "<p>Every design is uniquely crafted to reflect individual style and personal story.</p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
+        },
+        "column_3": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "Sustainability",
+            "subheading": "<p>Committed to responsible fashion, using the finest materials with a focus on timelessness and  sustainability.</p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
+        }
+      },
+      "block_order": [
+        "column_1",
+        "column_2",
+        "column_3"
+      ],
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 3,
+        "overline": "",
+        "title": "",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "text_alignment": "center",
+        "text_max_width": 36
+      }
+    },
+    "image_with_text_split_1": {
+      "type": "image-with-text-split",
+      "settings": {
+        "enable_animation": true,
+        "feature_image": "shopify://shop_images/Screenshot_2024-07-21_at_3.26.19_PM.png",
+        "feature_link": "",
+        "feature_description": "<p>Our couture service is a personalized journey and is available globally.</p>",
+        "feature_text_color": "#313131",
+        "background_color": "#f3f3f3",
+        "color_background_gradient": "",
+        "feature_alignment": "center_bottom",
+        "overlay_image": "shopify://shop_images/Screenshot_2023-08-02_at_2.59.49_PM.png",
+        "link": "",
+        "image_text": "<p>We offer in-house fittings and consultations, bringing the atelier experience directly to clients who cannot visit our showrooms. This ensures that geography is never a barrier to experiencing our bespoke service.</p>",
+        "text_color": "#363636",
+        "detail_alignment": "center_bottom",
+        "text_max_width": 50,
+        "gradient_color": "#d9d9d9",
+        "gradient_length": 70
+      }
+    },
+    "image_with_text_2": {
+      "type": "image-with-text",
+      "blocks": {
+        "overline": {
+          "type": "overline",
+          "settings": {
+            "overline": "MAKE YOUR DREAMS COME TRUE"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Invest in a one-of-a-kind Yara Shoemaker design, where timelessness, craftsmanship, and sustainability come together to make your vision a reality.",
+            "text_max_width": 60
+          }
+        },
+        "button_GLNyBB": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/our-couture-process",
+            "link_text": "DISCOVER COUTURE"
+          }
+        }
+      },
+      "block_order": [
+        "overline",
+        "heading",
+        "button_GLNyBB"
+      ],
+      "settings": {
+        "section_style": "contrast",
+        "enable_animation": true,
+        "image": "shopify://shop_images/Craftsmanship_2.jpg",
+        "video_url": "",
+        "image_width": "one-half",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_position": "right",
+        "text_alignment": "center",
+        "text_color": "#000000",
+        "text_container_color": "",
+        "color_background_gradient": "",
+        "button_background_color": "#000000"
+      }
+    },
+    "video_hero_1": {
+      "type": "video-hero",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let’s create magic together",
+            "heading_text_size": 32,
+            "text_max_width": 40
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/contact",
+            "link_text": "GET IN TOUCH"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "enable_animation": true,
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 60,
+        "video_url": "",
+        "image": "shopify://shop_images/Screenshot_2023-08-02_at_01.12.14.png",
+        "focal_point": "image_presentation",
+        "alignment": "center_center",
+        "text_container_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "color_text_button": "#181818",
+        "color_background_button": "#ece7da",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 50
+      }
+    }
+  },
+  "order": [
+    "video_hero_w9UyFh",
+    "text_columns_with_images_U6bPDa",
+    "video_hero_eaKHnW",
+    "gallery_1",
+    "mosaic_grid_j7HBFq",
+    "text_columns_with_images_1",
+    "image_with_text_split_1",
+    "image_with_text_2",
+    "video_hero_1"
+  ]
+}

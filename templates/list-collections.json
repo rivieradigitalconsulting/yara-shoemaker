@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "enable_animation": true,
+        "display_type": "all",
+        "columns": 3,
+        "aspect_ratio": "natural",
+        "collection_title_alignment": "left",
+        "show_product_count": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

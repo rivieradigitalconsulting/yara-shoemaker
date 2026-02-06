@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:groups.header_group.name",
+  "sections": {
+    "utility-bar": {
+      "type": "utility-bar",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "COUTURE DESIGNED FOR WOMEN WITH INFLUENCE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0"
+      ],
+      "settings": {
+        "show_utility_bar": true,
+        "show_social_icons": false,
+        "show_locale_selector": true,
+        "show_currency_selector": false,
+        "utility_bar_animation_timing": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "header_style": "icon",
+        "nav_position": "inline_left",
+        "dropdown_interaction": "mouseover",
+        "show_cart_icon": true,
+        "show_search": true,
+        "show_search_mobile_icon": true,
+        "logo": "shopify://shop_images/YARA_SHOEMAKER_c224997d-3bf7-4548-818e-b14c35f4ec1a.png",
+        "logo_max_size": 300,
+        "menu": "sopris",
+        "transparent_index_header_enabled": true,
+        "transparent_header_foreground_color": "#ffffff",
+        "transparent_header_border_color": "#ffffff",
+        "transparent_header_border_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "utility-bar",
+    "header"
+  ]
+}

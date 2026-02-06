@@ -1,0 +1,107 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title_fmNV6H": {
+          "type": "title",
+          "settings": {
+            "title_text_size": 26
+          }
+        },
+        "price_GcPC3D": {
+          "type": "price",
+          "settings": {
+            "price_text_size": 14
+          }
+        },
+        "variant_picker_wc3wxb": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "Size",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "about"
+          }
+        },
+        "buy_buttons_37aJhw": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "accordion_6zYMcC": {
+          "type": "accordion",
+          "settings": {
+            "style": "closed",
+            "heading": "Accordion heading",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_fmNV6H",
+        "price_GcPC3D",
+        "variant_picker_wc3wxb",
+        "buy_buttons_37aJhw",
+        "accordion_6zYMcC"
+      ],
+      "custom_css": [
+        ".product__title {font-size: 26px !important;}"
+      ],
+      "settings": {
+        "enable_animation": true,
+        "show_breadcrumbs": true,
+        "show_navigation_buttons": true,
+        "enable_full_width": true,
+        "image_size": "50",
+        "enable_thumbnails": false,
+        "thumbnail_position": "vertical",
+        "thumbnail_size": "small",
+        "thumbnail_aspect_ratio": "natural",
+        "enable_video_looping": false,
+        "enable_gift_card_recipient": false
+      }
+    },
+    "product_recommendations_XYGq4x": {
+      "type": "product-recommendations",
+      "name": "t:sections.recommended_products.presets.name",
+      "settings": {
+        "enable_animation": true,
+        "columns": 3,
+        "columns_mobile": "2",
+        "aspect_ratio": "portrait",
+        "overline": "Collection",
+        "title": "Recommended",
+        "subheading": "<p>You might want to take a look at these.</p>",
+        "text_max_width": 36
+      }
+    },
+    "recently_viewed_products_UNNda4": {
+      "type": "recently-viewed-products",
+      "name": "t:sections.recently_viewed_products.presets.name",
+      "settings": {
+        "enable_animation": true,
+        "columns": 4,
+        "columns_mobile": "1",
+        "overline": "",
+        "title": "Recently viewed",
+        "subheading": "",
+        "text_max_width": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_recommendations_XYGq4x",
+    "recently_viewed_products_UNNda4"
+  ]
+}
