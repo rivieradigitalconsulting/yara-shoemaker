@@ -11,11 +11,7 @@
   "sections": {
     "video_hero_w9UyFh": {
       "type": "video-hero",
-      "custom_css": [
-        ".product__title {font-size: 26px !important;}",
-        ".accordion__label {font-size: 14px !important; font-family: \"Nunito Sans\", sans-serif !important; text-transform: capitalize !important;}",
-        ".accordion__text {font-size: 14px !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "enable_animation": true,
         "image_aspect": "custom",
