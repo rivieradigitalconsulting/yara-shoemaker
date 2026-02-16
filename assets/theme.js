@@ -2353,6 +2353,9 @@ function changeAddon(line, quantity) {
   });
 }
 function cartUpdatedExternally() {
+  var {
+    enableQuickCart
+  } = document.body.dataset;
   r$1("cart:updating");
   return fetch$1("".concat(theme.routes.cart.base, ".js"), {
     method: "GET",
@@ -2364,12 +2367,16 @@ function cartUpdatedExternally() {
     if (localStorageAvailable$1() && ls$2.get()) {
       cart.items = reorderCartItems(cart.items, ls$2.get());
     }
-    o({
-      cart: cart
-    });
-    r$1("cart:updated", {
-      cart: cart
-    });
+    if (enableQuickCart === "true") {
+      r$1("cart:updated", {
+        cart: cart
+      });
+    } else {
+      r$1("cart:updated", {
+        cartOpen: true,
+        cart: cart
+      });
+    }
     dispatchCustomEvent(CustomEvents.cartUpdated, {
       cart: cart
     });
@@ -9259,12 +9266,12 @@ register("header", {
       this.menu = menu(drawerMenu);
       this.menuButton.addEventListener("click", this._openMenu.bind(this));
     }
+    c("cart:updated", state => {
+      var cartCountInner = cartCount.querySelector(selectors$u.cartCountInner);
+      cartCountInner.innerHTML = state.cart.item_count;
+      cartCount.classList.toggle("hidden", !state.cart.item_count);
+    });
     if (enableQuickCart === "true") {
-      c("cart:updated", state => {
-        var cartCountInner = cartCount.querySelector(selectors$u.cartCountInner);
-        cartCountInner.innerHTML = state.cart.item_count;
-        cartCount.classList.toggle("hidden", !state.cart.item_count);
-      });
       cartToggle.addEventListener("click", e => {
         e.preventDefault();
         r$1("cart:toggle", state => {
@@ -14637,12 +14644,12 @@ var ls = {
 };
 var sel$2 = {
   heading: "[data-heading]",
-  tag: "[data-tag]",
-  filterItemLabel: "[data-filter-item-label]",
+  filterGroup: "[data-group]",
+  filterGroupByLabel: label => "[data-group=\"".concat(label, "\"]"),
+  filterGroupList: "[data-group-list]",
   sort: "[data-sort]",
   priceRange: "[data-price-range]",
-  sidebarForm: "[data-filer-sidebar-form]",
-  getGroup: group => "[data-group=\"".concat(group, "\"]")
+  sidebarForm: "[data-filer-sidebar-form]"
 };
 var sidebar = node => {
   if (!node) return Function();
@@ -14656,18 +14663,28 @@ var sidebar = node => {
   }
   var collectionUpdatedHanlder = c("collection:updated", collectionUpdated);
   function collectionUpdated(evt) {
-    var updatedFilterItems = t$5("".concat(sel$2.sidebarForm, " ").concat(sel$2.filterItemLabel), evt.doc);
-    updatedFilterItems.forEach(element => {
-      updateInnerHTML("".concat(sel$2.sidebarForm, " ").concat(sel$2.filterItemLabel, "[for=\"").concat(element.getAttribute("for"), "\"]"), evt.doc);
+    var newSidebarForm = n$3(sel$2.sidebarForm, evt.doc);
+    var newFilterGroups = t$5(sel$2.filterGroup, newSidebarForm);
+    newFilterGroups.forEach(group => {
+      var currentGroup = n$3(sel$2.filterGroupByLabel(group.getAttribute("data-group")), sidebarForm);
+      if (currentGroup) {
+        var currentGroupHeading = n$3(sel$2.heading, currentGroup);
+        var newGroupHeading = n$3(sel$2.heading, group);
+        var newGroupList = n$3(sel$2.filterGroupList, group);
+        if (currentGroupHeading.classList.contains(classes$2.closed)) {
+          newGroupHeading.classList.add(classes$2.closed);
+          newGroupList.style.display = "none";
+        } else {
+          newGroupHeading.classList.remove(classes$2.closed);
+          if (["swatch", "chip"].includes(newGroupList.getAttribute("data-type"))) {
+            newGroupList.style.display = "flex";
+          } else {
+            newGroupList.style.display = "block";
+          }
+        }
+      }
     });
-  }
-  function updateInnerHTML(selector, doc) {
-    var updatedItem = n$3(selector, doc);
-    var oldItem = n$3(selector, sidebarForm);
-    if (updatedItem && oldItem) {
-      oldItem.innerHTML = updatedItem.innerHTML;
-      oldItem.className = updatedItem.className;
-    }
+    sidebarForm.innerHTML = newSidebarForm.innerHTML;
   }
   function handleChange(evt) {
     var {
@@ -14721,6 +14738,8 @@ var sidebar = node => {
 };
 
 var sel$1 = {
+  mainContainer: "[data-section-type='collection'], [data-section-type='search']",
+  filterButtonsContainer: "[data-filter-buttons-container]",
   filter: "[data-filter-open]",
   flyouts: "[data-filter-flyout]",
   button: "[data-button]",
@@ -14750,7 +14769,8 @@ var flyout = node => {
   delegate.on("click", sel$1.wash, clickWash);
   delegate.on("click", sel$1.button, clickButton);
   delegate.on("click", sel$1.close, clickWash);
-  var events = [e$3(t$5(sel$1.filter, node), "click", clickFlyoutTrigger), e$3(node, "keydown", _ref => {
+  var filterOpenEvent = e$3(t$5(sel$1.filter, node), "click", clickFlyoutTrigger);
+  var events = [e$3(node, "keydown", _ref => {
     var {
       keyCode
     } = _ref;
@@ -14758,6 +14778,14 @@ var flyout = node => {
   })];
   var collectionUpdatedHanlder = c("collection:updated", collectionUpdated);
   function collectionUpdated(evt) {
+    var currentFilterButtonsContainer = n$3(sel$1.filterButtonsContainer, node);
+    var newMainContainer = n$3(sel$1.mainContainer, evt.doc);
+    var newFilterButtonsContainer = n$3(sel$1.filterButtonsContainer, newMainContainer);
+    currentFilterButtonsContainer.innerHTML = newFilterButtonsContainer.innerHTML;
+
+    // Remove original event listener, and update for new elements
+    filterOpenEvent();
+    filterOpenEvent = e$3(t$5(sel$1.filter, node), "click", clickFlyoutTrigger);
     range && range.unload();
     rangeContainer = n$3(sel$1.priceRange, flyoutForm);
     if (rangeContainer) {
@@ -14832,6 +14860,7 @@ var flyout = node => {
   }
   return () => {
     events.forEach(unsubscribe => unsubscribe());
+    filterOpenEvent();
     range && range.unload();
     delegate.off();
     collectionUpdatedHanlder();
@@ -15086,7 +15115,8 @@ register("collection", {
 
 var selectors$2 = {
   partial: "[data-partial]",
-  sort: "[data-sort]"
+  sort: "[data-sort]",
+  filterFlyoutForm: "[data-filter-form-flyout]"
 };
 var classes = {
   active: "is-active",
@@ -15161,8 +15191,12 @@ register("search", {
       var contents = n$3(selectors$2.partial, doc).innerHTML;
       this.partial.innerHTML = contents;
       (_this$animateSearch = this.animateSearch) === null || _this$animateSearch === void 0 || _this$animateSearch.updateContents();
+      var filterFlyoutForm = n$3(selectors$2.filterFlyoutForm, doc).innerHTML;
+      n$3(selectors$2.filterFlyoutForm, this.container).innerHTML = filterFlyoutForm;
       i$1(loading, "is-active");
-      r$1("collection:updated");
+      r$1("collection:updated", {
+        doc: doc
+      });
     });
   },
   _updateURLHash(searchParams) {
@@ -15580,7 +15614,7 @@ if (errorEl) {
 
 // Make it easy to see exactly what theme version
 // this is by commit SHA
-window.SHA = "7a79324be6";
+window.SHA = "4c411c4145";
 if (!sessionStorage.getItem("flu_stat_recorded") && !((_window$Shopify = window.Shopify) !== null && _window$Shopify !== void 0 && _window$Shopify.designMode)) {
   var _window$Shopify2, _window$Shopify3;
   // eslint-disable-next-line no-process-env
