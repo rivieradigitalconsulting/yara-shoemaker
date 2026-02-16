@@ -42,7 +42,6 @@
         "show_cart_icon": true,
         "show_search": true,
         "show_search_mobile_icon": true,
-        "logo": "shopify://shop_images/YARA_SHOEMAKER_c224997d-3bf7-4548-818e-b14c35f4ec1a.png",
         "logo_max_size": 300,
         "menu": "sopris",
         "transparent_index_header_enabled": true,

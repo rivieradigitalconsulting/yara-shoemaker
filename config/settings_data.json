@@ -72,7 +72,7 @@
     "chip_options": "Size",
     "show_secondary_image_on_hover": false,
     "product_listing_show_sale_badge": false,
-    "product_listing_show_sold_out_badge": false,
+    "product_listing_show_sold_out_badge": true,
     "cart_type": "page",
     "cart_quick_shop_enabled": false,
     "cart_quick_shop_show_quantity_input": false,
@@ -386,5 +386,10 @@
       "checkout_error_color": "#e32c2b",
       "color_input_inactive_text": "#8b8b8b"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "@media screen and (max-width: 767px) {.header__logo-text {font-size: 21px; }}"
+    ]
   }
 }

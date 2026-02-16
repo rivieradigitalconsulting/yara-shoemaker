@@ -15,7 +15,10 @@
       {%- endif -%}
 
       {% for filter in collection.filters %}
-        <div class="collection-sidebar__group" data-group="{{ filter.label }}">
+        <div
+          class="collection-sidebar__group"
+          data-group="{{ filter.label }}"
+        >
           {%- render 'collection-sidebar-heading',
             heading: filter.label,
             collapse_filter_groups: collapse_filter_groups
@@ -43,6 +46,8 @@
 
               <ul
                 class="filter-drawer__list{{ list_modifiers }}"
+                data-group-list
+                data-type="{{ type }}"
                 {% if collapse_filter_groups %}
                   style="display: none;"
                 {% endif %}
@@ -58,6 +63,7 @@
               <div
                 class="filter-drawer__price-range"
                 data-price-range
+                data-group-list
                 {% if collapse_filter_groups %}
                   style="display: none;"
                 {% endif %}
@@ -130,6 +136,7 @@
         {%- render 'collection-sidebar-heading', heading: heading, collapse_filter_groups: collapse_filter_groups -%}
         <ul
           data-sort-by="{{ collection.sort_by }}"
+          data-group-list
           {% if collapse_filter_groups %}
             style="display: none;"
           {% endif %}
