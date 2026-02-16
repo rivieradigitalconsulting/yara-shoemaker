@@ -135,11 +135,30 @@
         "subheading": "",
         "text_max_width": 36
       }
+    },
+    "featured_collection_row_76LYjB": {
+      "type": "featured-collection-row",
+      "name": "t:sections.featured_collection_row.presets.featured_collection_row.name",
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "collection": "collection-test",
+        "columns": 3,
+        "columns_mobile": "2",
+        "aspect_ratio": "portrait",
+        "text_position": "left",
+        "overline": "Collection",
+        "title": "Featured collection",
+        "subheading": "<p>Add a subheading to provide more details about this collection.</p>",
+        "link_text": "Shop now",
+        "text_max_width": 36
+      }
     }
   },
   "order": [
     "main",
     "product_recommendations_XYGq4x",
-    "recently_viewed_products_UNNda4"
+    "recently_viewed_products_UNNda4",
+    "featured_collection_row_76LYjB"
   ]
 }
