@@ -1,0 +1,35 @@
+const TILE_CLASS_SELECTOR = ".product-item";
+const TILE_SWIPER_CONFIG = {};
+
+const initCardSwiper = (parent = document) => {
+  debugger
+  if (!parent) {
+    console.error(`[ERR] Cannot find parent`, parent);
+    return;
+  }
+
+  parent
+    .querySelectorAll(`${TILE_CLASS_SELECTOR} .product-item__images .swiper`)
+    .forEach((tileSwiper) => {
+      const swiper = new Swiper(tileSwiper, {
+        direction: "horizontal",
+        loop: false,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    });
+};
+window.initCardSwiper = initCardSwiper;
+
+const init = () => {
+  initCardSwiper();
+};
+
+window.addEventListener("DOMContentLoaded", () => {
+  init();
+});

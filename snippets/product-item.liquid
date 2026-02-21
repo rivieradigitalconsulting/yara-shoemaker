@@ -51,6 +51,25 @@
               disable_style: includes_aspect_ratio
             %}
           </div>
+          {% if settings.general_riviera_styles %}
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                {% for image in product.images %}
+                  <div class="swiper-slide">
+                    {% render 'image', image: image, id: image.id, disable_style: includes_aspect_ratio %}
+                  </div>
+                {% endfor %}
+              </div>
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev">
+                <img src="{{ 'carousel-arrow.png' | asset_url }}" width="48" height="48">
+              </div>
+              <div class="swiper-button-next">
+                <img src="{{ 'carousel-arrow.png' | asset_url }}" width="48" height="48">
+              </div>
+            </div>
+          {% else %}
           <div class="product-item__image first">
             {% render 'image',
               image: product.featured_media.preview_image,
@@ -70,6 +89,7 @@
             <div class="product-item__image not-first">
               {% render 'image', image: image_two, id: image_two.id, disable_style: true %}
             </div>
+          {% endif %}
           {%- endif -%}
         </div>
       {% else %}
@@ -155,6 +175,8 @@
       <a href="{{ product.url | within: collection  }}">{{ product.title }}</a>
 
       {% render 'product-item-price', product: product %}
+      
+      {% render 'product-color-variants', product: product %}
     </div>
   </div>
 </div>
