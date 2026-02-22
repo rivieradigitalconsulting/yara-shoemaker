@@ -44,7 +44,8 @@
         "aspect_ratio": "portrait",
         "text_alignment": "left",
         "per_page": 12,
-        "pagination": "infinite"
+        "pagination": "infinite",
+        "grid_banner_image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE7534-web_size.jpg"
       }
     }
   },

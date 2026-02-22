@@ -54,6 +54,7 @@
     "enable_reveal_animations": false,
     "button_secondary_style": "bordered",
     "button_shape": "4px",
+    "general_riviera_styles": true,
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
