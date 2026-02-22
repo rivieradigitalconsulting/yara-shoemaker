@@ -148,6 +148,11 @@
                       aspect_ratio: aspect_ratio,
                       text_alignment: section.settings.text_alignment
                     %}
+                    {% if forloop.index == 2 and paginate.current_page == 1 %}
+                      {% render 'grid-banner', image: section.settings.grid_banner_image, video: section.settings.grid_banner_video, is_desktop: true %}
+                    {% elsif forloop.index == 4 and paginate.current_page == 1 %}
+                      {% render 'grid-banner', image: section.settings.grid_banner_image, video: section.settings.grid_banner_video, is_desktop: false %}
+                    {% endif %}
                   {% else %}
                     <div class="collection__empty">
                       <div>{{ 'collections.general.no_products' | t }}</div>
@@ -351,6 +356,20 @@
         }
       ],
       "info": "t:sections.collection_product_grid.settings.pagination.info"
+    },
+    {
+      "type": "header",
+      "content": "Grid Banner"
+    },
+    {
+      "type": "image_picker",
+      "id": "grid_banner_image",
+      "label": "Grid banner image"
+    },
+    {
+      "type": "video",
+      "id": "grid_banner_video",
+      "label": "Grid banner video"
     }
   ]
 }

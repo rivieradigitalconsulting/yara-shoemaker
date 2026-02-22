@@ -418,6 +418,17 @@
     ]
   },
   {
+    "name": "Riviera",
+    "settings": [
+      {
+        "id": "general_riviera_styles",
+        "type": "checkbox",
+        "label": "Apply general riviera styles",
+        "default": false
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.social_media.name",
     "settings": [
       {
