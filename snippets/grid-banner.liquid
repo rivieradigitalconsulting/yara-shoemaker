@@ -1,0 +1,11 @@
+{%- if image != blank or video != blank -%}
+  <div class="grid-banner {% if is_desktop == true %} desktop-only{% else %} mobile-only{% endif %}">
+    {%- if video != blank -%}
+      <div class="grid-banner__video">
+        {{ video | video_tag: muted: true, autoplay: true, loop: true }}
+      </div>
+    {%- else -%}
+      {%- render 'image', image: image, id: image.id, disable_style: true -%}
+    {%- endif -%}
+  </div>
+{%- endif -%}

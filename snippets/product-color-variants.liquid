@@ -1,17 +1,19 @@
-<div class="color-variants">
-  <a
-    class="current"
-    href="{{ product.url }}"
-    style="background-color: {{ product.metafields.pdp.main_color_hex | default: '#f3f3f3' }};"
-  ></a>
-  {% for color_variant in product.metafields.pdp.color_variants.value %}
-    {% if product.id == color_variant.id %}
-      {% continue %}
-    {% endif %}
+{% if product.metafields.pdp.color_variants.value != blank or color_variant.metafields.pdp.main_color_hex %}
+  <div class="color-variants">
     <a
-      href="{{ color_variant.url }}"
-      style="background-color: {{ color_variant.metafields.pdp.main_color_hex | default: '#f3f3f3' }};"
-    >
-    </a>
-  {% endfor %}
-</div>
+      class="current"
+      href="{{ product.url }}"
+      style="background-color: {{ product.metafields.pdp.main_color_hex | default: '#f3f3f3' }};"
+    ></a>
+    {% for color_variant in product.metafields.pdp.color_variants.value %}
+      {% if product.id == color_variant.id %}
+        {% continue %}
+      {% endif %}
+      <a
+        href="{{ color_variant.url }}"
+        style="background-color: {{ color_variant.metafields.pdp.main_color_hex | default: '#f3f3f3' }};"
+      >
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}
