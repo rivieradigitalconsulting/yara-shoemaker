@@ -10,6 +10,10 @@ const initCardSwiper = (parent = document) => {
   parent
     .querySelectorAll(`${TILE_CLASS_SELECTOR} .product-item__images .swiper`)
     .forEach((tileSwiper) => {
+      if (tileSwiper.classList.contains('initialized')) {
+        return;
+      }
+
       const swiper = new Swiper(tileSwiper, {
         direction: "horizontal",
         loop: false,
@@ -21,6 +25,8 @@ const initCardSwiper = (parent = document) => {
           prevEl: ".swiper-button-prev",
         },
       });
+
+      tileSwiper.classList.add('initialized');
     });
 };
 window.initCardSwiper = initCardSwiper;
