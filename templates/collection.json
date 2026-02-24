@@ -44,7 +44,9 @@
         "aspect_ratio": "portrait",
         "text_alignment": "left",
         "per_page": 12,
-        "pagination": "infinite"
+        "pagination": "infinite",
+        "grid_banner_image": "{{ collection.metafields.pdp.grid_banner.value }}",
+        "grid_banner_video": "{{ collection.metafields.pdp.grid_banner.value }}"
       }
     }
   },
