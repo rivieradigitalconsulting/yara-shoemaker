@@ -100,11 +100,11 @@
         "show_breadcrumbs": false,
         "show_navigation_buttons": false,
         "enable_full_width": true,
-        "image_size": "50",
+        "image_size": "65",
         "enable_thumbnails": false,
         "thumbnail_position": "vertical",
-        "thumbnail_size": "small",
-        "thumbnail_aspect_ratio": "natural",
+        "thumbnail_size": "large",
+        "thumbnail_aspect_ratio": "portrait",
         "enable_video_looping": false,
         "enable_gift_card_recipient": false
       }
