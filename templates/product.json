@@ -97,7 +97,7 @@
       ],
       "settings": {
         "enable_animation": true,
-        "show_breadcrumbs": true,
+        "show_breadcrumbs": false,
         "show_navigation_buttons": false,
         "enable_full_width": true,
         "image_size": "50",
