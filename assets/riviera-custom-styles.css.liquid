@@ -276,4 +276,104 @@
 .collection-top-bar__filters .collection__button svg {
   margin-left: 8px;
 }
+
+.template-product .header.header--transparent .header__menu-icon .icon,
+.template-product .header.header--transparent .disclosure__toggle,
+.template-product .header.header--transparent {
+  color: var(--color-header-text);
+}
+
+.template-product .header.header--transparent .icon-header-button {
+  --color: var(--color-header-text);
+}
+
+.product__media-action-button {
+  display: none !important;
+}
+
+.product__media-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.product__media-page {
+  height: 100%;
+  flex: 1 0;
+  display: block;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.product__media-page.active {
+  background-color: black;
+}
+
+@media (max-width: 60em) {
+  .product__meta {
+    margin-top: 53px;
+    padding-left: var(--spacing-extra-large);
+    padding-right: var(--spacing-extra-large);
+  }
+
+  .product-page-wrapper__inner {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .product-page-wrapper__inner .flickity-button {
+    background: transparent !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .product-page-wrapper .media-wrapper {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 60em) {
+  .product__media-pagination {
+    display: none;    
+  }
+
+  .product-page-wrapper {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .product-page-wrapper__inner {
+    margin-top: 0;
+  }
+
+  .product__meta {
+    flex-basis: 50%;
+    width: 50%;
+    padding-left: 0;
+    overflow hidden;
+  }
+
+  .product__meta-inner {
+    --padding: 20px;
+    max-width: calc(476px + (var(--padding) * 2));
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    margin: 0 auto;
+    top: max(var(--header-height), 25vh);
+  }
+
+  .product-page-wrapper .media-wrapper:not(.hidden) + .media-wrapper:not(.hidden) {
+    margin-top: 0;
+  }
+
+  .breadcrumbs {
+    margin-bottom: 10px;
+  }
+}
 {% endif %}

@@ -10,7 +10,7 @@ const initCardSwiper = (parent = document) => {
   parent
     .querySelectorAll(`${TILE_CLASS_SELECTOR} .product-item__images .swiper`)
     .forEach((tileSwiper) => {
-      if (tileSwiper.classList.contains('initialized')) {
+      if (tileSwiper.classList.contains("initialized")) {
         return;
       }
 
@@ -26,13 +26,63 @@ const initCardSwiper = (parent = document) => {
         },
       });
 
-      tileSwiper.classList.add('initialized');
+      tileSwiper.classList.add("initialized");
     });
 };
 window.initCardSwiper = initCardSwiper;
 
+const initPdpGallery = () => {
+  setTimeout(() => {
+    const galleryWrapper = document.querySelector(
+      ".product-page-wrapper .product__media-container",
+    );
+    if (!galleryWrapper) {
+      return;
+    }
+    const galleryNode = galleryWrapper.querySelector(".flickity-slider");
+    if (!galleryNode) {
+      return;
+    }
+
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (
+          mutation.type === "attributes" &&
+          mutation.attributeName === "class" &&
+          mutation.target.classList.contains("media-wrapper") &&
+          mutation.target.classList.contains("is-selected")
+        ) {
+          const mediaId = mutation.target.getAttribute("data-media-id");
+          const pageToActivate = galleryWrapper.querySelector(
+            `.product__media-page[data-media-id="${mediaId}"]:not(.active)`,
+          );
+          if (pageToActivate) {
+            galleryWrapper
+              .querySelectorAll(
+                `.product__media-page:not([data-media-id="${mediaId}"])`,
+              )
+              .forEach((wrongNode) => {
+                wrongNode.classList.remove("active");
+              });
+            pageToActivate.classList.add("active");
+          }
+        }
+      });
+    });
+
+    observer.observe(galleryNode, {
+      attributes: true,
+      attributeOldValue: true,
+      attributeFilter: ["class"],
+      subtree: true,
+    });
+  }, 1000);
+};
+window.initPdpGallery = initPdpGallery;
+
 const init = () => {
   initCardSwiper();
+  initPdpGallery();
 };
 
 window.addEventListener("DOMContentLoaded", () => {

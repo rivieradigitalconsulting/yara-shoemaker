@@ -65,12 +65,14 @@
 <div class="product-page-wrapper">
   <div class="product-page-wrapper__inner">
     {% if section.settings.show_breadcrumbs or section.settings.show_navigation_buttons %}
-      <div class="product__breadcrumbs">
-        {% render 'breadcrumbs',
-          show_breadcrumbs: section.settings.show_breadcrumbs,
-          show_navigation_buttons: section.settings.show_navigation_buttons
-        %}
-      </div>
+      {% unless settings.general_riviera_styles %}
+        <div class="product__breadcrumbs">
+          {% render 'breadcrumbs',
+            show_breadcrumbs: section.settings.show_breadcrumbs,
+            show_navigation_buttons: section.settings.show_navigation_buttons
+          %}
+        </div>
+      {% endunless %}
     {%- endif -%}
     <section
       class="
@@ -90,6 +92,17 @@
       style="--product-image-container-width: {{ section.settings.image_size }}%;"
     >
       <div class="product__media-container">
+        {% if settings.general_riviera_styles %}
+          <div class="product__media-pagination">
+          {% if product.media.size > 0 %}
+            {%- for media in product.media -%}
+              <div class="product__media-page{% if forloop.first %} active{% endif %}" data-media-id="{{ media.id }}"></div>
+            {%- endfor -%}
+          {% else %}
+            <div class="product__media-page active"></div>
+          {% endif %}
+          </div>
+        {% endif %}
         {%- if show_thumbnails and thumbnail_position == 'vertical' -%}
           {% render 'product-thumbnails', featured_media: featured_media, disable_style: disable_thumbnail_style %}
         {%- endif -%}
@@ -176,6 +189,12 @@
 
       <div class="product__meta">
         <div class="product__meta-inner">
+          {% if settings.general_riviera_styles %}
+            {% render 'breadcrumbs',
+            show_breadcrumbs: section.settings.show_breadcrumbs,
+            show_navigation_buttons: section.settings.show_navigation_buttons
+            %}
+          {% endif %}
           {% form 'product',
             product,
             id: form_id,

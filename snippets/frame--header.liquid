@@ -11,6 +11,8 @@
 
   if transparent_index_header_enabled and template.name == 'index'
     assign header_is_transparent = true
+  elsif transparent_index_header_enabled and settings.general_riviera_styles and template.name == 'product'
+    assign header_is_transparent = true
   endif
 
   if header_style == 'icon-minimal'
