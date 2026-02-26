@@ -14,21 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "desktop_width": 20,
-            "desktop_padding": 0,
-            "collapse_on_mobile": false,
-            "title": "",
-            "show_title_on_desktop": false,
-            "text": "<p>Couture Designed for Women with Influence</p>",
-            "image": "shopify://shop_images/YARA_SHOEMAKER_1.svg",
-            "image_max_width": 200,
-            "image_placement": "above_text",
-            "enable_follow_on_shop": false
-          }
-        },
         "links_WGrTWm": {
           "type": "links",
           "settings": {
@@ -73,6 +58,21 @@
             "link_list": "footer"
           }
         },
+        "text": {
+          "type": "text",
+          "settings": {
+            "desktop_width": 30,
+            "desktop_padding": 0,
+            "collapse_on_mobile": false,
+            "title": "",
+            "show_title_on_desktop": false,
+            "text": "<p>Couture Designed for Women with Influence</p>",
+            "image": "shopify://shop_images/YARA_SHOEMAKER_1.svg",
+            "image_max_width": 200,
+            "image_placement": "above_text",
+            "enable_follow_on_shop": false
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
@@ -86,11 +86,11 @@
         }
       },
       "block_order": [
-        "text",
         "links_WGrTWm",
         "links-0",
         "links_GmbdGe",
         "links_B88yxw",
+        "text",
         "newsletter"
       ],
       "custom_css": [
