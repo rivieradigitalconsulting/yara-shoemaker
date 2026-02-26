@@ -67,7 +67,7 @@
       "settings": {
         "section_style": "default",
         "section_padding": "regular",
-        "enable_animation": true,
+        "enable_animation": false,
         "alignment": "center"
       }
     }
