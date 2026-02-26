@@ -48,10 +48,33 @@
         "grid_banner_image": "{{ collection.metafields.pdp.grid_banner.value }}",
         "grid_banner_video": "{{ collection.metafields.pdp.grid_banner.value }}"
       }
+    },
+    "rich_text_egGwBA": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jLwkm4": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.description }}",
+            "text_max_width": 36
+          }
+        }
+      },
+      "block_order": [
+        "text_jLwkm4"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_style": "default",
+        "section_padding": "regular",
+        "enable_animation": true,
+        "alignment": "center"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "rich_text_egGwBA"
   ]
 }
