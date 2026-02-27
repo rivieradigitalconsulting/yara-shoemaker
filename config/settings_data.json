@@ -394,7 +394,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media screen and (max-width: 767px) {.header__logo-text {font-size: 22px; }}"
+      "@media screen and (max-width: 767px) {.header__logo-text {font-size: 21px; }}"
     ]
   }
 }
