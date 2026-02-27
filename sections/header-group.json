@@ -25,7 +25,6 @@
       "block_order": [
         "announcement-0"
       ],
-      "disabled": true,
       "settings": {
         "show_utility_bar": true,
         "show_social_icons": false,
