@@ -26,7 +26,7 @@
         "announcement-0"
       ],
       "settings": {
-        "show_utility_bar": true,
+        "show_utility_bar": false,
         "show_social_icons": false,
         "show_locale_selector": true,
         "show_currency_selector": false,
