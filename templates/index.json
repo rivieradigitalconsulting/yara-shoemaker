@@ -17,7 +17,7 @@
         "image_aspect": "custom",
         "desktop_height": 100,
         "mobile_height": 100,
-        "video_url": "https://cdn.shopify.com/videos/c/o/v/fae0fe4cf607495192d332316aabb8a7.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/d4d7f76b556540258316829cc6b244f4.mp4",
         "focal_point": "image_presentation",
         "alignment": "right_bottom",
         "text_container_color": "rgba(0,0,0,0)",
@@ -114,7 +114,15 @@
         "image_4zBtX3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/21File_cd3c85db-752e-4357-8dd4-7cf6f6e42a1f.png",
+            "image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE7641-web_size.jpg",
+            "description": "SPRING/SUMMER 2026",
+            "link": "shopify://pages/spring-summer-2026"
+          }
+        },
+        "image_dBYPft": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE7979-web_size.jpg",
             "description": "BRIDAL",
             "link": "shopify://collections/bridal-1"
           }
@@ -178,6 +186,7 @@
       },
       "block_order": [
         "image_4zBtX3",
+        "image_dBYPft",
         "image_ydBWPy",
         "image_y7z7ir",
         "image_gCNnpP",
