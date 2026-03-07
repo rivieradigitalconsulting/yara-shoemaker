@@ -12,6 +12,11 @@
   else
     assign aspect_ratio = section.settings.aspect_ratio
   endif
+
+  assign heading_alignment = 'center'
+  if settings.general_riviera_styles
+    assign heading_alignment = 'left'
+  endif
 %}
 
 {% assign product_count = 6 %}
@@ -38,7 +43,7 @@
     {% render 'text-block',
       id: id,
       modifiers: 'mb5 animation--section-introduction',
-      heading_alignment: 'center',
+      heading_alignment: heading_alignment,
       overline: overline,
       heading: heading,
       subheading: subheading,

@@ -1,19 +1,41 @@
 {% if product.metafields.pdp.color_variants.value != blank or color_variant.metafields.pdp.main_color_hex %}
   <div class="color-variants">
+    {% liquid
+      assign css_prop = 'background-color'
+      assign background = product.metafields.pdp.main_color_hex | default: '#f3f3f3'
+
+      if product.metafields.pdp.main_color_image != blank
+        assign css_prop = 'background-image'
+        assign background = product.metafields.pdp.main_color_image | image_url | prepend: "url('" | append: "');"
+      endif
+
+      assign style_tag = css_prop | append: ': ' | append: background
+    %}
     <a
       class="current"
       href="{{ product.url }}"
-      style="background-color: {{ product.metafields.pdp.main_color_hex | default: '#f3f3f3' }};"
+      style="{{ style_tag }}"
     ></a>
     {% for color_variant in product.metafields.pdp.color_variants.value %}
-      {% if product.id == color_variant.id %}
-        {% continue %}
-      {% endif %}
+      {% liquid
+        if product.id == color_variant.id
+          continue
+        endif
+
+        assign css_prop = 'background-color'
+        assign background = color_variant.metafields.pdp.main_color_hex | default: '#f3f3f3'
+
+        if color_variant.metafields.pdp.main_color_image != blank
+          assign css_prop = 'background-image'
+          assign background = color_variant.metafields.pdp.main_color_image | image_url | prepend: "url('" | append: "');"
+        endif
+
+        assign style_tag = css_prop | append: ': ' | append: background
+      %}
       <a
         href="{{ color_variant.url }}"
-        style="background-color: {{ color_variant.metafields.pdp.main_color_hex | default: '#f3f3f3' }};"
-      >
-      </a>
+        style="{{ style_tag }}"
+      ></a>
     {% endfor %}
   </div>
 {% endif %}

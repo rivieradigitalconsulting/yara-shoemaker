@@ -7,6 +7,11 @@
   assign columns = section.settings.columns
   assign text_max_width = section.settings.text_max_width
   assign product_count = 6
+
+  assign heading_alignment = 'center'
+  if settings.general_riviera_styles
+    assign heading_alignment = 'left'
+  endif
 %}
 
 <section
@@ -31,7 +36,7 @@
   {% render 'text-block',
     id: id,
     modifiers: 'mb5 animation--section-introduction',
-    heading_alignment: 'center',
+    heading_alignment: heading_alignment,
     overline: overline,
     heading: heading,
     subheading: subheading,
