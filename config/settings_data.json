@@ -72,6 +72,7 @@
     "swatch_options": "Color",
     "chip_options": "Size",
     "show_secondary_image_on_hover": false,
+    "product_listing_aspect_ratio": "portrait",
     "product_listing_show_sale_badge": false,
     "sale_badge_background_color": "#fcfcfc",
     "sale_badge_text_color": "#313131",
@@ -395,7 +396,7 @@
   "platform_customizations": {
     "custom_css": [
       "/* Mobile standard */@media screen and (max-width: 389px) {.header__logo-text {font-size: 21px; }}",
-      "/* iPhone Pro Max & large mobile */@media screen and (min-width: 390px) and (max-width: 767px) {.header__logo-text {font-size: 24px; }}"
+      " /* iPhone Pro Max & large mobile */@media screen and (min-width: 390px) and (max-width: 767px) {.header__logo-text {font-size: 24px; }}"
     ]
   }
 }
