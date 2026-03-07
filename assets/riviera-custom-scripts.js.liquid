@@ -98,11 +98,79 @@ const initPdpOptions = () => {
       });
     });
 };
+window.initPdpOptions = initPdpOptions;
+
+const initStickyButton = () => {
+  const loadingClass = "bttn--loading";
+  const buttonId = "pdp-buy-button";
+  const realButton = document.querySelector(`#${buttonId}`);
+  const buttonLabel = document.querySelector(`label[for="${buttonId}"]`);
+
+  if (!realButton || !buttonLabel) {
+    return;
+  }
+
+  const buttonWrapper = buttonLabel.closest(".sticky-button__wrapper");
+  if (!buttonWrapper) {
+    return;
+  }
+
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.type === "attributes") {
+        if (mutation.target.classList.contains(loadingClass)) {
+          buttonLabel.classList.add(loadingClass);
+        } else {
+          buttonLabel.classList.remove(loadingClass);
+        }
+
+        if (!!mutation.target.getAttribute("disabled")) {
+          buttonLabel.setAttribute("disabled", "disabled");
+        } else {
+          buttonLabel.removeAttribute("disabled");
+        }
+      }
+    });
+  });
+
+  observer.observe(realButton, {
+    attributes: true,
+    attributeOldValue: true,
+    attributeFilter: ["class", "disabled"],
+    subtree: false,
+  });
+
+  const intersectionObserver = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        buttonWrapper.classList.remove("visible");
+      } else {
+        buttonWrapper.classList.add("visible");
+      }
+    },
+    {
+      threshold: 0.15,
+    },
+  );
+  intersectionObserver.observe(realButton);
+
+  const footerSection = document.querySelector(
+    ".shopify-section.shopify-section-group-footer-group",
+  );
+  const buttonWrapperInner = buttonLabel.closest(".sticky-button__inner");
+  if (!footerSection || !buttonWrapperInner) {
+    return;
+  }
+
+  footerSection.style.paddingBottom = `${buttonWrapperInner.clientHeight}px`;
+};
+window.initStickyButton = initStickyButton;
 
 const init = () => {
   initCardSwiper();
   initPdpGallery();
   initPdpOptions();
+  initStickyButton();
 };
 
 window.addEventListener("DOMContentLoaded", () => {

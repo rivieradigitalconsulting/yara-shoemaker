@@ -455,4 +455,75 @@
 .riviera-hidden {
   display: none;
 }
+
+.sticky-button__wrapper {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.25s;
+  z-index: 1;
+}
+
+.sticky-button__wrapper:not(.visible) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sticky-button__inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding-left: var(--spacing-extra-large);
+  padding-right: var(--spacing-extra-large);
+  padding-bottom: var(--spacing-medium);
+}
+
+.sticky-button__inner-bg {
+  width: 100%;
+  background-color: var(--color-bg);
+  border-radius: var(--button-border-radius);
+}
+
+.sticky-button__inner label {
+  width: 100%;
+}
+
+.sticky-button__inner label[disabled] {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.sticky-button__inner label:not([disabled]) span[data-sold-out],
+.sticky-button__inner label[disabled] span[data-available] {
+  display: none;
+}
+
+.product-form__submit-button-wrapper .product-form__cart-submit {
+  display: flex;
+}
+
+@media (min-width: 60em) {
+  .sticky-button__wrapper {
+    display: none;
+  }
+
+  .shopify-section.shopify-section-group-footer-group {
+    padding-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 60em) {
+  .shopify-section.shopify-section-group-footer-group {
+    background-color: var(--color-footer-bg);
+    padding-bottom: 68px;
+  }
+
+  .footer {
+    padding-bottom: var(--spacing-small);
+  }
+}
 {% endif %}
