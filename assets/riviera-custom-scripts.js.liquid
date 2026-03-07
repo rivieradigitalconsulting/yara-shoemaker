@@ -80,9 +80,29 @@ const initPdpGallery = () => {
 };
 window.initPdpGallery = initPdpGallery;
 
+const initPdpOptions = () => {
+  document
+    .querySelectorAll(".custom-options-element__values input[type='radio']")
+    .forEach((radioOption) => {
+      const wrapper = radioOption.closest(".product-form__controls-group");
+      if (!wrapper) return;
+
+      const select = wrapper.querySelector(
+        `select[name="${radioOption.getAttribute("data-select-name")}"]`,
+      );
+      if (!select) return;
+
+      radioOption.addEventListener("change", () => {
+        select.value = radioOption.value;
+        select.dispatchEvent(new Event("change", { bubbles: true }));
+      });
+    });
+};
+
 const init = () => {
   initCardSwiper();
   initPdpGallery();
+  initPdpOptions();
 };
 
 window.addEventListener("DOMContentLoaded", () => {

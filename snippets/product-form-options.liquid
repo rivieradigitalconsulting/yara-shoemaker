@@ -31,10 +31,60 @@
   </div>
 {% endcapture %}
 
+{% if settings.general_riviera_styles %}
+  {% if product.metafields.pdp.color_variants.value != blank or color_variant.metafields.pdp.main_color_hex != blank or product.metafields.pdp.main_color != blank %}  
+    <div class="custom-options-element product-form__custom-option">
+      <div>
+        {{ product.metafields.pdp.main_color }}
+      </div>
+      <div>
+        {% render 'product-color-variants', product: product %}
+      </div>
+    </div>
+  {% endif %}
+  {% for option in product.options_with_values %}
+    <div class="custom-options-element">
+      <div>
+        {{ option.name }}
+      </div>
+      <div class="custom-options-element__values">
+        {% for value in option.values %}
+          {% assign input_id = section.id | append: '--option-' | append: option.position | append: '-' | append: forloop.index0 %}
+          <input
+            id="{{ input_id }}"
+            type="radio"
+            name="{{ option.name | handleize }}"
+            value="{{ value | escape }}"
+            data-select-name="options[{{ option.name | escape }}]"
+            {% if option.selected_value == value %}
+              checked
+            {% elsif value.available == false %}
+              disabled
+            {% endif %}
+          />
+          <label for="{{ input_id }}">
+            {{ value }}
+          </label>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="custom-options-element">
+    {% if product.metafields.pdp.model_info != blank %}
+      <div>
+        {{ product.metafields.pdp.model_info }}
+      </div>
+    {% endif %}
+    {% if request.design_mode %}
+      <div>Size guide -- Placeholder</div>
+    {% endif %}
+  </div>
+{% endif %}
+
 {% for option in product.options_with_values %}
   {%- assign option_name = option.name | downcase -%}
 
-  {% if swatch_options contains option_name %}
+  {% if swatch_options contains option_name and settings.general_riviera_styles == false %}
     <div class="product-form__option product-form__option-swatches js-enabled">
       <div
         class="product-form__color-swatches"
@@ -97,7 +147,7 @@
         </select>
       </div>
     </div>
-  {%- elsif chip_options contains option_name -%}
+  {%- elsif chip_options contains option_name and settings.general_riviera_styles == false -%}
     <div class="product-form__option product-form__option-chip js-enabled">
       <div
         class="product-form__chip-wrapper"
@@ -157,7 +207,7 @@
       </div>
     </div>
   {% else %}
-    <div class="product-form__option js-enabled">
+    <div class="product-form__option js-enabled{% if settings.general_riviera_styles %} riviera-hidden{% endif %}">
       <div class="product-form__option-label-wrapper">
         <label class="product-form__option-label type-heading-3" for="Option{{ option.position }}--{{ block.id }}">
           {{ option.name }}
