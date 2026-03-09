@@ -129,7 +129,7 @@
       "settings": {
         "enable_animation": true,
         "columns": 4,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "overline": "",
         "title": "Recently viewed",
         "subheading": "",
