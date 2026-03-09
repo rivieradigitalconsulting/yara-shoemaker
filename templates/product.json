@@ -187,6 +187,9 @@
         "title_GGdT6e",
         "text_3jPWYT"
       ],
+      "custom_css": [
+        "p {font-size: 14px;}"
+      ],
       "name": "Rich text",
       "settings": {
         "section_style": "default",
