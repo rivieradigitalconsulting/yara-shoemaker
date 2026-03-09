@@ -190,7 +190,7 @@
       "name": "Rich text",
       "settings": {
         "section_style": "default",
-        "section_padding": "tall",
+        "section_padding": "regular",
         "enable_animation": true,
         "alignment": "center"
       }
