@@ -123,6 +123,48 @@
         "text_max_width": 36
       }
     },
+    "slideshow_split_4iMxf6": {
+      "type": "slideshow-split",
+      "blocks": {
+        "slide_xPQxk6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1.png",
+            "mobile_image": "shopify://shop_images/Frame_1_0d0c433a-7e9c-430b-8c1b-4b5e2cd9c42b.png",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_xPQxk6"
+      ],
+      "name": "t:sections.slideshow_split.presets.slideshow_split.name",
+      "settings": {
+        "enable_animation": true,
+        "desktop_height": 100,
+        "mobile_height": 50,
+        "timer": 7,
+        "overline": "",
+        "title": "",
+        "subheading": "",
+        "link": "",
+        "link_text": "Shop now",
+        "alignment": "left_center",
+        "heading_text_size": 48,
+        "subheading_text_size": 14,
+        "heading_max_width": 50,
+        "text_max_width": 48,
+        "text_container_color": "transparent",
+        "text_color": "#ffffff",
+        "button_color": "#000000",
+        "button_background_color": "#ffffff",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0
+      }
+    },
     "recently_viewed_products_UNNda4": {
       "type": "recently-viewed-products",
       "name": "t:sections.recently_viewed_products.presets.name",
@@ -138,6 +180,7 @@
     },
     "featured_collection_row_76LYjB": {
       "type": "featured-collection-row",
+      "disabled": true,
       "name": "t:sections.featured_collection_row.presets.featured_collection_row.name",
       "settings": {
         "section_style": "default",
@@ -158,6 +201,7 @@
   "order": [
     "main",
     "product_recommendations_XYGq4x",
+    "slideshow_split_4iMxf6",
     "recently_viewed_products_UNNda4",
     "featured_collection_row_76LYjB"
   ]
