@@ -530,7 +530,7 @@
       "sale_price": "Sale price",
       "share_heading": "Share",
       "shipping_estimator": "Shipping estimator",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "shipping_policy_html": "",
       "sku": "SKU",
       "sku_with_value": "SKU: {{ value }}",
       "sold_out": "Sold out",
