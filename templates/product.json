@@ -114,7 +114,7 @@
       "name": "t:sections.recommended_products.presets.name",
       "settings": {
         "enable_animation": true,
-        "columns": 3,
+        "columns": 4,
         "columns_mobile": "2",
         "aspect_ratio": "portrait",
         "overline": "",
