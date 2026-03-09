@@ -117,9 +117,9 @@
         "columns": 3,
         "columns_mobile": "2",
         "aspect_ratio": "portrait",
-        "overline": "Collection",
-        "title": "Recommended",
-        "subheading": "<p>You might want to take a look at these.</p>",
+        "overline": "",
+        "title": "You May Also Like",
+        "subheading": "",
         "text_max_width": 36
       }
     },
