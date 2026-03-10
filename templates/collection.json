@@ -48,10 +48,33 @@
         "grid_banner_image": "{{ collection.metafields.pdp.grid_banner.value }}",
         "grid_banner_video": "{{ collection.metafields.pdp.grid_banner.value }}"
       }
+    },
+    "rich_text_UkDNNh": {
+      "type": "rich-text",
+      "blocks": {
+        "text_CYzGaM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_max_width": 50
+          }
+        }
+      },
+      "block_order": [
+        "text_CYzGaM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_style": "default",
+        "section_padding": "regular",
+        "enable_animation": true,
+        "alignment": "center"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "rich_text_UkDNNh"
   ]
 }
