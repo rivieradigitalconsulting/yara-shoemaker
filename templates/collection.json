@@ -55,7 +55,7 @@
         "text_CYzGaM": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "{{ collection.description }}",
             "text_max_width": 50
           }
         }
