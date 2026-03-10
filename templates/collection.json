@@ -64,12 +64,13 @@
         "text_CYzGaM"
       ],
       "custom_css": [
-        "p {font-size: 14px;}"
+        "p {font-size: 14px;}",
+        ".rich-text {border-top: none;}"
       ],
       "name": "Rich text",
       "settings": {
         "section_style": "default",
-        "section_padding": "regular",
+        "section_padding": "tall",
         "enable_animation": true,
         "alignment": "center"
       }
