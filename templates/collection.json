@@ -63,6 +63,9 @@
       "block_order": [
         "text_CYzGaM"
       ],
+      "custom_css": [
+        "p {font-size: 14px;}"
+      ],
       "name": "Rich text",
       "settings": {
         "section_style": "default",
