@@ -121,6 +121,9 @@
     },
     "product_recommendations_XYGq4x": {
       "type": "product-recommendations",
+      "custom_css": [
+        ".product-recommendations {border-top: none;}"
+      ],
       "name": "t:sections.recommended_products.presets.name",
       "settings": {
         "enable_border": true,
