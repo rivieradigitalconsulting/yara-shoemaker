@@ -211,6 +211,9 @@
     },
     "recently_viewed_products_UNNda4": {
       "type": "recently-viewed-products",
+      "custom_css": [
+        ".recently-viewed-products {border-top: none;}"
+      ],
       "name": "t:sections.recently_viewed_products.presets.name",
       "settings": {
         "enable_border": true,
