@@ -95,7 +95,7 @@
       "product_details": "Product details",
       "quantity": "Qty",
       "quantity_label": "Quantity: {{ quantity_count }}",
-      "quick_cart_note_html": "Your subtotal today is {{ subtotal }}. {{ shipping_taxes }}"
+      "quick_cart_note_html": "Shipping calculated at checkout."
     }
   },
   "collections": {
