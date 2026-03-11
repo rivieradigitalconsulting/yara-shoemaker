@@ -102,7 +102,8 @@
       "custom_css": [
         ".product__title {font-size: 26px !important;}",
         ".accordion__label {font-size: 14px !important; font-family: \"Nunito Sans\", sans-serif !important; text-transform: capitalize !important; letter-spacing: 0;}",
-        ".accordion__text {font-size: 14px !important;}"
+        ".accordion__text {font-size: 14px !important;}",
+        ".product__price {font-size: 14px !important;}"
       ],
       "settings": {
         "enable_animation": true,
