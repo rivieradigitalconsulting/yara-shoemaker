@@ -95,7 +95,7 @@
       "product_details": "Product details",
       "quantity": "Qty",
       "quantity_label": "Quantity: {{ quantity_count }}",
-      "quick_cart_note_html": "Your subtotal today is {{ subtotal }}. Shipping calculated at checkout. Discount codes can be applied at checkout."
+      "quick_cart_note_html": "Your subtotal today is {{ subtotal }}. <br> Shipping calculated at checkout. <br> Discount codes can be applied at checkout."
     }
   },
   "collections": {
