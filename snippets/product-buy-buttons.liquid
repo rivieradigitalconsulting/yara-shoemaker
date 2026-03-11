@@ -125,9 +125,11 @@
 {%- endif -%}
 
 {% comment %} Shop Pay {% endcomment %}
-<div class="product-form__shop-pay type-body-small">
-  {{- form | payment_terms -}}
-</div>
+{% unless settings.general_riviera_styles %}
+  <div class="product-form__shop-pay type-body-small">
+    {{- form | payment_terms -}}
+  </div>
+{% endunless %}
 
 {% comment %} Surface pick-up {% endcomment %}
 

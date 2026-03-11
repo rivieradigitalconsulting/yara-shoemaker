@@ -86,8 +86,14 @@
         <h2 class="visually-hidden">{{ 'search.heading' | t: count: search.results_count }}</h2>
         <ul class="search-template__results">
           {% for item in search.results %}
+            {% liquid
+              assign item_url = item.url | within: collection
+              if settings.general_riviera_styles
+                assign item_url = item.url
+              endif
+            %}
             <li class="search-template__item">
-              <a href="{{ item.url | within: collection }}" class="search-template__item-link" title="{{ item.title }}" aria-label="{{ item.title }}">
+              <a href="{{ item_url }}" class="search-template__item-link" title="{{ item.title }}" aria-label="{{ item.title }}">
                 <div class="search-template__image">
                   {% assign featured_media = item.featured_media.preview_image | default: item.featured_image %}
                   {% if item.object_type == 'product' %}
