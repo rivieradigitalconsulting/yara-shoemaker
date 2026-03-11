@@ -431,6 +431,12 @@
         "type": "checkbox",
         "label": "Use checkout button in flyout cart",
         "default": false
+      },
+      {
+        "id": "light_pdp_transparent_header",
+        "type": "checkbox",
+        "label": "Light mobile texts in PDP header",
+        "default": true
       }
     ]
   },

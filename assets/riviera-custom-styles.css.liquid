@@ -291,6 +291,7 @@
   margin-left: 8px;
 }
 
+{% if settings.light_pdp_transparent_header %}
 @media (min-width: 60em) {
   .template-product .header.header--transparent .header__menu-icon .icon,
   .template-product .header.header--transparent .disclosure__toggle,
@@ -302,6 +303,17 @@
     --color: var(--color-header-text);
   }
 }
+{% else %}
+.template-product .header.header--transparent .header__menu-icon .icon,
+.template-product .header.header--transparent .disclosure__toggle,
+.template-product .header.header--transparent {
+  color: var(--color-header-text);
+}
+
+.template-product .header.header--transparent .icon-header-button {
+  --color: var(--color-header-text);
+}
+{% endif %}
 
 .product__media-action-button {
   display: none !important;
