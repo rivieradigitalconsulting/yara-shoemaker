@@ -22,6 +22,11 @@
   if aspect_ratio != blank and aspect_ratio != 'natural'
     assign includes_aspect_ratio = true
   endif
+
+  assign product_url = product.url | within: collection
+  if settings.general_riviera_styles
+    assign product_url = product.url
+  endif
 %}
 
 {%- capture quick_add_button -%}
@@ -33,7 +38,7 @@
 <div class="product-item{% if includes_aspect_ratio %} product-item--{{ aspect_ratio }}{% endif %}">
   {% if product.featured_media != blank or product.media.size > 1 %}
     <a
-      href="{{ product.url | within: collection }}"
+      href="{{ product_url }}"
       class="product-item__image-wrapper db mb3{% if product.available == false and settings.product_listing_show_sold_out_badge %} o-50{% endif %}"
       aria-label="{{ product.title }}"
     >
@@ -112,7 +117,7 @@
     %}
   {% else %}
     <a
-      href="{{ product.url | within: collection }}"
+      href="{{ product_url }}"
       class="product-item__image-wrapper db mb3{% unless product.available %} o-50{% endunless %}"
       aria-label="{{ product.title }}"
     >
@@ -146,7 +151,7 @@
 
       {%- if swatch_exists -%}
         <a
-          href="{{ product.url | within: collection  }}"
+          href="{{ product_url }}"
           class="product-item__swatches-wrapper absolute"
           tabindex="-1"
           aria-hidden="true"
@@ -172,7 +177,7 @@
     {% endif %}
 
     <div class="product-item__details">
-      <a href="{{ product.url | within: collection  }}">{{ product.title }}</a>
+      <a href="{{ product_url }}">{{ product.title }}</a>
 
       {% render 'product-item-price', product: product %}
       

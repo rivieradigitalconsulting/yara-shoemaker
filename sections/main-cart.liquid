@@ -13,10 +13,16 @@
     <form action="{{ routes.cart_url }}" method="post" novalidate>
       <div class="cart-template__items" data-cart-items>
         {% for item in cart.items %}
+          {% liquid
+            assign item_url = item.url | within: collection
+            if settings.general_riviera_styles
+              assign item_url = item.url
+            endif
+          %}
           <div class="cart-template__item">
             <div class="cart-template__image">
               {% if item.image != blank %}
-                <a href="{{ item.url | within: collections.all }}">
+                <a href="{{ item_url }}">
                   {{ item | img_url: '760x' | scale: 2 | img_tag: item.title }}
                 </a>
               {% endif %}
