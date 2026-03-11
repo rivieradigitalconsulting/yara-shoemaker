@@ -56,6 +56,7 @@
     "button_shape": "4px",
     "general_riviera_styles": true,
     "use_checkout_button_in_flyout": true,
+    "light_pdp_transparent_header": false,
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
