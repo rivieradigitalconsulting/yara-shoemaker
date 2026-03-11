@@ -81,7 +81,7 @@
     "sold_badge_text_color": "#313131",
     "cart_type": "flyout",
     "cart_quick_shop_enabled": true,
-    "cart_quick_shop_show_quantity_input": true,
+    "cart_quick_shop_show_quantity_input": false,
     "favicon": "shopify://shop_images/FAVICON_e724bfb0-a2a4-4ba2-9fd7-12b3450febe2.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
