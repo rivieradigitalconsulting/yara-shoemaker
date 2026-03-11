@@ -334,16 +334,21 @@
 
 @media (max-width: 38em) {
   .product__meta {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: var(--spacing-medium);
+    padding-right: var(--spacing-medium);
   }
 }
 
 @media (min-width: 38em) and (max-width: 60em) {
   .product__meta {
-    margin-top: 53px;
     padding-left: var(--spacing-extra-large);
     padding-right: var(--spacing-extra-large);
+  }
+}
+
+@media (max-width: 60em) {
+  .product__meta {
+    margin-top: 53px;
   }
 
   .product-page-wrapper__inner {
