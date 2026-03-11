@@ -397,7 +397,7 @@
     "custom_css": [
       "/* Mobile standard */@media screen and (max-width: 389px) {.header__logo-text {font-size: 21px; }}",
       " /* iPhone Pro Max & large mobile */@media screen and (min-width: 390px) and (max-width: 767px) {.header__logo-text {font-size: 24px; }}",
-      ".quick-cart__product-details {font-size: 14px;}"
+      ".quick-cart__product-details, .quick-cart__item-total, .ma0 {font-size: 14px;}"
     ]
   }
 }
