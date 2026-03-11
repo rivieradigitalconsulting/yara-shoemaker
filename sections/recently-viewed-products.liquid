@@ -21,7 +21,7 @@
   data-limit="{{ product_count }}"
   class="
     section
-    section--bordered
+    {% if section.settings.enable_border %}section--bordered{% endif %}
     recently-viewed-products
     carousel
     carousel--columns-{{ columns }}
@@ -66,6 +66,12 @@
     {
       "type": "header",
       "content": "t:shared.settings.section_style.style_header.content"
+    },
+    {
+      "id": "enable_border",
+      "type": "checkbox",
+      "label": "Enable top border",
+      "default": true
     },
     {
       "id": "enable_animation",
