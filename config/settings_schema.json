@@ -425,6 +425,12 @@
         "type": "checkbox",
         "label": "Apply general riviera styles",
         "default": false
+      },
+      {
+        "id": "use_checkout_button_in_flyout",
+        "type": "checkbox",
+        "label": "Use checkout button in flyout cart",
+        "default": false
       }
     ]
   },

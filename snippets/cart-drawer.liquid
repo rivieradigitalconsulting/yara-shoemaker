@@ -60,12 +60,18 @@
           | t: subtotal: "<span class='js-subtotal'>$-.--</span>", shipping_taxes: taxes_shipping_checkout
         }}
       </p>
-      <a
-        class="quick-cart__checkout-button bttn bttn-full no-ajax"
-        href="{{ routes.cart_url }}"
-      >
-        {{ 'layout.cart.go' | t }}
-      </a>
+      {% if settings.use_checkout_button_in_flyout %}
+        <form action="{{ routes.cart_url }}" method="post" novalidate class="quick-cart__checkout-form">
+          <button type="submit" name="checkout" class="quick-cart__checkout-button bttn bttn-full no-ajax">{{ 'cart.general.checkout' | t }}</button>
+        </form>
+      {% else %}
+        <a
+          class="quick-cart__checkout-button bttn bttn-full no-ajax"
+          href="{{ routes.cart_url }}"
+        >
+          {{ 'layout.cart.go' | t }}
+        </a>
+      {% endif %}
     </footer>
   </div>
 </div>
