@@ -64,10 +64,9 @@
         },
         "accordion_qMT6qb": {
           "type": "accordion",
-          "disabled": true,
           "settings": {
             "style": "closed",
-            "heading": "Pre-order",
+            "heading": "Pre-order Process",
             "content": ""
           }
         },
@@ -76,22 +75,6 @@
           "settings": {
             "style": "closed",
             "heading": "Shipping & Returns",
-            "content": "<ul><li>Main fabric: 100% Polyamide tulle</li><li>Embellishment: 100% Polyester sequins</li><li>Lining: 92% Silk, 8% Elastane</li></ul><p><strong>Care:</strong> Professional dry clean only. Do not wash, bleach, tumble dry, or iron directly on embellishments. Store flat or hanging to preserve the integrity of the sequins.<br/></p>"
-          }
-        },
-        "accordion_EfLUBc": {
-          "type": "accordion",
-          "settings": {
-            "style": "closed",
-            "heading": "Payments",
-            "content": "<ul><li>Main fabric: 100% Polyamide tulle</li><li>Embellishment: 100% Polyester sequins</li><li>Lining: 92% Silk, 8% Elastane</li></ul><p><strong>Care:</strong> Professional dry clean only. Do not wash, bleach, tumble dry, or iron directly on embellishments. Store flat or hanging to preserve the integrity of the sequins.<br/></p>"
-          }
-        },
-        "accordion_XniPdy": {
-          "type": "accordion",
-          "settings": {
-            "style": "closed",
-            "heading": "Need help?",
             "content": "<ul><li>Main fabric: 100% Polyamide tulle</li><li>Embellishment: 100% Polyester sequins</li><li>Lining: 92% Silk, 8% Elastane</li></ul><p><strong>Care:</strong> Professional dry clean only. Do not wash, bleach, tumble dry, or iron directly on embellishments. Store flat or hanging to preserve the integrity of the sequins.<br/></p>"
           }
         }
@@ -105,9 +88,7 @@
         "accordion_6zYMcC",
         "accordion_CMVynj",
         "accordion_qMT6qb",
-        "accordion_wNzAbm",
-        "accordion_EfLUBc",
-        "accordion_XniPdy"
+        "accordion_wNzAbm"
       ],
       "custom_css": [
         ".product__title {font-size: 26px !important;}",
