@@ -68,9 +68,9 @@
             "desktop_width": 20,
             "desktop_padding": 4,
             "collapse_on_mobile": true,
-            "title": "Links",
+            "title": "SHOP",
             "show_title_on_desktop": true,
-            "link_list": "footer"
+            "link_list": "riviera-shop-menu-footer"
           }
         },
         "newsletter": {
