@@ -62,6 +62,14 @@
             "content": "<ul><li>Main fabric: 100% Polyamide tulle</li><li>Embellishment: 100% Polyester sequins</li><li>Lining: 92% Silk, 8% Elastane</li></ul><p><strong>Care:</strong> Professional dry clean only. Do not wash, bleach, tumble dry, or iron directly on embellishments. Store flat or hanging to preserve the integrity of the sequins.<br/></p>"
           }
         },
+        "accordion_qMT6qb": {
+          "type": "accordion",
+          "settings": {
+            "style": "closed",
+            "heading": "Pre-order",
+            "content": ""
+          }
+        },
         "accordion_wNzAbm": {
           "type": "accordion",
           "settings": {
@@ -95,6 +103,7 @@
         "buy_buttons_37aJhw",
         "accordion_6zYMcC",
         "accordion_CMVynj",
+        "accordion_qMT6qb",
         "accordion_wNzAbm",
         "accordion_EfLUBc",
         "accordion_XniPdy"
