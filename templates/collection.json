@@ -30,6 +30,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".color-variants{display: none;}"
+      ],
       "settings": {
         "enable_animation": true,
         "show_sort": true,
