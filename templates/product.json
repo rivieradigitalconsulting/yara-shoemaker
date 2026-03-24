@@ -64,6 +64,7 @@
         },
         "accordion_qMT6qb": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "style": "closed",
             "heading": "Pre-order",
