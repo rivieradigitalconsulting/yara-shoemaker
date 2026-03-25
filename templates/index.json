@@ -209,6 +209,24 @@
         "text_max_width": 50
       }
     },
+    "featured_collection_row_FWzYhM": {
+      "type": "featured-collection-row",
+      "name": "t:sections.featured_collection_row.presets.featured_collection_row.name",
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "collection": "collection-test",
+        "columns": 3,
+        "columns_mobile": "1",
+        "aspect_ratio": "global",
+        "text_position": "left",
+        "overline": "YARA SHOEMAKER",
+        "title": "Ready-to-wear",
+        "subheading": "<p>Add a subheading to provide more details about this collection.</p>",
+        "link_text": "Shop now",
+        "text_max_width": 36
+      }
+    },
     "mosaic_grid_j7HBFq": {
       "type": "mosaic-grid",
       "blocks": {
@@ -519,6 +537,7 @@
     "text_columns_with_images_U6bPDa",
     "video_hero_eaKHnW",
     "gallery_1",
+    "featured_collection_row_FWzYhM",
     "mosaic_grid_j7HBFq",
     "text_columns_with_images_1",
     "image_with_text_split_1",
