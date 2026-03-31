@@ -31,7 +31,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".color-variants{display: none;}"
+        ".color-variants {display: none;}"
       ],
       "settings": {
         "enable_animation": true,
@@ -73,7 +73,7 @@
       "name": "Rich text",
       "settings": {
         "section_style": "default",
-        "section_padding": "tall",
+        "section_padding": "regular",
         "enable_animation": true,
         "alignment": "center"
       }
