@@ -29,8 +29,20 @@
             "enable_follow_on_shop": false
           }
         },
+        "links_GmbdGe": {
+          "type": "links",
+          "settings": {
+            "desktop_width": 20,
+            "desktop_padding": 0,
+            "collapse_on_mobile": true,
+            "title": "CUSTOMER CARE",
+            "show_title_on_desktop": true,
+            "link_list": "riviera-customer-support"
+          }
+        },
         "links_WGrTWm": {
           "type": "links",
+          "disabled": true,
           "settings": {
             "desktop_width": 20,
             "desktop_padding": 0,
@@ -57,20 +69,9 @@
             "desktop_width": 20,
             "desktop_padding": 4,
             "collapse_on_mobile": true,
-            "title": "SHOP",
+            "title": "LEGAL",
             "show_title_on_desktop": true,
             "link_list": "riviera-shop-menu-footer"
-          }
-        },
-        "links_GmbdGe": {
-          "type": "links",
-          "settings": {
-            "desktop_width": 20,
-            "desktop_padding": 0,
-            "collapse_on_mobile": true,
-            "title": "CUSTOMER CARE",
-            "show_title_on_desktop": true,
-            "link_list": "riviera-customer-support"
           }
         },
         "newsletter": {
@@ -87,10 +88,10 @@
       },
       "block_order": [
         "text",
+        "links_GmbdGe",
         "links_WGrTWm",
         "links-0",
         "links_B88yxw",
-        "links_GmbdGe",
         "newsletter"
       ],
       "custom_css": [
