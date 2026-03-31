@@ -58,7 +58,7 @@
           "type": "accordion",
           "settings": {
             "style": "closed",
-            "heading": "Materials & Care",
+            "heading": "Materials & Care{{ product.metafields.pdp.materials_care.value }}",
             "content": "<ul><li> Main top fabric: 100% silk </li><li>Main skirt fabric: 72% viscose 19% cupro 9% silk </li><li>Lining:75% polyester 20% polyamide 5% elastane </li></ul><p> At Yara Shoemaker, we believe your pieces deserve the same devotion that went into their making. Each garment is realized using premium fabrics and refined finishes that require gentle handling. <br/><br/> We recommend professional dry cleaning, particularly for our more structured or embellished designs. Please follow the specific instructions on the interior care label.  When not in use, store your garment in its protective cover, away from moisture and direct light, to preserve its original silhouette and luster.<br/></p>"
           }
         },
