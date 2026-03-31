@@ -51,7 +51,7 @@
           "settings": {
             "style": "closed",
             "heading": "Description",
-            "content": "<ul><li>Long velvet dress</li><li>Hand-embellished crystal grid embroidery with glass stones and beads</li><li>Lined</li><li>Made in EU  </li><li>  Model is 180 cm and wearing size 36</li></ul>"
+            "content": "{{ product.description }}"
           }
         },
         "accordion_CMVynj": {
