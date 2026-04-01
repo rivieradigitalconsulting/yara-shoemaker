@@ -116,7 +116,7 @@
           "settings": {
             "style": "closed",
             "heading": "I entered the wrong shipping address. What should I do?",
-            "content": "<p>Please contact us immediately at rtw@yarashoemaker.com with your order number and correct address. We will do our best to update it.<br/>If your order has already been shipped, we recommend contacting your local courier directly once the package reaches your area.</p>"
+            "content": "<p>Please contact us immediately at <a href=\"mailto:rtw@yarashoemaker.com\" target=\"_blank\" title=\"mailto:rtw@yarashoemaker.com\"><strong>rtw@yarashoemaker.com</strong></a> with your order number and correct address. We will do our best to update it.<br/>If your order has already been shipped, we recommend contacting your local courier directly once the package reaches your area.</p>"
           }
         }
       },
