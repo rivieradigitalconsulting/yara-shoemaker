@@ -154,7 +154,7 @@
           "settings": {
             "style": "closed",
             "heading": "Can I exchange an item?",
-            "content": "<p>Exchanges are exclusively permitted for size adjustments on Ready-to-Wear pieces, subject to availability. The request must be made within 3 days of delivery, and the item must be shipped back to us within 7 days of authorization. If the requested size is in stock, your replacement will be shipped upon inspection of the returned garment. If the size is not immediately available, we will provide you with the estimated production timeline.</p>"
+            "content": "<p>Exchanges are exclusively permitted for size adjustments on Ready-to-Wear pieces, subject to availability. The request must be made within <strong>3 days</strong> of delivery, and the item must be shipped back to us within<strong> 7 days</strong> of authorization. If the requested size is in stock, your replacement will be shipped upon inspection of the returned garment. If the size is not immediately available, we will provide you with the estimated production timeline.</p>"
           }
         },
         "item_a49dRD": {
