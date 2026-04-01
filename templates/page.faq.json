@@ -11,13 +11,136 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "enable_animation": true,
         "content_max_width": 900
       }
+    },
+    "collapsible_row_list_69XFTw": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_N64kej": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Where are your pieces made?",
+            "content": "<p>Every YARA SHOEMAKER garment is crafted with the utmost attention to detail. We source exceptional raw materials from world-class suppliers and oversee each stage of production within our atelier — from the initial drape to the final hand-finished details — ensuring uncompromising quality and craftsmanship.</p>"
+          }
+        },
+        "item_xEy4UF": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "How can I find my perfect fit?",
+            "content": "<p>A detailed Size Guide is available on each product page to help you select the right size. As fits may vary between structured couture silhouettes and more fluid designs, our Client Concierge is available to provide personalized sizing and styling advice via email.</p>"
+          }
+        },
+        "item_9rAAQC": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "How should I care for my garments?",
+            "content": "<p>Our pieces are made from delicate, high-end materials. Specific care instructions can be found on the internal label of each garment. We generally recommend professional dry cleaning to preserve the integrity, beauty, and longevity of the fabrics.</p>"
+          }
+        },
+        "item_LxeJTL": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "What is your approach to sustainability?",
+            "content": "<p>We are committed to conscious luxury. By producing in limited quantities or on a made-to-order basis, we reduce waste and ensure that every piece receives the full attention of our artisans.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_N64kej",
+        "item_xEy4UF",
+        "item_9rAAQC",
+        "item_LxeJTL"
+      ],
+      "name": "Collapsible row list",
+      "settings": {
+        "section_max_width": 800,
+        "enable_animation": true,
+        "section_style": "default",
+        "title": "PRODUCTS, CRAFTSMANSHIP & CARE",
+        "text_max_width": 50
+      }
+    },
+    "collapsible_row_list_Jb6JEf": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_C9h9VD": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Which countries do you ship to?",
+            "content": "<p>Every YARA SHOEMAKER garment is crafted with the utmost attention to detail. We source exceptional raw materials from world-class suppliers and oversee each stage of production within our atelier — from the initial drape to the final hand-finished details — ensuring uncompromising quality and craftsmanship.</p>"
+          }
+        },
+        "item_qnjNXC": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "When will I receive my order?",
+            "content": "<p>Delivery times may vary depending on product availability and demand. Once your order has been shipped, you will receive a tracking number to monitor delivery in real time.</p>"
+          }
+        },
+        "item_jUXYMH": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Can I request faster delivery?",
+            "content": "<p>We always strive to deliver your order as quickly as possible. In certain cases, expedited delivery may be evaluated upon request before placing your order. Please contact our team to discuss availability.</p>"
+          }
+        },
+        "item_6YN7nd": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Are customs duties and import taxes included?",
+            "content": "<p>Orders may be subject to customs duties and import taxes upon arrival in the destination country. These charges are determined by local authorities and are the responsibility of the customer.</p>"
+          }
+        },
+        "item_9hUJCe": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "How do I track my order?",
+            "content": "<p>Once your order is dispatched, you will receive a tracking number via email. You can also monitor your shipment through your personal account.</p>"
+          }
+        },
+        "item_iyNhGB": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "I entered the wrong shipping address. What should I do?",
+            "content": "<p>Please contact us immediately at rtw@yarashoemaker.com with your order number and correct address. We will do our best to update it.<br/>If your order has already been shipped, we recommend contacting your local courier directly once the package reaches your area.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_C9h9VD",
+        "item_qnjNXC",
+        "item_jUXYMH",
+        "item_6YN7nd",
+        "item_9hUJCe",
+        "item_iyNhGB"
+      ],
+      "name": "Collapsible row list",
+      "settings": {
+        "section_max_width": 800,
+        "enable_animation": true,
+        "section_style": "default",
+        "title": "SHIPPING & ORDERS",
+        "text_max_width": 50
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collapsible_row_list_69XFTw",
+    "collapsible_row_list_Jb6JEf"
   ]
 }
