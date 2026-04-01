@@ -177,32 +177,8 @@
           "type": "item",
           "settings": {
             "style": "closed",
-            "heading": "Are customs duties and import taxes included?",
-            "content": "<p>Orders may be subject to customs duties and import taxes upon arrival in the destination country. These charges are determined by local authorities and are the responsibility of the customer.</p>"
-          }
-        },
-        "item_QtyFbJ": {
-          "type": "item",
-          "settings": {
-            "style": "closed",
-            "heading": "How do I track my order?",
-            "content": "<p>Once your order is dispatched, you will receive a tracking number via email. You can also monitor your shipment through your personal account.</p>"
-          }
-        },
-        "item_Xfx3nw": {
-          "type": "item",
-          "settings": {
-            "style": "closed",
-            "heading": "I entered the wrong shipping address. What should I do?",
-            "content": "<p>Please contact us immediately at <a href=\"mailto:rtw@yarashoemaker.com\" target=\"_blank\" title=\"mailto:rtw@yarashoemaker.com\"><strong>rtw@yarashoemaker.com</strong></a> with your order number and correct address. We will do our best to update it.<br/>If your order has already been shipped, we recommend contacting your local courier directly once the package reaches your area.</p>"
-          }
-        },
-        "item_3qfJrN": {
-          "type": "item",
-          "settings": {
-            "style": "closed",
-            "heading": "Can I modify or cancel my order?",
-            "content": "<p>All orders are final once confirmed and cannot be cancelled or modified, as our team begins processing them immediately to ensure timely delivery.</p>"
+            "heading": "I received the wrong item. What should I do?",
+            "content": "<p>Yara Shoemaker is committed to the highest standards of artisanal quality. Each piece undergoes a rigorous quality control process before shipment. If you believe your item has a manufacturing defect, please contact us within <strong>3 days</strong> of delivery with descriptive details and high-resolution images. <br/>Our team will review your case promptly to provide a dedicated solution, which may include a professional repair or a replacement of the same item.</p>"
           }
         }
       },
@@ -210,10 +186,7 @@
         "item_aN7BJa",
         "item_a49dRD",
         "item_B8jGPB",
-        "item_fP98LF",
-        "item_QtyFbJ",
-        "item_Xfx3nw",
-        "item_3qfJrN"
+        "item_fP98LF"
       ],
       "name": "Collapsible row list",
       "settings": {
