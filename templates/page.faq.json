@@ -223,21 +223,12 @@
             "heading": "Why was my payment declined?",
             "content": "<p>Payments may occasionally be declined by your bank for security reasons. If this occurs, we recommend contacting your bank or reaching out to our Client Concierge for assistance.</p>"
           }
-        },
-        "item_jGzPjz": {
-          "type": "item",
-          "settings": {
-            "style": "closed",
-            "heading": "I received the wrong item. What should I do?",
-            "content": "<p>Yara Shoemaker is committed to the highest standards of artisanal quality. Each piece undergoes a rigorous quality control process before shipment. If you believe your item has a manufacturing defect, please contact us within <strong>3 days</strong> of delivery with descriptive details and high-resolution images. <br/>Our team will review your case promptly to provide a dedicated solution, which may include a professional repair or a replacement of the same item.</p>"
-          }
         }
       },
       "block_order": [
         "item_YwzNqB",
         "item_nAyzip",
-        "item_NYEwBQ",
-        "item_jGzPjz"
+        "item_NYEwBQ"
       ],
       "name": "Collapsible row list",
       "settings": {
@@ -247,6 +238,36 @@
         "title": "PAYMENTS",
         "text_max_width": 50
       }
+    },
+    "rich_text_U8iAB8": {
+      "type": "rich-text",
+      "blocks": {
+        "title_CefQ3n": {
+          "type": "title",
+          "settings": {
+            "title": "STILL NEED ASSISTANCE?",
+            "text_max_width": 100
+          }
+        },
+        "text_GRBd4W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Client Advisors are available for personalized styling consultations and any inquiries regarding our collections.<br/><strong>Contact us</strong>: <a href=\"mailto:rtw@yarashoemaker.com\" target=\"_blank\" title=\"mailto:rtw@yarashoemaker.com\">rtw@yarashoemaker.com</a></p>",
+            "text_max_width": 82
+          }
+        }
+      },
+      "block_order": [
+        "title_CefQ3n",
+        "text_GRBd4W"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_style": "default",
+        "section_padding": "tall",
+        "enable_animation": true,
+        "alignment": "left"
+      }
     }
   },
   "order": [
@@ -254,6 +275,7 @@
     "collapsible_row_list_69XFTw",
     "collapsible_row_list_Jb6JEf",
     "collapsible_row_list_Pabb9V",
-    "collapsible_row_list_DzjjRQ"
+    "collapsible_row_list_DzjjRQ",
+    "rich_text_U8iAB8"
   ]
 }
