@@ -651,6 +651,9 @@
         "enable_video_looping": {
           "label": "Abilita la riproduzione in loop dei video"
         },
+        "enable_video_autoplay": {
+          "label": "Abilita la riproduzione automatica dei video"
+        },
         "image_size": {
           "label": "Dimensione dell'immagine",
           "option_1": "Piccolo",
@@ -1835,6 +1838,9 @@
         },
         "enable_video_looping": {
           "label": "Abilita la riproduzione in loop dei video"
+        },
+        "enable_video_autoplay": {
+          "label": "Abilita la riproduzione automatica dei video"
         },
         "gift_card__header": {
           "content": "Buono regalo"

@@ -1,3 +1,8 @@
+{%- liquid
+  assign mute = autoplay | default: false
+  assign autoplay = autoplay | default: false
+-%}
+
 <div
   class="
     media
@@ -18,7 +23,7 @@
       {% render 'image', image: media, animate: animate %}
     </a>
   {%- elsif media.media_type == 'video' -%}
-    {{ media | video_tag: image_size: '1024x' }}
+    {{ media | video_tag: image_size: '1024x', mute: mute, autoplay: autoplay }}
   {%- elsif media.media_type == 'external_video' -%}
     {%- liquid
       if loop_video

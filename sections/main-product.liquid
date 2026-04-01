@@ -4,6 +4,7 @@
   assign thumbnail_size = section.settings.thumbnail_size
   assign enable_full_width = section.settings.enable_full_width
   assign enable_video_looping = section.settings.enable_video_looping
+  assign enable_video_autoplay = section.settings.enable_video_autoplay
   assign enable_ajax = false
 
   if settings.cart_type == 'flyout'
@@ -124,6 +125,7 @@
                   featured_media: featured_media,
                   link: product.url,
                   loop_video: enable_video_looping,
+                  autoplay: enable_video_autoplay,
                   animate: true
                 %}
               </div>
@@ -660,6 +662,12 @@
       "type": "checkbox",
       "label": "t:sections.main_product_overview.settings.enable_video_looping.label",
       "default": true
+    },
+    {
+      "id": "enable_video_autoplay",
+      "type": "checkbox",
+      "label": "t:sections.featured_product.settings.enable_video_autoplay.label",
+      "default": false
     },
     {
       "type": "header",
