@@ -118,6 +118,14 @@
             "heading": "I entered the wrong shipping address. What should I do?",
             "content": "<p>Please contact us immediately at <a href=\"mailto:rtw@yarashoemaker.com\" target=\"_blank\" title=\"mailto:rtw@yarashoemaker.com\"><strong>rtw@yarashoemaker.com</strong></a> with your order number and correct address. We will do our best to update it.<br/>If your order has already been shipped, we recommend contacting your local courier directly once the package reaches your area.</p>"
           }
+        },
+        "item_p9dThJ": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Can I modify or cancel my order?",
+            "content": "<p>All orders are final once confirmed and cannot be cancelled or modified, as our team begins processing them immediately to ensure timely delivery.</p>"
+          }
         }
       },
       "block_order": [
@@ -126,7 +134,8 @@
         "item_jUXYMH",
         "item_6YN7nd",
         "item_9hUJCe",
-        "item_iyNhGB"
+        "item_iyNhGB",
+        "item_p9dThJ"
       ],
       "name": "Collapsible row list",
       "settings": {
