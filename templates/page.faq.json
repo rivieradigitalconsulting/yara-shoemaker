@@ -196,12 +196,64 @@
         "title": "RETURNS, EXCHANGES & REFUNDS",
         "text_max_width": 50
       }
+    },
+    "collapsible_row_list_DzjjRQ": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_YwzNqB": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Which payment methods do you accept?",
+            "content": "<p>We accept a range of secure payment methods, including major credit and debit cards (Visa, Visa Electron, Mastercard, American Express, Diners Club, and Discover), as well as PayPal, Apple Pay, and Google Pay.</p>"
+          }
+        },
+        "item_nAyzip": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Can I pay in installments?",
+            "content": "<p>Where available, PayPal may offer the option to pay in interest-free installments. This option depends on your country and PayPal eligibility and will be displayed at checkout.</p>"
+          }
+        },
+        "item_NYEwBQ": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Why was my payment declined?",
+            "content": "<p>Payments may occasionally be declined by your bank for security reasons. If this occurs, we recommend contacting your bank or reaching out to our Client Concierge for assistance.</p>"
+          }
+        },
+        "item_jGzPjz": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "I received the wrong item. What should I do?",
+            "content": "<p>Yara Shoemaker is committed to the highest standards of artisanal quality. Each piece undergoes a rigorous quality control process before shipment. If you believe your item has a manufacturing defect, please contact us within <strong>3 days</strong> of delivery with descriptive details and high-resolution images. <br/>Our team will review your case promptly to provide a dedicated solution, which may include a professional repair or a replacement of the same item.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_YwzNqB",
+        "item_nAyzip",
+        "item_NYEwBQ",
+        "item_jGzPjz"
+      ],
+      "name": "Collapsible row list",
+      "settings": {
+        "section_max_width": 800,
+        "enable_animation": true,
+        "section_style": "default",
+        "title": "PAYMENTS",
+        "text_max_width": 50
+      }
     }
   },
   "order": [
     "main",
     "collapsible_row_list_69XFTw",
     "collapsible_row_list_Jb6JEf",
-    "collapsible_row_list_Pabb9V"
+    "collapsible_row_list_Pabb9V",
+    "collapsible_row_list_DzjjRQ"
   ]
 }
