@@ -124,7 +124,7 @@
           "settings": {
             "style": "closed",
             "heading": "Can I modify or cancel my order?",
-            "content": "<p>All orders are final once confirmed and cannot be cancelled or modified, as our team begins processing them immediately to ensure timely delivery.</p>"
+            "content": "<p><strong>All orders are final once confirmed and cannot be cancelled or modified</strong>, as our team begins processing them immediately to ensure timely delivery.<br/>We do not offer refunds or store credits. For items from our Ready-to-Wear collections, we exclusively offer a one-time size exchange. If you wish to request a size exchange, you must contact us at <strong>rtw@yarashoemaker.com</strong> within <strong>3 days</strong> of receiving your order.<br/>Items must be shipped back within <strong>10 days</strong> of delivery in their original, pristine condition: unworn, unwashed, with all security tags attached and in the original packaging.<br/>Please note that <strong>Customized or Made-to-Order items</strong> are strictly final sale and are <strong>not eligible</strong> for size exchanges, returns, or cancellations under any circumstances, as they are crafted specifically to your unique requirements</p>"
           }
         }
       },
@@ -145,11 +145,90 @@
         "title": "SHIPPING & ORDERS",
         "text_max_width": 50
       }
+    },
+    "collapsible_row_list_Pabb9V": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_aN7BJa": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Can I exchange an item?",
+            "content": "<p>Exchanges are exclusively permitted for size adjustments on Ready-to-Wear pieces, subject to availability. The request must be made within 3 days of delivery, and the item must be shipped back to us within 7 days of authorization. If the requested size is in stock, your replacement will be shipped upon inspection of the returned garment. If the size is not immediately available, we will provide you with the estimated production timeline.</p>"
+          }
+        },
+        "item_a49dRD": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "How do I request a size exchange?",
+            "content": "<p>To request a size exchange for a Ready-to-Wear item, please contact our Client Concierge at <a href=\"mailto:rtw@yarashoemaker.com\" target=\"_blank\" title=\"mailto:rtw@yarashoemaker.com\"><strong>rtw@yarashoemaker.com</strong></a> within 3 days of delivery. Our team will provide you with the necessary authorization and detailed shipping instructions. Please note that we do not offer refunds or store credits; all sales are final.</p>"
+          }
+        },
+        "item_B8jGPB": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Which items are not eligible for exchange?",
+            "content": "<p>All Yara Shoemaker garments are considered Final Sale. Due to the artisanal nature of our pieces, we do not offer refunds or store credits.<br/>Exchanges are permitted exclusively for a one-time size adjustment on Ready-to-Wear items, provided the requested size is in stock.<br/>The following items are strictly ineligible for any form of exchange or return:<br/>Made-to-Order or Customized pieces: These are handcrafted specifically to your requirements and cannot be exchanged under any circumstances.<br/>Items previously exchanged: We allow only one size exchange per order.<br/>Worn, altered, or damaged garments: Items must be in pristine condition, unwashed, and without any scents or marks.<br/>Incomplete packaging: Items missing original tags, security seals, or the original luxury boxing.<br/>Unauthorized returns: Any item sent back without prior written authorization from our Client Concierge.</p>"
+          }
+        },
+        "item_fP98LF": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Are customs duties and import taxes included?",
+            "content": "<p>Orders may be subject to customs duties and import taxes upon arrival in the destination country. These charges are determined by local authorities and are the responsibility of the customer.</p>"
+          }
+        },
+        "item_QtyFbJ": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "How do I track my order?",
+            "content": "<p>Once your order is dispatched, you will receive a tracking number via email. You can also monitor your shipment through your personal account.</p>"
+          }
+        },
+        "item_Xfx3nw": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "I entered the wrong shipping address. What should I do?",
+            "content": "<p>Please contact us immediately at <a href=\"mailto:rtw@yarashoemaker.com\" target=\"_blank\" title=\"mailto:rtw@yarashoemaker.com\"><strong>rtw@yarashoemaker.com</strong></a> with your order number and correct address. We will do our best to update it.<br/>If your order has already been shipped, we recommend contacting your local courier directly once the package reaches your area.</p>"
+          }
+        },
+        "item_3qfJrN": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Can I modify or cancel my order?",
+            "content": "<p>All orders are final once confirmed and cannot be cancelled or modified, as our team begins processing them immediately to ensure timely delivery.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_aN7BJa",
+        "item_a49dRD",
+        "item_B8jGPB",
+        "item_fP98LF",
+        "item_QtyFbJ",
+        "item_Xfx3nw",
+        "item_3qfJrN"
+      ],
+      "name": "Collapsible row list",
+      "settings": {
+        "section_max_width": 800,
+        "enable_animation": true,
+        "section_style": "default",
+        "title": "RETURNS, EXCHANGES & REFUNDS",
+        "text_max_width": 50
+      }
     }
   },
   "order": [
     "main",
     "collapsible_row_list_69XFTw",
-    "collapsible_row_list_Jb6JEf"
+    "collapsible_row_list_Jb6JEf",
+    "collapsible_row_list_Pabb9V"
   ]
 }
