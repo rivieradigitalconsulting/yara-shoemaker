@@ -60,7 +60,7 @@
         "item_LxeJTL"
       ],
       "custom_css": [
-        ".collapsible-row-list-item__heading {font-family: 'Nunito Sans', sans-serif; font-size: 14px;}"
+        ".collapsible-row-list-item__heading {font-family: \"Nunito Sans\", sans-serif; font-size: 14px;}"
       ],
       "name": "Collapsible row list",
       "settings": {
@@ -140,6 +140,9 @@
         "item_iyNhGB",
         "item_p9dThJ"
       ],
+      "custom_css": [
+        ".collapsible-row-list-item__heading {font-family: \"Nunito Sans\", sans-serif; font-size: 14px;}"
+      ],
       "name": "Collapsible row list",
       "settings": {
         "section_max_width": 800,
@@ -190,6 +193,9 @@
         "item_a49dRD",
         "item_B8jGPB",
         "item_fP98LF"
+      ],
+      "custom_css": [
+        ".collapsible-row-list-item__heading {font-family: 'Nunito Sans', sans-serif; font-size: 14px;}"
       ],
       "name": "Collapsible row list",
       "settings": {
