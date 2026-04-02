@@ -54,7 +54,7 @@
         "xo_gallery_xo_gallery_daninc"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     }
   },
