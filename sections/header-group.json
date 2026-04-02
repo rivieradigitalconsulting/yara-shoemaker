@@ -43,7 +43,7 @@
         "show_search": true,
         "show_search_mobile_icon": true,
         "logo_max_size": 300,
-        "menu": "sopris",
+        "menu": "riviera-main-menu",
         "transparent_index_header_enabled": true,
         "transparent_header_foreground_color": "#ffffff",
         "transparent_header_border_color": "#ffffff",
