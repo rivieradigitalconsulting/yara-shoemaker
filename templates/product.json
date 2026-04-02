@@ -114,7 +114,8 @@
     "product_recommendations_XYGq4x": {
       "type": "product-recommendations",
       "custom_css": [
-        ".product-recommendations {border-top: none;}"
+        ".product-recommendations {border-top: none;}",
+        ".color-variants {display: none;}"
       ],
       "name": "t:sections.recommended_products.presets.name",
       "settings": {
@@ -206,7 +207,8 @@
     "recently_viewed_products_UNNda4": {
       "type": "recently-viewed-products",
       "custom_css": [
-        ".recently-viewed-products {border-top: none;}"
+        ".recently-viewed-products {border-top: none;}",
+        ".color-variants {display: none;}"
       ],
       "name": "t:sections.recently_viewed_products.presets.name",
       "settings": {
