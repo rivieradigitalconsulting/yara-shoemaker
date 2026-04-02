@@ -107,7 +107,7 @@
         "thumbnail_size": "large",
         "thumbnail_aspect_ratio": "portrait",
         "enable_video_looping": true,
-        "enable_video_autoplay": true,
+        "enable_video_autoplay": false,
         "enable_gift_card_recipient": false
       }
     },
