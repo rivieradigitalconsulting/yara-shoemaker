@@ -229,7 +229,7 @@
         "button_hdW8pM": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/autumn-winter-2026-2027",
+            "link": "shopify://collections/fall-winter-2026-2027",
             "link_text": "SHOP NOW"
           }
         }
@@ -265,7 +265,7 @@
       "settings": {
         "section_style": "default",
         "enable_animation": true,
-        "collection": "autumn-winter-2026-2027",
+        "collection": "fall-winter-2026-2027",
         "columns": 3,
         "columns_mobile": "1",
         "aspect_ratio": "global",
