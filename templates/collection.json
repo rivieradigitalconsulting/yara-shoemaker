@@ -35,7 +35,7 @@
       ],
       "settings": {
         "enable_animation": true,
-        "show_sort": true,
+        "show_sort": false,
         "show_filters": true,
         "show_filter_swatches": false,
         "show_filter_chips": true,
