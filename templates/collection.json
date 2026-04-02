@@ -37,7 +37,7 @@
         "enable_animation": true,
         "show_sort": true,
         "show_filters": true,
-        "show_filter_swatches": true,
+        "show_filter_swatches": false,
         "show_filter_chips": true,
         "filter_style": "buttons",
         "collapse_filter_groups": true,
