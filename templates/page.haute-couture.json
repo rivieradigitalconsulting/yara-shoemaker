@@ -24,7 +24,7 @@
           "type": "title",
           "settings": {
             "title": "{{ page.title }}",
-            "text_max_width": 36
+            "text_max_width": 50
           }
         }
       },
@@ -38,10 +38,29 @@
         "enable_animation": true,
         "alignment": "center"
       }
+    },
+    "17751161312bc73df1": {
+      "type": "apps",
+      "blocks": {
+        "xo_gallery_xo_gallery_daninc": {
+          "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "id": 1,
+            "mid": "{{ page.metafields.pages.xo_gallery.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "xo_gallery_xo_gallery_daninc"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_r8X3FN"
+    "rich_text_r8X3FN",
+    "17751161312bc73df1"
   ]
 }
