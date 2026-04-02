@@ -258,6 +258,9 @@
     },
     "featured_collection_row_FWzYhM": {
       "type": "featured-collection-row",
+      "custom_css": [
+        ".color-variants {display: none;}"
+      ],
       "name": "t:sections.featured_collection_row.presets.featured_collection_row.name",
       "settings": {
         "section_style": "default",
