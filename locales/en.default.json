@@ -515,7 +515,7 @@
       "estimate_shipping": "Estimate shipping",
       "from_lowest_price_html": "from {{ lowest_price }}",
       "get_shipping_rates": "Get rates",
-      "include_taxes": "",
+      "include_taxes": "Tax included.",
       "inventory_label": "Stock",
       "loader_label": "Adding product to your cart",
       "no_rates": "Shipping rate unavailable",
