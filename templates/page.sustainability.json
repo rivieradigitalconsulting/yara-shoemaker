@@ -247,7 +247,11 @@
     },
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_max_width": 800
+      }
     }
   },
   "order": [
