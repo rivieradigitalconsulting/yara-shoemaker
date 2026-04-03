@@ -95,7 +95,7 @@
       "product_details": "Product details",
       "quantity": "Qty",
       "quantity_label": "Quantity: {{ quantity_count }}",
-      "quick_cart_note_html": "Your subtotal today is {{ subtotal }}. <br> Shipping calculated at checkout. Duties and taxes are not included and will be charged by customs upon delivery. <a href=\"https://www.yarashoemaker.com/pages/orders-shipping/\" target=\"_blank\">Learn more</a>"
+      "quick_cart_note_html": "Your subtotal today is {{ subtotal }}. <br> Shipping calculated at checkout. Duties and taxes are not included and will be charged by customs upon delivery. <a href=\"https://www.yarashoemaker.com/pages/orders-shipping/\" target=\"_blank\" style=\"text-decoration: underline;\">Learn more</a>"
     }
   },
   "collections": {
