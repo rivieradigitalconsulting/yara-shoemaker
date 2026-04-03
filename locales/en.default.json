@@ -95,7 +95,7 @@
       "product_details": "Product details",
       "quantity": "Qty",
       "quantity_label": "Quantity: {{ quantity_count }}",
-      "quick_cart_note_html": "Your subtotal today is {{ subtotal }}. <br> Shipping calculated at checkout. Duties are not collected at checkout."
+      "quick_cart_note_html": "Your subtotal today is {{ subtotal }}. <br> Shipping calculated at checkout. Duties and taxes are not included and will be charged by customs upon delivery"
     }
   },
   "collections": {
