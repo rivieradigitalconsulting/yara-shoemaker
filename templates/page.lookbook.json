@@ -20,17 +20,17 @@
     "mosaic_grid": {
       "type": "mosaic-grid",
       "blocks": {
-        "medium_vertical_rect_iPQigX": {
-          "type": "medium_vertical_rect",
+        "small_square_8LVrUX": {
+          "type": "small_square",
           "settings": {
-            "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE7969.jpg",
+            "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE8010.jpg",
             "video_url": "",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
             "subheading": "",
-            "text_max_width": 24,
+            "text_max_width": 28,
             "link_text": "",
             "link": "",
             "text_position": "center_center",
@@ -44,8 +44,8 @@
             "overlay_opacity": 0
           }
         },
-        "medium_square_Hy66rF": {
-          "type": "medium_square",
+        "small_square_d9aTbk": {
+          "type": "small_square",
           "settings": {
             "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE7971.jpg",
             "video_url": "",
@@ -55,6 +55,30 @@
             "title": "",
             "subheading": "",
             "text_max_width": 28,
+            "link_text": "",
+            "link": "",
+            "text_position": "center_center",
+            "background_color": "",
+            "color_text": "#ffffff",
+            "color_text_button": "#181818",
+            "color_background_button": "#ffffff",
+            "color_text_container": "",
+            "overlay_color": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "medium_vertical_rect_iPQigX": {
+          "type": "medium_vertical_rect",
+          "settings": {
+            "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE7969.jpg",
+            "video_url": "",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "overline": "",
+            "title": "",
+            "subheading": "",
+            "text_max_width": 24,
             "link_text": "",
             "link": "",
             "text_position": "center_center",
@@ -1390,8 +1414,9 @@
         }
       },
       "block_order": [
+        "small_square_8LVrUX",
+        "small_square_d9aTbk",
         "medium_vertical_rect_iPQigX",
-        "medium_square_Hy66rF",
         "medium_square_MtUGRX",
         "small_square_Cabgrg",
         "small_square_B6djAL",
