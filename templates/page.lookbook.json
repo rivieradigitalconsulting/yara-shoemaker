@@ -20,7 +20,7 @@
     "mosaic_grid": {
       "type": "mosaic-grid",
       "blocks": {
-        "medium_vertical_rect_ePJdwc": {
+        "medium_vertical_rect_iPQigX": {
           "type": "medium_vertical_rect",
           "settings": {
             "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE7969.jpg",
@@ -92,7 +92,7 @@
             "overlay_opacity": 0
           }
         },
-        "small_square_ReEAGt": {
+        "small_square_Cabgrg": {
           "type": "small_square",
           "settings": {
             "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE7731.jpg",
@@ -596,17 +596,17 @@
             "overlay_opacity": 0
           }
         },
-        "medium_vertical_rect_a3QaHn": {
-          "type": "medium_vertical_rect",
+        "small_square_JP9B4Y": {
+          "type": "small_square",
           "settings": {
-            "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE6753.jpg",
+            "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE6850.jpg",
             "video_url": "",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
             "subheading": "",
-            "text_max_width": 24,
+            "text_max_width": 28,
             "link_text": "",
             "link": "",
             "text_position": "center_center",
@@ -620,17 +620,17 @@
             "overlay_opacity": 0
           }
         },
-        "small_square_JP9B4Y": {
-          "type": "small_square",
+        "medium_vertical_rect_a3QaHn": {
+          "type": "medium_vertical_rect",
           "settings": {
-            "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE6850.jpg",
+            "image": "shopify://shop_images/YARA-SHOEMAKER_SS26_COUTURE6753.jpg",
             "video_url": "",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
             "subheading": "",
-            "text_max_width": 28,
+            "text_max_width": 24,
             "link_text": "",
             "link": "",
             "text_position": "center_center",
@@ -1390,10 +1390,10 @@
         }
       },
       "block_order": [
-        "medium_vertical_rect_ePJdwc",
+        "medium_vertical_rect_iPQigX",
         "medium_square_Hy66rF",
         "medium_square_MtUGRX",
-        "small_square_ReEAGt",
+        "small_square_Cabgrg",
         "small_square_B6djAL",
         "small_square_4ygawr",
         "medium_square_RLntnA",
@@ -1414,8 +1414,8 @@
         "medium_square_zrL7iM",
         "small_square_xaNxUG",
         "medium_vertical_rect_qkpjDE",
-        "medium_vertical_rect_a3QaHn",
         "small_square_JP9B4Y",
+        "medium_vertical_rect_a3QaHn",
         "small_square_FVWGhG",
         "medium_square_8c4Rj6",
         "small_square_GRGi6H",
