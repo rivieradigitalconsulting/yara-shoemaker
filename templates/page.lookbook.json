@@ -23,6 +23,30 @@
         "small_square_q39zeG": {
           "type": "small_square",
           "settings": {
+            "image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE6566_825c0da2-4a28-4be6-a465-6cbe07cf0da0.jpg",
+            "video_url": "",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "overline": "",
+            "title": "",
+            "subheading": "",
+            "text_max_width": 28,
+            "link_text": "",
+            "link": "",
+            "text_position": "center_center",
+            "background_color": "",
+            "color_text": "#ffffff",
+            "color_text_button": "#181818",
+            "color_background_button": "#ffffff",
+            "color_text_container": "",
+            "overlay_color": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "small_square_tTpWDm": {
+          "type": "small_square",
+          "settings": {
             "image": "shopify://shop_images/Craftsmanship_5.jpg",
             "video_url": "",
             "media_fit": "cover",
@@ -623,6 +647,7 @@
       },
       "block_order": [
         "small_square_q39zeG",
+        "small_square_tTpWDm",
         "medium_square_VnKKgq",
         "small_square_R6W8DK",
         "small_square_jdYBYa",
