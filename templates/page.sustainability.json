@@ -210,7 +210,7 @@
         "subheading": "",
         "heading_alignment": "center",
         "text_max_width": 42,
-        "mobile_content_placement": "after",
+        "mobile_content_placement": "within",
         "mobile_text_align": "left"
       }
     },
