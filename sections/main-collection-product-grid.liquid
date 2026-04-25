@@ -17,6 +17,11 @@
   else
     assign aspect_ratio = section.settings.aspect_ratio
   endif
+
+  assign first_row_card_count = products_per_row
+  if products_per_row_mobile > first_row_card_count
+    assign first_row_card_count = products_per_row_mobile
+  endif
 %}
 
 {% liquid
@@ -142,11 +147,33 @@
 
                 <div class="grid-display w-100{{ grid_modifiers }} collection__infinite-container">
                   {% for product in collection.products %}
+                    {%- liquid
+                      assign card_loading = ''
+                      assign card_fetchpriority = ''
+                      assign card_decoding = ''
+
+                      if paginated
+                        if forloop.index <= first_row_card_count
+                          assign card_loading = 'eager'
+                          assign card_fetchpriority = 'high'
+                          assign card_decoding = 'sync'
+                        endif
+                      else
+                        if paginate.current_page == 1 and forloop.index <= first_row_card_count
+                          assign card_loading = 'eager'
+                          assign card_fetchpriority = 'high'
+                          assign card_decoding = 'sync'
+                        endif
+                      endif
+                    -%}
                     {% render 'product-item',
                       product: product,
                       swatches_enabled: show_swatches,
                       aspect_ratio: aspect_ratio,
-                      text_alignment: section.settings.text_alignment
+                      text_alignment: section.settings.text_alignment,
+                      loading: card_loading,
+                      fetchpriority: card_fetchpriority,
+                      decoding: card_decoding
                     %}
                     {% if forloop.index == 2 and paginate.current_page == 1 %}
                       {% render 'grid-banner', image: section.settings.grid_banner_image, video: section.settings.grid_banner_video, is_desktop: true %}
