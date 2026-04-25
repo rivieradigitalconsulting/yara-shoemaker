@@ -41,6 +41,9 @@
     data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
     data-aspectratio="{{ image.aspect_ratio }}"
     data-sizes="auto"
+    {%- if decoding != blank -%}decoding="{{ decoding }}"{%- endif -%}
+    {%- if fetchpriority != blank -%}fetchpriority="{{ fetchpriority }}"{%- endif -%}
+    {%- if loading != blank -%}loading="{{ loading }}"{%- endif -%}
     alt="{{ image.alt | escape }}"
   >
   <div class="image__shimmer"></div>

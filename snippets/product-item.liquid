@@ -7,6 +7,9 @@
   - aspect_ratio: {String} Image aspect ratio (optional)
   - text_alignment: {String} Product details alignment (optional)
   - swatches_enabled: {Boolean} Shows swatches in product card (optional)
+  - loading: {String} Loading attribute for primary image (optional)
+  - fetchpriority: {String} Fetchpriority attribute for primary image (optional)
+  - decoding: {String} Decoding attribute for primary image (optional)
 
   Usage:
   {% render 'product-item', product: product, swatches_enabled: section.settings.show_swatches %}
@@ -53,15 +56,36 @@
             {% render 'image',
               image: product.featured_media.preview_image,
               id: product.featured_media.id,
-              disable_style: includes_aspect_ratio
+              disable_style: includes_aspect_ratio,
+              loading: loading,
+              fetchpriority: fetchpriority,
+              decoding: decoding
             %}
           </div>
           {% if settings.general_riviera_styles %}
             <div class="swiper">
               <div class="swiper-wrapper">
                 {% for image in product.images %}
+                  {%- liquid
+                    assign slide_loading = ''
+                    assign slide_fetchpriority = ''
+                    assign slide_decoding = ''
+
+                    if forloop.index <= 2
+                      assign slide_loading = loading
+                      assign slide_fetchpriority = fetchpriority
+                      assign slide_decoding = decoding
+                    endif
+                  -%}
                   <div class="swiper-slide">
-                    {% render 'image', image: image, id: image.id, disable_style: includes_aspect_ratio %}
+                    {% render 'image',
+                      image: image,
+                      id: image.id,
+                      disable_style: includes_aspect_ratio,
+                      loading: slide_loading,
+                      fetchpriority: slide_fetchpriority,
+                      decoding: slide_decoding
+                    %}
                   </div>
                 {% endfor %}
               </div>
@@ -75,26 +99,36 @@
               </div>
             </div>
           {% else %}
-          <div class="product-item__image first">
-            {% render 'image',
-              image: product.featured_media.preview_image,
-              id: product.featured_media.id,
-              disable_style: includes_aspect_ratio
-            %}
-          </div>
-
-          {%- if settings.show_secondary_image_on_hover -%}
-            {% # Check to make sure the second image isn't already featured %}
-            {% if product.media[1].id == product.featured_media.id %}
-              {% assign image_two = product.media[0].preview_image %}
-            {% else %}
-              {% assign image_two = product.media[1].preview_image %}
-            {% endif %}
-
-            <div class="product-item__image not-first">
-              {% render 'image', image: image_two, id: image_two.id, disable_style: true %}
+            <div class="product-item__image first">
+              {% render 'image',
+                image: product.featured_media.preview_image,
+                id: product.featured_media.id,
+                disable_style: includes_aspect_ratio,
+                loading: loading,
+                fetchpriority: fetchpriority,
+                decoding: decoding
+              %}
             </div>
-          {% endif %}
+
+            {%- if settings.show_secondary_image_on_hover -%}
+              {% # Check to make sure the second image isn't already featured %}
+              {% if product.media[1].id == product.featured_media.id %}
+                {% assign image_two = product.media[0].preview_image %}
+              {% else %}
+                {% assign image_two = product.media[1].preview_image %}
+              {% endif %}
+
+              <div class="product-item__image not-first">
+                {% render 'image',
+                  image: image_two,
+                  id: image_two.id,
+                  loading: loading,
+                  fetchpriority: fetchpriority,
+                  decoding: decoding,
+                  disable_style: true
+                %}
+              </div>
+            {% endif %}
           {%- endif -%}
         </div>
       {% else %}
@@ -102,7 +136,10 @@
           {% render 'image',
             image: product.featured_media.preview_image,
             id: product.featured_media.id,
-            disable_style: includes_aspect_ratio
+            disable_style: includes_aspect_ratio,
+            loading: loading,
+            fetchpriority: fetchpriority,
+            decoding: decoding
           %}
         </div>
       {% endif %}
