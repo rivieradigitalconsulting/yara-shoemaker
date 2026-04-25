@@ -1,0 +1,5 @@
+[environments.prod]
+store = "fovari-fashion"
+path = "./"
+live = true
+open = true
