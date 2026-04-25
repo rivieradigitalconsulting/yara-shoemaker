@@ -71,7 +71,7 @@
                     assign slide_fetchpriority = ''
                     assign slide_decoding = ''
 
-                    if forloop.first
+                    if forloop.index <= 2
                       assign slide_loading = loading
                       assign slide_fetchpriority = fetchpriority
                       assign slide_decoding = decoding
@@ -99,29 +99,36 @@
               </div>
             </div>
           {% else %}
-          <div class="product-item__image first">
-            {% render 'image',
-              image: product.featured_media.preview_image,
-              id: product.featured_media.id,
-              disable_style: includes_aspect_ratio,
-              loading: loading,
-              fetchpriority: fetchpriority,
-              decoding: decoding
-            %}
-          </div>
-
-          {%- if settings.show_secondary_image_on_hover -%}
-            {% # Check to make sure the second image isn't already featured %}
-            {% if product.media[1].id == product.featured_media.id %}
-              {% assign image_two = product.media[0].preview_image %}
-            {% else %}
-              {% assign image_two = product.media[1].preview_image %}
-            {% endif %}
-
-            <div class="product-item__image not-first">
-              {% render 'image', image: image_two, id: image_two.id, disable_style: true %}
+            <div class="product-item__image first">
+              {% render 'image',
+                image: product.featured_media.preview_image,
+                id: product.featured_media.id,
+                disable_style: includes_aspect_ratio,
+                loading: loading,
+                fetchpriority: fetchpriority,
+                decoding: decoding
+              %}
             </div>
-          {% endif %}
+
+            {%- if settings.show_secondary_image_on_hover -%}
+              {% # Check to make sure the second image isn't already featured %}
+              {% if product.media[1].id == product.featured_media.id %}
+                {% assign image_two = product.media[0].preview_image %}
+              {% else %}
+                {% assign image_two = product.media[1].preview_image %}
+              {% endif %}
+
+              <div class="product-item__image not-first">
+                {% render 'image',
+                  image: image_two,
+                  id: image_two.id,
+                  loading: loading,
+                  fetchpriority: fetchpriority,
+                  decoding: decoding,
+                  disable_style: true
+                %}
+              </div>
+            {% endif %}
           {%- endif -%}
         </div>
       {% else %}
