@@ -111,6 +111,16 @@
         <div class="product__media">
           {% if product.media.size > 0 %}
             {%- for media in product.media -%}
+              {%- liquid
+                assign image_loading = ''
+                assign image_fetchpriority = ''
+                assign image_decoding = ''
+                if forloop.first and media.media_type == 'image'
+                  assign image_loading = 'eager'
+                  assign image_fetchpriority = 'high'
+                  assign image_decoding = 'sync'
+                endif
+              -%}
               <div
                 class="
                   media-wrapper
@@ -126,7 +136,10 @@
                   link: product.url,
                   loop_video: enable_video_looping,
                   autoplay: enable_video_autoplay,
-                  animate: true
+                  animate: true,
+                  image_loading: image_loading,
+                  image_fetchpriority: image_fetchpriority,
+                  image_decoding: image_decoding
                 %}
               </div>
             {%- endfor -%}

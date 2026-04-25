@@ -20,7 +20,13 @@
 >
   {%- if media.media_type == 'image' -%}
     <a class="media__image" href="{{ link }}" data-open="{{ media.id }}">
-      {% render 'image', image: media, animate: animate %}
+      {% render 'image',
+        image: media,
+        animate: animate,
+        loading: image_loading,
+        fetchpriority: image_fetchpriority,
+        decoding: image_decoding
+      %}
     </a>
   {%- elsif media.media_type == 'video' -%}
     {{ media | video_tag: image_size: '1024x', mute: mute, autoplay: autoplay }}
