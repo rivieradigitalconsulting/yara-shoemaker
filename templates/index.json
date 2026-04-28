@@ -315,7 +315,7 @@
             "subheading": "<p>An exclusive collection of the highest quality Bridal designs by Yara Shoemaker.</p>",
             "text_max_width": 24,
             "link_text": "DISCOVER COLLECTION",
-            "link": "shopify://collections/bridal",
+            "link": "shopify://pages/bridal",
             "text_position": "center_center",
             "background_color": "#fcfcfc",
             "color_text": "#1b1b1b",
