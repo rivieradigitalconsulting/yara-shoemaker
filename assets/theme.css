@@ -5786,6 +5786,7 @@ select{
     pointer-events:none;
 }
 
+    span.footer__header,
     h4.footer__header{
       display:block;
       pointer-events:all;

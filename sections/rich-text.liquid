@@ -6,6 +6,11 @@
   assign modifiers = modifiers | append: ' section--' | append: section_style
   assign modifiers = modifiers | append: ' section--spacing-' | append: section.settings.section_padding
   assign modifiers = modifiers | append: ' rich-text--' | append: alignment
+  assign title_tag = 'h2'
+  
+  if settings.general_riviera_styles and template.name == 'product'
+    assign title_tag = 'div'
+  endif
 %}
 
 {% unless section_style == 'contrast' %}
@@ -33,14 +38,14 @@
             {{ block.settings.overline }}
           </div>
         {%- when 'title' -%}
-          <h2
+          <{{ title_tag }}
             {{ block.shopify_attributes }}
             class="rich-text__title text-block__item text-block__heading type-heading-1"
             data-theme-editor-setting="section.{{ id }}.title/escape"
             style="max-width: {{ block.settings.text_max_width }}rem;"
           >
             {{ block.settings.title }}
-          </h2>
+          </{{ title_tag }}>
         {%- when 'text' -%}
           <div
             {{ block.shopify_attributes }}

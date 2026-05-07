@@ -2,6 +2,11 @@
   assign chip_options = settings.chip_options | downcase | split: ', '
   assign swatch_options = settings.swatch_options | downcase | split: ', '
   assign show_filter_swatches = show_filter_swatches | default: true, allow_false: true
+  assign title_tag = 'h3'
+  
+  if settings.general_riviera_styles
+    assign title_tag = 'span'
+  endif
 %}
 
 {% capture footer_markup %}
@@ -50,7 +55,7 @@
           role="dialog"
         >
           <div class="collection-flyout__heading">
-            <h3 class="type-heading-1-small mt0 mb0">{{ filter.label }}</h3>
+            <{{ title_tag }} class="type-heading-1-small mt0 mb0">{{ filter.label }}</{{ title_tag }}>
             <a
               href="#"
               class="collection-flyout__close"

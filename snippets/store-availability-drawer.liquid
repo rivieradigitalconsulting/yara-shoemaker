@@ -1,3 +1,11 @@
+{%- liquid
+  assign title_tag = 'h4'
+  
+  if settings.general_riviera_styles
+    assign title_tag = 'span'
+  endif
+-%}
+
 <div
   class="
     drawer
@@ -15,9 +23,9 @@
   <div class="store-availability-flyout__inner">
     <div class="store-availability-flyout__header">
       <div class="store-availability-flyout__product-info">
-        <h4 id="flyout-title" class="store-availability-flyout__store-list-product-title type-heading-1-small mt0 mb0">
+        <{{title_tag }} id="flyout-title" class="store-availability-flyout__store-list-product-title type-heading-1-small mt0 mb0">
           {{ 'store_availability.general.availability' | t }}
-        </h4>
+        </{{title_tag }}>
       </div>
       <button
         type="button"

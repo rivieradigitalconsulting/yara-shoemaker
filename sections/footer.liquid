@@ -13,6 +13,11 @@
   if show_currency_selector and localization.available_countries.size > 1
     assign currency_selector = true
   endif
+
+  assign title_tag = 'h4'
+  if settings.general_riviera_styles
+    assign title_tag = 'span'
+  endif
 %}
 
 <footer
@@ -50,9 +55,9 @@
             "
           >
             {%- if block.settings.title != blank -%}
-              <h4 class="footer__header overline{% if block.settings.collapse_on_mobile %} footer__header--collapsed{% endif %}">
+              <{{ title_tag }} class="footer__header overline{% if block.settings.collapse_on_mobile %} footer__header--collapsed{% endif %}">
                 <span class="footer__heading fs-accent">{{ block.settings.title }}</span>
-              </h4>
+              </{{ title_tag }}>
               {%- if block.settings.collapse_on_mobile -%}
                 <button type="button" class="footer__header footer__header--mobile overline" data-header>
                   <span class="footer__heading fs-accent">{{ block.settings.title }}</span>
