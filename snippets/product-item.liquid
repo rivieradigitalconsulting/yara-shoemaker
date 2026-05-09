@@ -214,7 +214,15 @@
     {% endif %}
 
     <div class="product-item__details">
-      <a href="{{ product_url }}">{{ product.title }}</a>
+      <a href="{{ product_url }}">
+        {% if settings.general_riviera_styles %}
+          <h2>
+            {{ product.title }}
+          </h2>
+        {% else %}
+          {{ product.title }}
+        {% endif %}
+      </a>
 
       {% render 'product-item-price', product: product %}
       
