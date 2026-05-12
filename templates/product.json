@@ -59,7 +59,7 @@
           "settings": {
             "style": "closed",
             "heading": "Materials & Care",
-            "content": "<p>{{ product.metafields.pdp.materials_care.value }}</p>"
+            "content": "<h2>{{ product.metafields.pdp.materials_care.value }}</h2>"
           }
         },
         "accordion_qMT6qb": {
