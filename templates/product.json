@@ -46,12 +46,12 @@
             "show_dynamic_checkout": false
           }
         },
-        "accordion_6zYMcC": {
+        "accordion_RbkKhn": {
           "type": "accordion",
           "settings": {
             "style": "closed",
             "heading": "Description",
-            "content": "{{ product.description }}"
+            "content": "<h2>{{ product.description }}</h2>"
           }
         },
         "accordion_CMVynj": {
@@ -85,7 +85,7 @@
         "variant_picker_wc3wxb",
         "kiwi_size_chart_recommender_kiwi_sizing_fWBgJK",
         "buy_buttons_37aJhw",
-        "accordion_6zYMcC",
+        "accordion_RbkKhn",
         "accordion_CMVynj",
         "accordion_qMT6qb",
         "accordion_wNzAbm"
