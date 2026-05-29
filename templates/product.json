@@ -37,7 +37,7 @@
           "settings": {
             "fallbackToBlockPosition": false,
             "waitForElementSelector": "",
-            "waitForElementDelay": 5
+            "waitForElementDelay": 1
           }
         },
         "buy_buttons_37aJhw": {
