@@ -67,9 +67,7 @@
       "block_order": [
         "xo_gallery_xo_gallery_awKn94"
       ],
-      "custom_css": [
-        ".xg-animate.xg-item-animated {font-size: 14px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }
