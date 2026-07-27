@@ -215,6 +215,81 @@
         "button_background_color": "#000000"
       }
     },
+    "gallery_HjRzqr": {
+      "type": "gallery",
+      "blocks": {
+        "image_ApbFfT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-07-23_at_16.14.41.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_RMUDJd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2026-07-23-16-14-41.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_tpjzKf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-07-23_at_16.14.41_2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_A8BmmH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2026-07-23-16-14-42_2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_y8pYt4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2026-07-23-16-14-41_2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_RTTLwJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-07-23_at_16.14.41_3.jpg",
+            "description": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ApbFfT",
+        "image_RMUDJd",
+        "image_tpjzKf",
+        "image_A8BmmH",
+        "image_y8pYt4",
+        "image_RTTLwJ"
+      ],
+      "name": "t:sections.gallery.presets.gallery.name",
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 3,
+        "aspect_ratio": "natural",
+        "text_position": "top_center",
+        "overline": "THE VISION",
+        "title": "Where Dreams Become Couture",
+        "subheading": "<p>A meeting place between vision and reality, where every client is guided through a private, bespoke journey — from fabric to final fitting. The debut of a new chapter for the Maison.</p>",
+        "link": "",
+        "link_text": "",
+        "text_max_width": 36
+      }
+    },
     "text_columns_with_images": {
       "type": "text-columns-with-images",
       "blocks": {
@@ -272,6 +347,7 @@
     "image_with_text_1",
     "mosaic_grid",
     "image_with_text_2",
+    "gallery_HjRzqr",
     "text_columns_with_images",
     "main"
   ]
