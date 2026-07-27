@@ -64,20 +64,20 @@
         "overline": {
           "type": "overline",
           "settings": {
-            "overline": "Our Process"
+            "overline": "PARIS, TRIANGLE D'OR"
           }
         },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "One-on-one Consultation",
+            "heading": "Our Parisian Maison",
             "text_max_width": 43
           }
         },
         "subheading": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>In our couture process, we blend personalized luxury with global accessibility through several key approaches: We offer in-house fittings and consultations, bringing the atelier experience directly to clients who cannot visit our showrooms. This ensures that geography is never a barrier to experiencing our bespoke service.</p><p>Our process begins with a one-on-one consultation where we discuss the client's vision, preferences, and the occasion. We encourage clients to prepare inspirations and show them our latest designs, creating a collaborative and personalized experience from the start.</p>",
+            "subheading": "<p>43 Avenue George V, in the heart of Paris's VIII arrondissement — steps from Avenue Montaigne and the Champs-Élysées. Set within a 19th-century Haussmannian residence, the Atelier is where every YARA SHOEMAKER creation takes shape.</p>",
             "text_max_width": 43
           }
         }
@@ -91,7 +91,7 @@
         "section_style": "default",
         "enable_animation": true,
         "image": "shopify://shop_images/4d025ad0-e350-4c6a-94a8-6a5a03e022c8.jpg",
-        "video_url": "",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/9f6457ecb03742aea91d667f7f2fbe69.mp4",
         "image_width": "one-half",
         "aspect_ratio": "portrait",
         "focal_point": "image_presentation",
