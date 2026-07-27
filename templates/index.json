@@ -139,8 +139,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2025-07-30_YARA_SHOEMAKER_LOOK_08_007.jpg",
-            "description": "EDITORIAL",
-            "link": "shopify://collections/editorial"
+            "description": "EDITORIAL FW25",
+            "link": "shopify://pages/editorial"
           }
         },
         "image_gCNnpP": {
@@ -153,6 +153,7 @@
         },
         "image_1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/FallWinter2024BK_Page_03.png",
             "description": "FALL / WINTER \n2024-2025",
