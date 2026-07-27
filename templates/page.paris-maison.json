@@ -136,9 +136,9 @@
             "video_url": "",
             "media_fit": "cover",
             "focal_point": "image_presentation",
-            "overline": "Our Process",
-            "title": "Bespoke Details",
-            "subheading": "<p>We create a personal mannequin based on each client's measurements, ensuring that every piece is crafted to fit perfectly. This level of customization allows us to serve clients globally while maintaining the highest standards of fit and comfort.</p>",
+            "overline": "THE UNVEILING",
+            "title": "An Address for a Dream",
+            "subheading": "<p>What was once imagined, now has an address. Welcome to the first YARA SHOEMAKER Atelier — a space designed not only to be visited, but lived in, where the client becomes part of the creative process.</p>",
             "text_max_width": 40,
             "link_text": "",
             "link": "",
@@ -176,20 +176,20 @@
         "overline": {
           "type": "overline",
           "settings": {
-            "overline": "Our Process"
+            "overline": "THE COLLECTION"
           }
         },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Your Vision to Life",
+            "heading": "Behind Every Door, a One-of-a-Kind Creation",
             "text_max_width": 46
           }
         },
         "subheading": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>Throughout the creation process, from design sketches to final fittings, we involve the client, making adjustments as needed. This iterative approach ensures that the final piece truly reflects the client's vision and exceeds their expectations.</p><p></p><p>Our team of skilled artisans dedicates hundreds of hours to each piece, focusing on microscopic details to bring the client's thoughts to life. This meticulous attention to detail and craftsmanship is maintained regardless of the client's location.</p>",
+            "subheading": "<p>Each room holds a different chapter: hand-embroidered gowns, pearls, silk flowers, lace and crystal shaped for the one who will wear them. </p>",
             "text_max_width": 43
           }
         }
