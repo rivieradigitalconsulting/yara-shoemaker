@@ -114,6 +114,14 @@
         "image_4zBtX3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/YARA-SHOEMAKER-FW27-LOOKBOOK15933.jpg",
+            "description": "FALL/WINTER 2026-2027",
+            "link": "shopify://pages/fall-winter-2026-2027"
+          }
+        },
+        "image_MJMQfL": {
+          "type": "image",
+          "settings": {
             "image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE7641-web_size.jpg",
             "description": "SPRING/SUMMER 2026",
             "link": "shopify://pages/spring-summer-2026"
@@ -186,6 +194,7 @@
       },
       "block_order": [
         "image_4zBtX3",
+        "image_MJMQfL",
         "image_dBYPft",
         "image_ydBWPy",
         "image_y7z7ir",
