@@ -218,74 +218,6 @@
         "text_max_width": 50
       }
     },
-    "video_hero_JiJxh4": {
-      "type": "video-hero",
-      "blocks": {
-        "overline_DDnpKx": {
-          "type": "overline",
-          "settings": {
-            "overline": "YARA SHOEMAKER"
-          }
-        },
-        "heading_AGNbzC": {
-          "type": "heading",
-          "settings": {
-            "heading": "Discover our READY TO WEAR COLLECTION",
-            "heading_text_size": 32,
-            "text_max_width": 60
-          }
-        },
-        "button_hdW8pM": {
-          "type": "button",
-          "settings": {
-            "link": "shopify://collections/fall-winter-2026-2027",
-            "link_text": "SHOP NOW"
-          }
-        }
-      },
-      "block_order": [
-        "overline_DDnpKx",
-        "heading_AGNbzC",
-        "button_hdW8pM"
-      ],
-      "settings": {
-        "enable_animation": true,
-        "image_aspect": "custom",
-        "desktop_height": 75,
-        "mobile_height": 100,
-        "video_url": "https://cdn.shopify.com/videos/c/o/v/660b7a0768c74fcf98d41eeb4d1ab400.mp4",
-        "focal_point": "image_presentation",
-        "alignment": "center_center",
-        "text_container_color": "rgba(0,0,0,0)",
-        "text_color": "#ffffff",
-        "color_text_button": "#181818",
-        "color_background_button": "#ece7da",
-        "overlay_color": "#000000",
-        "color_overlay_gradient": "",
-        "overlay_opacity": 30
-      }
-    },
-    "featured_collection_row_FWzYhM": {
-      "type": "featured-collection-row",
-      "custom_css": [
-        ".color-variants {display: none;}"
-      ],
-      "name": "t:sections.featured_collection_row.presets.featured_collection_row.name",
-      "settings": {
-        "section_style": "default",
-        "enable_animation": true,
-        "collection": "fall-winter-2026-2027",
-        "columns": 3,
-        "columns_mobile": "1",
-        "aspect_ratio": "global",
-        "text_position": "left",
-        "overline": "Fall/Winter 2026-2027",
-        "title": "Demi-couture",
-        "subheading": "<p>Designed for the woman who demands boldness and grace.<br/></p>",
-        "link_text": "SHOP NOW",
-        "text_max_width": 36
-      }
-    },
     "mosaic_grid_j7HBFq": {
       "type": "mosaic-grid",
       "blocks": {
@@ -549,6 +481,74 @@
         "button_background_color": "#000000"
       }
     },
+    "video_hero_JiJxh4": {
+      "type": "video-hero",
+      "blocks": {
+        "overline_DDnpKx": {
+          "type": "overline",
+          "settings": {
+            "overline": "YARA SHOEMAKER"
+          }
+        },
+        "heading_AGNbzC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover our DEMI-COUTURE COLLECTION",
+            "heading_text_size": 32,
+            "text_max_width": 60
+          }
+        },
+        "button_hdW8pM": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/fall-winter-2026-2027",
+            "link_text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "overline_DDnpKx",
+        "heading_AGNbzC",
+        "button_hdW8pM"
+      ],
+      "settings": {
+        "enable_animation": true,
+        "image_aspect": "custom",
+        "desktop_height": 75,
+        "mobile_height": 100,
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/660b7a0768c74fcf98d41eeb4d1ab400.mp4",
+        "focal_point": "image_presentation",
+        "alignment": "center_center",
+        "text_container_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "color_text_button": "#181818",
+        "color_background_button": "#ece7da",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collection_row_FWzYhM": {
+      "type": "featured-collection-row",
+      "custom_css": [
+        ".color-variants {display: none;}"
+      ],
+      "name": "t:sections.featured_collection_row.presets.featured_collection_row.name",
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "collection": "fall-winter-2026-2027",
+        "columns": 3,
+        "columns_mobile": "1",
+        "aspect_ratio": "global",
+        "text_position": "left",
+        "overline": "Fall/Winter 2026-2027",
+        "title": "Demi-couture",
+        "subheading": "<p>Designed for the woman who demands boldness and grace.<br/></p>",
+        "link_text": "SHOP NOW",
+        "text_max_width": 36
+      }
+    },
     "video_hero_1": {
       "type": "video-hero",
       "blocks": {
@@ -596,12 +596,12 @@
     "text_columns_with_images_U6bPDa",
     "video_hero_eaKHnW",
     "gallery_1",
-    "video_hero_JiJxh4",
-    "featured_collection_row_FWzYhM",
     "mosaic_grid_j7HBFq",
     "text_columns_with_images_1",
     "image_with_text_split_1",
     "image_with_text_2",
+    "video_hero_JiJxh4",
+    "featured_collection_row_FWzYhM",
     "video_hero_1"
   ]
 }
