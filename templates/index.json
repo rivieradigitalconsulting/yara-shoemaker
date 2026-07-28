@@ -108,116 +108,6 @@
         "overlay_opacity": 30
       }
     },
-    "gallery_1": {
-      "type": "gallery",
-      "blocks": {
-        "image_4zBtX3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/YARA-SHOEMAKER-FW27-LOOKBOOK15933.jpg",
-            "description": "FALL/WINTER 2026-2027",
-            "link": "shopify://pages/fall-winter-2026-2027"
-          }
-        },
-        "image_MJMQfL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE7641-web_size.jpg",
-            "description": "SPRING/SUMMER 2026",
-            "link": "shopify://pages/spring-summer-2026"
-          }
-        },
-        "image_dBYPft": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE7979-web_size.jpg",
-            "description": "BRIDAL",
-            "link": "shopify://pages/bridal"
-          }
-        },
-        "image_ydBWPy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Yara_Shoemaker_fw26_runway_press_look01.jpg",
-            "description": "FALL / WINTER 2025-2026",
-            "link": "shopify://pages/fall-winter-2025-2026"
-          }
-        },
-        "image_y7z7ir": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2025-07-30_YARA_SHOEMAKER_LOOK_08_007.jpg",
-            "description": "EDITORIAL FW25",
-            "link": "shopify://pages/editorial"
-          }
-        },
-        "image_gCNnpP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Yara_Shoemaker_ss25_runway_IG_01.png",
-            "description": "SPRING / SUMMER 2025",
-            "link": ""
-          }
-        },
-        "image_1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/FallWinter2024BK_Page_03.png",
-            "description": "FALL / WINTER \n2024-2025",
-            "link": ""
-          }
-        },
-        "image_3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image00013.png",
-            "description": "SPRING / SUMMER \n2024",
-            "link": ""
-          }
-        },
-        "image_4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Fovari_HCFW23_IG_005B_2d1994ba-cc78-4b31-8434-eecfa561283f.jpg",
-            "description": "FALL / WINTER \n2023-2024",
-            "link": ""
-          }
-        },
-        "image_5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/FovariHCS23027.jpg",
-            "description": "SPRING / SUMMER\n2023",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_4zBtX3",
-        "image_MJMQfL",
-        "image_dBYPft",
-        "image_ydBWPy",
-        "image_y7z7ir",
-        "image_gCNnpP",
-        "image_1",
-        "image_3",
-        "image_4",
-        "image_5"
-      ],
-      "settings": {
-        "section_style": "default",
-        "enable_animation": true,
-        "columns": 3,
-        "aspect_ratio": "portrait",
-        "text_position": "top_center",
-        "overline": "EXPLORE THE DESIGNS",
-        "title": "Our Couture Collections",
-        "subheading": "<p>Discover the most recent Haute Couture collections from Yara Shoemaker.</p>",
-        "link": "",
-        "link_text": "",
-        "text_max_width": 50
-      }
-    },
     "mosaic_grid_j7HBFq": {
       "type": "mosaic-grid",
       "blocks": {
@@ -481,6 +371,116 @@
         "button_background_color": "#000000"
       }
     },
+    "gallery_1": {
+      "type": "gallery",
+      "blocks": {
+        "image_4zBtX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/YARA-SHOEMAKER-FW27-LOOKBOOK15933.jpg",
+            "description": "FALL/WINTER 2026-2027",
+            "link": "shopify://pages/fall-winter-2026-2027"
+          }
+        },
+        "image_MJMQfL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE7641-web_size.jpg",
+            "description": "SPRING/SUMMER 2026",
+            "link": "shopify://pages/spring-summer-2026"
+          }
+        },
+        "image_dBYPft": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/YARA_SHOEMAKER_SS26_COUTURE7979-web_size.jpg",
+            "description": "BRIDAL",
+            "link": "shopify://pages/bridal"
+          }
+        },
+        "image_ydBWPy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Yara_Shoemaker_fw26_runway_press_look01.jpg",
+            "description": "FALL / WINTER 2025-2026",
+            "link": "shopify://pages/fall-winter-2025-2026"
+          }
+        },
+        "image_y7z7ir": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2025-07-30_YARA_SHOEMAKER_LOOK_08_007.jpg",
+            "description": "EDITORIAL FW25",
+            "link": "shopify://pages/editorial"
+          }
+        },
+        "image_gCNnpP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Yara_Shoemaker_ss25_runway_IG_01.png",
+            "description": "SPRING / SUMMER 2025",
+            "link": ""
+          }
+        },
+        "image_1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FallWinter2024BK_Page_03.png",
+            "description": "FALL / WINTER \n2024-2025",
+            "link": ""
+          }
+        },
+        "image_3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image00013.png",
+            "description": "SPRING / SUMMER \n2024",
+            "link": ""
+          }
+        },
+        "image_4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fovari_HCFW23_IG_005B_2d1994ba-cc78-4b31-8434-eecfa561283f.jpg",
+            "description": "FALL / WINTER \n2023-2024",
+            "link": ""
+          }
+        },
+        "image_5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FovariHCS23027.jpg",
+            "description": "SPRING / SUMMER\n2023",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4zBtX3",
+        "image_MJMQfL",
+        "image_dBYPft",
+        "image_ydBWPy",
+        "image_y7z7ir",
+        "image_gCNnpP",
+        "image_1",
+        "image_3",
+        "image_4",
+        "image_5"
+      ],
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 3,
+        "aspect_ratio": "portrait",
+        "text_position": "top_center",
+        "overline": "EXPLORE THE DESIGNS",
+        "title": "Our Couture Collections",
+        "subheading": "<p>Discover the most recent Haute Couture collections from Yara Shoemaker.</p>",
+        "link": "",
+        "link_text": "",
+        "text_max_width": 50
+      }
+    },
     "video_hero_JiJxh4": {
       "type": "video-hero",
       "blocks": {
@@ -595,11 +595,11 @@
     "video_hero_w9UyFh",
     "text_columns_with_images_U6bPDa",
     "video_hero_eaKHnW",
-    "gallery_1",
     "mosaic_grid_j7HBFq",
     "text_columns_with_images_1",
     "image_with_text_split_1",
     "image_with_text_2",
+    "gallery_1",
     "video_hero_JiJxh4",
     "featured_collection_row_FWzYhM",
     "video_hero_1"
