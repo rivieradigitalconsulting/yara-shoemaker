@@ -68,7 +68,7 @@
         "aspect_ratio": "natural",
         "focal_point": "image_presentation",
         "image_position": "left",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "text_color": "#000000",
         "text_container_color": "",
         "color_background_gradient": "",
