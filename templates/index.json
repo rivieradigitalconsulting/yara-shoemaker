@@ -94,6 +94,7 @@
       "block_order": [
         "column_FM3aaF"
       ],
+      "disabled": true,
       "settings": {
         "section_style": "contrast",
         "enable_animation": true,
