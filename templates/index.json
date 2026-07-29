@@ -29,6 +29,22 @@
         "overlay_opacity": 10
       }
     },
+    "text_columns_with_images_FHL4Um": {
+      "type": "text-columns-with-images",
+      "name": "t:sections.text_columns_with_images.presets.text_columns_with_images.name",
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 3,
+        "overline": "",
+        "title": "",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "text_alignment": "center",
+        "text_max_width": 36
+      }
+    },
     "image_with_text_J8MDQ6": {
       "type": "image-with-text",
       "blocks": {
@@ -62,7 +78,7 @@
       "settings": {
         "section_style": "contrast",
         "enable_animation": true,
-        "image": "shopify://shop_images/yara_home_haute_couture.jpg",
+        "image": "shopify://shop_images/YARA_SHOEMAKER_FW27_LOOKBOOK15498_1.jpg",
         "video_url": "",
         "image_width": "one-half",
         "aspect_ratio": "natural",
@@ -640,6 +656,7 @@
   },
   "order": [
     "video_hero_w9UyFh",
+    "text_columns_with_images_FHL4Um",
     "image_with_text_J8MDQ6",
     "text_columns_with_images_U6bPDa",
     "video_hero_eaKHnW",
