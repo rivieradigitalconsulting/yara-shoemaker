@@ -82,7 +82,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/YARA_SHOEMAKER_FW27_LOOKBOOK15498_1_ed3a2f49-b5e7-4a81-ae35-812ba4895df7.jpg",
-            "image_max_width": 100,
+            "image_max_width": 50,
             "title": "",
             "subheading": "",
             "text_max_width": 50,
