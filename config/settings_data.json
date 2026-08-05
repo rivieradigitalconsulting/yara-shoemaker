@@ -128,6 +128,11 @@
         "disabled": false,
         "settings": {}
       },
+      "14684659138027382045": {
+        "type": "shopify://apps/xo-gallery/blocks/xo-gallery-scripts/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+        "disabled": false,
+        "settings": {}
+      },
       "11813581335429059158": {
         "type": "shopify://apps/seedgrow-whatsapp-chat/blocks/app-embed/b85b5e45-9cea-417a-9b9e-0aa961ccf3ef",
         "disabled": false,
@@ -153,14 +158,9 @@
           "scroll_bar_height": 500,
           "icon_size": 60,
           "distance_left": 30,
-          "distance_right": 15,
-          "distance_bottom": 100
+          "distance_right": 30,
+          "distance_bottom": 50
         }
-      },
-      "14684659138027382045": {
-        "type": "shopify://apps/xo-gallery/blocks/xo-gallery-scripts/e61dfbaa-1a75-4e4e-bffc-324f17325251",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
