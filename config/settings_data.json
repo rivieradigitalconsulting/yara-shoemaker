@@ -158,8 +158,8 @@
           "scroll_bar_height": 500,
           "icon_size": 60,
           "distance_left": 30,
-          "distance_right": 15,
-          "distance_bottom": 50
+          "distance_right": 20,
+          "distance_bottom": 30
         }
       }
     }
