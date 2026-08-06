@@ -104,7 +104,7 @@
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
-            "subheading": "<p>This foundation, combined with the modernity and innovation she embraced in America, allows Yara to craft designs that marry tradition with contemporary flair. Her passion for detail was sparked in her mother’s closet, filled with exquisite masterpieces, each piece igniting her desire to create fashion that elevates women to new heights of beauty and sophistication. Now, as she presents her brand to the French Federation, Yara positions herself as a leader of American couture, bringing her distinct vision to the global stage.</p>",
+            "subheading": "<p>The United States is where I transformed a lifelong vision into reality. It is where I founded YARA SHOEMAKER and continue building a Maison guided by purpose, respect, and uncompromising standards. My roots in Damascus, a city shaped by history and the legacy of ancient civilizations, gave me a lasting appreciation for beauty, craftsmanship, and the importance of preserving what truly endures. Together, they shaped the woman I am today.</p>",
             "text_max_width": 40,
             "link_text": "",
             "link": "",
@@ -152,8 +152,8 @@
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
-            "subheading": "",
-            "text_max_width": 28,
+            "subheading": "<p>My inspiration rarely begins with a sketch or a fabric. It begins with a question. What transforms craftsmanship into emotion? What makes something worthy of becoming part of another person’s story? Those questions continue to inspire me, challenge me, and shape every collection we create.</p>",
+            "text_max_width": 40,
             "link_text": "",
             "link": "",
             "text_position": "center_center",
@@ -164,7 +164,7 @@
             "color_text_container": "",
             "overlay_color": "#000000",
             "color_overlay_gradient": "",
-            "overlay_opacity": 0
+            "overlay_opacity": 40
           }
         }
       },
