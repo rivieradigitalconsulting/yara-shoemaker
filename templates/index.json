@@ -388,14 +388,21 @@
         "overline": {
           "type": "overline",
           "settings": {
-            "overline": "MAKE YOUR DREAMS COME TRUE"
+            "overline": "Yara Shoemaker"
           }
         },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Invest in a one-of-a-kind Yara Shoemaker design, where timelessness, craftsmanship, and sustainability come together to make your vision a reality.",
+            "heading": "UNCOMPROMISING CRAFTSMANSHIP",
             "text_max_width": 60
+          }
+        },
+        "subheading_chDQgp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<p>At YARA SHOEMAKER, every creation is rooted in respect. Respect for the woman who entrusts us with one of the most meaningful occasions of her life. Respect for the artisans whose years of dedication preserve the extraordinary heritage of Haute Couture. Respect for every material, every technique, and every unseen detail that transforms a creation into a work of art.<br/><br/>This philosophy guides every decision we make. We believe the details hidden beneath a seam deserve the same devotion as those the world will admire, because true excellence is defined by the integrity behind every stitch. Our commitment is to honor an extraordinary craft, preserve a remarkable heritage, and create pieces worthy of the lives and celebrations they become part of.</p>",
+            "text_max_width": 43
           }
         },
         "button_GLNyBB": {
@@ -409,6 +416,7 @@
       "block_order": [
         "overline",
         "heading",
+        "subheading_chDQgp",
         "button_GLNyBB"
       ],
       "settings": {
