@@ -22,7 +22,7 @@
         "subheading_Ap9e3B": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>When I founded YARA SHOEMAKER, I wasn’t simply creating a fashion house. I wanted to create a Maison where every decision would begin with respect — respect for the woman who entrusts us with one of life’s most meaningful occasions, respect for the artisans whose dedication preserves the extraordinary heritage of Haute Couture, and respect for the unseen details that deserve the same care as those the world will admire.<br/><br/>To me, true luxury has never been measured by excess. It is measured by intention, integrity, and the responsibility of creating something worthy of becoming part of another person’s life. That promise continues to guide every creation we make today.</p>",
+            "subheading": "<p>\"When I founded YARA SHOEMAKER, I wasn’t simply creating a fashion house. I wanted to create a Maison where every decision would begin with respect — respect for the woman who entrusts us with one of life’s most meaningful occasions, respect for the artisans whose dedication preserves the extraordinary heritage of Haute Couture, and respect for the unseen details that deserve the same care as those the world will admire.<br/><br/>To me, true luxury has never been measured by excess. It is measured by intention, integrity, and the responsibility of creating something worthy of becoming part of another person’s life. That promise continues to guide every creation we make today.\"</p>",
             "text_max_width": 41
           }
         },
@@ -89,7 +89,7 @@
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
-            "subheading": "<p>I have always been driven by curiosity. Long before I understood couture, I found myself asking why certain creations remained timeless while others were forgotten. Those questions taught me that true beauty is never accidental—it is shaped by patience, purpose, and the hands of remarkable artisans who dedicate their lives to mastering an extraordinary craft.</p>",
+            "subheading": "<p>\"I have always been driven by curiosity. Long before I understood couture, I found myself asking why certain creations remained timeless while others were forgotten. Those questions taught me that true beauty is never accidental—it is shaped by patience, purpose, and the hands of remarkable artisans who dedicate their lives to mastering an extraordinary craft.\"</p>",
             "text_max_width": 40,
             "link_text": "",
             "link": "",
@@ -112,7 +112,7 @@
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
-            "subheading": "<p>The United States is where I transformed a lifelong vision into reality. It is where I founded YARA SHOEMAKER and continue building a Maison guided by purpose, respect, and uncompromising standards. My roots in Damascus, a city shaped by history and the legacy of ancient civilizations, gave me a lasting appreciation for beauty, craftsmanship, and the importance of preserving what truly endures. Together, they shaped the woman I am today.</p>",
+            "subheading": "<p>\"The United States is where I transformed a lifelong vision into reality. It is where I founded YARA SHOEMAKER and continue building a Maison guided by purpose, respect, and uncompromising standards. My roots in Damascus, a city shaped by history and the legacy of ancient civilizations, gave me a lasting appreciation for beauty, craftsmanship, and the importance of preserving what truly endures. Together, they shaped the woman I am today.\"</p>",
             "text_max_width": 40,
             "link_text": "",
             "link": "",
@@ -160,7 +160,7 @@
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
-            "subheading": "",
+            "subheading": "<p>\"My inspiration rarely begins with a sketch or a fabric. It begins with a question. What transforms craftsmanship into emotion? What makes something worthy of becoming part of another person’s story? Those questions continue to inspire me, challenge me, and shape every collection we create.\"</p>",
             "text_max_width": 40,
             "link_text": "",
             "link": "",
@@ -174,29 +174,6 @@
             "color_overlay_gradient": "",
             "overlay_opacity": 40
           }
-        },
-        "small_square_kUHdaP": {
-          "type": "small_square",
-          "settings": {
-            "video_url": "",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "overline": "",
-            "title": "",
-            "subheading": "<p>My inspiration rarely begins with a sketch or a fabric. It begins with a question. What transforms craftsmanship into emotion? What makes something worthy of becoming part of another person’s story? Those questions continue to inspire me, challenge me, and shape every collection we create.</p>",
-            "text_max_width": 40,
-            "link_text": "",
-            "link": "",
-            "text_position": "center_center",
-            "background_color": "#ece7da",
-            "color_text": "#1b1b1b",
-            "color_text_button": "#181818",
-            "color_background_button": "#ffffff",
-            "color_text_container": "",
-            "overlay_color": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
@@ -204,8 +181,7 @@
         "small_square_p3axpq",
         "small_square_6nKPA6",
         "small_square_HVD7Vj",
-        "medium_horizontal_rect_gEVtPC",
-        "small_square_kUHdaP"
+        "medium_horizontal_rect_gEVtPC"
       ],
       "settings": {
         "section_style": "default",
@@ -222,17 +198,10 @@
     "image_with_text_xAA9Rw": {
       "type": "image-with-text",
       "blocks": {
-        "heading_GwaDzi": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"Building the couture house is a journey of passion, relentless commitment, and love for what I do.\"",
-            "text_max_width": 60
-          }
-        },
         "subheading_phiBbJ": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>\"This journey has given me immense satisfaction and a new sense of purpose. Among all the joys in my life, the deep love for my family stands unparalleled. Alongside them, this venture has become the core of my being—the most extraordinary adventure of my life.\"</p>",
+            "subheading": "<p>\"Every day, I am reminded of the privilege of creating pieces chosen for some of life’s most meaningful occasions. Together with an extraordinary team of artisans, we continue building YARA SHOEMAKER with honesty, respect, and an unwavering commitment to excellence. Above all, I hope every woman who chooses our Maison feels seen, understood, and celebrated. If our creations become part of memories cherished for generations, then I know we have fulfilled our purpose.\"</p>",
             "text_max_width": 45
           }
         },
@@ -244,7 +213,6 @@
         }
       },
       "block_order": [
-        "heading_GwaDzi",
         "subheading_phiBbJ",
         "overline_f3TrKa"
       ],
