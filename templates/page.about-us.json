@@ -12,6 +12,13 @@
     "image_with_text_LqiUUB": {
       "type": "image-with-text",
       "blocks": {
+        "heading_dzURLx": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE DESIGNER",
+            "text_max_width": 46
+          }
+        },
         "subheading_Ap9e3B": {
           "type": "subheading",
           "settings": {
@@ -27,6 +34,7 @@
         }
       },
       "block_order": [
+        "heading_dzURLx",
         "subheading_Ap9e3B",
         "overline_bf6y6W"
       ],
