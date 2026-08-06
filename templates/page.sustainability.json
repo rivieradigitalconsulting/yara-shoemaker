@@ -136,6 +136,12 @@
     "image_hero_VEF8y4": {
       "type": "image-hero",
       "blocks": {
+        "overline_pLgckj": {
+          "type": "overline",
+          "settings": {
+            "overline": "Conscious Luxury"
+          }
+        },
         "heading_FpaGBd": {
           "type": "heading",
           "settings": {
@@ -154,6 +160,7 @@
         }
       },
       "block_order": [
+        "overline_pLgckj",
         "heading_FpaGBd",
         "subheading_Bk3gnd"
       ],
