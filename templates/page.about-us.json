@@ -160,7 +160,7 @@
             "focal_point": "image_presentation",
             "overline": "",
             "title": "",
-            "subheading": "<p>My inspiration rarely begins with a sketch or a fabric. It begins with a question. What transforms craftsmanship into emotion? What makes something worthy of becoming part of another person’s story? Those questions continue to inspire me, challenge me, and shape every collection we create.</p>",
+            "subheading": "",
             "text_max_width": 40,
             "link_text": "",
             "link": "",
@@ -174,6 +174,29 @@
             "color_overlay_gradient": "",
             "overlay_opacity": 40
           }
+        },
+        "small_square_kUHdaP": {
+          "type": "small_square",
+          "settings": {
+            "video_url": "",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "overline": "",
+            "title": "",
+            "subheading": "<p>My inspiration rarely begins with a sketch or a fabric. It begins with a question. What transforms craftsmanship into emotion? What makes something worthy of becoming part of another person’s story? Those questions continue to inspire me, challenge me, and shape every collection we create.</p>",
+            "text_max_width": 40,
+            "link_text": "",
+            "link": "",
+            "text_position": "center_center",
+            "background_color": "#ece7da",
+            "color_text": "#1b1b1b",
+            "color_text_button": "#181818",
+            "color_background_button": "#ffffff",
+            "color_text_container": "",
+            "overlay_color": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
@@ -181,7 +204,8 @@
         "small_square_p3axpq",
         "small_square_6nKPA6",
         "small_square_HVD7Vj",
-        "medium_horizontal_rect_gEVtPC"
+        "medium_horizontal_rect_gEVtPC",
+        "small_square_kUHdaP"
       ],
       "settings": {
         "section_style": "default",
