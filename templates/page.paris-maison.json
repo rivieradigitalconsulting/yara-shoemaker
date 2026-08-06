@@ -15,13 +15,13 @@
         "overline": {
           "type": "overline",
           "settings": {
-            "overline": "Yara Shoemaker"
+            "overline": "THE YARA SHOEMAKER EXPERIENCE"
           }
         },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our Parisian Maison",
+            "heading": "WELCOME TO OUR MAISON",
             "heading_text_size": 38,
             "text_max_width": 60
           }
@@ -29,7 +29,7 @@
         "subheading_BaBDRg": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>Behind every door lies a one-of-a-kind creation.<br/>Welcome to the Parisian Maison of Yara Shoemaker.<br/>Where dreams become couture.</p>",
+            "subheading": "<p>Every unforgettable creation begins with a conversation.<br/><br/>Nestled on the prestigious Avenue George V in Paris, just moments from the Four Seasons Hotel George V, our Maison was designed as a private and intimate space where every appointment is devoted entirely to you.</p>",
             "subheading_text_size": 14,
             "text_max_width": 40
           }
@@ -61,29 +61,22 @@
     "image_with_text_1": {
       "type": "image-with-text",
       "blocks": {
-        "overline": {
-          "type": "overline",
-          "settings": {
-            "overline": "PARIS, TRIANGLE D'OR"
-          }
-        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our Parisian Maison",
+            "heading": "YOUR STORY BECOMES OUR INSPIRATION",
             "text_max_width": 43
           }
         },
         "subheading": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>43 Avenue George V, in the heart of Paris's VIII arrondissement — steps from Avenue Montaigne and the Champs-Élysées. Set within a 19th-century Haussmannian residence, the Atelier is where every YARA SHOEMAKER creation takes shape.</p>",
+            "subheading": "<p>Before the first sketch is drawn, we take the time to understand the woman behind the occasion—her personality, her aspirations, and the memories she hopes to create. Because exceptional couture always begins with understanding.</p><p>Every woman is unique, and every couture creation should be too.<br/><br/>Together with Yara and our couture team, you will explore silhouettes, fabrics, colors, and extraordinary craftsmanship while every conversation shapes the design. We listen carefully, ask thoughtful questions, and refine every detail until your vision begins to come to life.<br/><br/>No creation is ever repeated.<br/><br/>Each one is imagined exclusively for the woman who will wear it.</p>",
             "text_max_width": 43
           }
         }
       },
       "block_order": [
-        "overline",
         "heading",
         "subheading"
       ],
