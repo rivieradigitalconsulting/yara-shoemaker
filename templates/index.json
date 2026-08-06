@@ -114,28 +114,37 @@
         "overline_7k6HQG": {
           "type": "overline",
           "settings": {
-            "overline": "FIND OUT MORE"
+            "overline": "OUR PHILOSOPHY"
           }
         },
         "heading_Dw4cmc": {
           "type": "heading",
           "settings": {
-            "heading": "Yara Shoemaker's commitment to excellence",
+            "heading": "DISCOVER OUR STORY",
             "heading_text_size": 32,
             "text_max_width": 60
+          }
+        },
+        "subheading_yKQcHV": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<p>YARA SHOEMAKER was founded on the belief that the most precious things in life cannot be replaced. Time. Memories. The people we love. The moments that shape who we become.<br/><br/>That belief inspires everything we create. Every couture piece is crafted with patience, intention, and extraordinary care, designed not only to be worn, but to become part of a woman’s journey for years to come.</p>",
+            "subheading_text_size": 14,
+            "text_max_width": 40
           }
         },
         "button_De938P": {
           "type": "button",
           "settings": {
             "link": "shopify://pages/about-the-founder-aug-26",
-            "link_text": "READ MORE"
+            "link_text": "READ OUR PHILOSOPHY"
           }
         }
       },
       "block_order": [
         "overline_7k6HQG",
         "heading_Dw4cmc",
+        "subheading_yKQcHV",
         "button_De938P"
       ],
       "settings": {
