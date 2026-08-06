@@ -275,6 +275,7 @@
         "image_y8pYt4",
         "image_RTTLwJ"
       ],
+      "disabled": true,
       "name": "t:sections.gallery.presets.gallery.name",
       "settings": {
         "section_style": "default",
