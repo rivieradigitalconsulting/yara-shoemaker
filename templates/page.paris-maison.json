@@ -347,7 +347,7 @@
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
         "alignment": "center_center",
-        "text_container_color": "#ECE7DA",
+        "text_container_color": "#ece7da",
         "text_color": "#313131",
         "color_text_button": "#181818",
         "color_background_button": "#ffffff",
