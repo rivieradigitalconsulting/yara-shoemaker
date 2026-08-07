@@ -313,8 +313,8 @@
           "type": "column",
           "settings": {
             "image_max_width": 50,
-            "title": "Craftsmanship",
-            "subheading": "<p>Where meticulous attention to detail defines each creation.</p>",
+            "title": "PRECISION",
+            "subheading": "<p>Every proportion, every line, and every hidden detail is considered with exceptional care, creating harmony that is felt as naturally as it is seen.</p>",
             "text_max_width": 36,
             "link": "",
             "link_text": "Read more"
@@ -324,8 +324,8 @@
           "type": "column",
           "settings": {
             "image_max_width": 50,
-            "title": "One-of-a-Kind",
-            "subheading": "<p>Every design is uniquely crafted to reflect individual style and personal story.</p>",
+            "title": "INDIVIDUALITY",
+            "subheading": "<p>No two women are alike. Every couture creation is developed to reflect her character, her proportions, and the way she moves through the world.</p>",
             "text_max_width": 36,
             "link": "",
             "link_text": "Read more"
@@ -335,8 +335,8 @@
           "type": "column",
           "settings": {
             "image_max_width": 50,
-            "title": "Sustainability",
-            "subheading": "<p>Committed to responsible fashion, using the finest materials with a focus on timelessness and  sustainability.</p>",
+            "title": "RESPONSIBILITY",
+            "subheading": "<p>True luxury respects both beauty and the future. Every decision reflects our commitment to thoughtful design, ethical craftsmanship, and lasting value.</p>",
             "text_max_width": 36,
             "link": "",
             "link_text": "Read more"
@@ -348,7 +348,6 @@
         "column_2",
         "column_3"
       ],
-      "disabled": true,
       "settings": {
         "section_style": "default",
         "enable_animation": true,
