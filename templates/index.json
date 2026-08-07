@@ -588,9 +588,9 @@
         "columns": 3,
         "aspect_ratio": "portrait",
         "text_position": "top_center",
-        "overline": "EXPLORE THE DESIGNS",
+        "overline": "Explore the Collection",
         "title": "Our Couture Collections",
-        "subheading": "<p>Discover the most recent Haute Couture collections from Yara Shoemaker.</p>",
+        "subheading": "<p>Each collection marks a new chapter in the evolution of the Maison.</p><p>While every season introduces new silhouettes and artistic expression, our commitment remains unchanged: to create enduring beauty with elegance, refinement, and uncompromising quality.</p>",
         "link": "",
         "link_text": "",
         "text_max_width": 50
