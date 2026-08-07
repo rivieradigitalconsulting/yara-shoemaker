@@ -51,12 +51,20 @@
             "subheading": "<p><strong>True luxury begins with intention.</strong></p><p>Every creation begins with a woman.</p><p>Before a sketch is drawn or a fabric is selected, we seek to understand who she is, what she wishes to celebrate, and the memories she hopes to preserve.</p><p>From the first conversation to the final fitting, every decision is guided by her individuality. What we create is never simply a garment, but a piece of her story—crafted to accompany life’s most meaningful moments with beauty, confidence, and grace.<br/></p>",
             "text_max_width": 41
           }
+        },
+        "button_y36kDL": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/fall-winter-2026-2027",
+            "link_text": "DISCOVER HAUTE COUTURE"
+          }
         }
       },
       "block_order": [
         "overline_tQWjaX",
         "heading_RYdthk",
-        "subheading_f4wFGR"
+        "subheading_f4wFGR",
+        "button_y36kDL"
       ],
       "name": "Image with text",
       "settings": {
