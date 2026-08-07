@@ -210,7 +210,7 @@
         "image_width": "one-half",
         "aspect_ratio": "portrait",
         "focal_point": "image_presentation",
-        "image_position": "left",
+        "image_position": "right",
         "text_alignment": "left",
         "text_color": "#000000",
         "text_container_color": "",
