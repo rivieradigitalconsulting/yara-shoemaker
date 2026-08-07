@@ -348,6 +348,7 @@
         "column_2",
         "column_3"
       ],
+      "disabled": true,
       "settings": {
         "section_style": "default",
         "enable_animation": true,
