@@ -206,9 +206,9 @@
       "settings": {
         "section_style": "default",
         "enable_animation": true,
-        "video_url": "https://admin.shopify.com/store/fovari-fashion/content/files/41372660531363",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/0a9c9e84dbdc41d4aa090d5d0993ac8a.mp4",
         "image_width": "one-half",
-        "aspect_ratio": "square",
+        "aspect_ratio": "portrait",
         "focal_point": "image_presentation",
         "image_position": "left",
         "text_alignment": "left",
