@@ -305,7 +305,7 @@
         "column_1"
       ],
       "settings": {
-        "section_style": "default",
+        "section_style": "contrast",
         "enable_animation": true,
         "columns": 1,
         "overline": "",
