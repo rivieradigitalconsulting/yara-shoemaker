@@ -136,7 +136,7 @@
         "subheading_yKQcHV": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>YARA SHOEMAKER was founded on a simple belief. The most precious things in life cannot be replaced.<br/><br/>Time.</p><p>The people we love.</p><p>The moments that shape who we become.<br/><br/>Every creation is conceived to honor those moments with beauty that endures, becoming part of the memories that remain long after the celebration has passed.</p>",
+            "subheading": "<p>YARA SHOEMAKER was founded on a simple belief. The most precious things in life cannot be replaced.</p><p>Time.</p><p>The people we love.</p><p>The moments that shape who we become.<br/><br/>Every creation is conceived to honor those moments with beauty that endures, becoming part of the memories that remain long after the celebration has passed.</p>",
             "subheading_text_size": 14,
             "text_max_width": 36
           }
@@ -425,9 +425,9 @@
         "mobile_focal_point": "image_presentation",
         "alignment": "center_center",
         "text_container_color": "rgba(0,0,0,0)",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "color_text_button": "#181818",
-        "color_background_button": "#FFFFFF",
+        "color_background_button": "#ffffff",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 60
@@ -626,6 +626,7 @@
         "heading_AGNbzC",
         "button_hdW8pM"
       ],
+      "disabled": true,
       "settings": {
         "enable_animation": true,
         "image_aspect": "custom",
@@ -645,6 +646,7 @@
     },
     "featured_collection_row_FWzYhM": {
       "type": "featured-collection-row",
+      "disabled": true,
       "custom_css": [
         ".color-variants {display: none;}"
       ],
