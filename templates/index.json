@@ -29,6 +29,69 @@
         "overlay_opacity": 10
       }
     },
+    "1788528675c6f1b474": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d89ab6_q8E3iM": {
+          "type": "ai_gen_block_7d89ab6",
+          "settings": {
+            "desktop_height": 50,
+            "desktop_background_color": "#ECE7DA",
+            "mobile_height": 30,
+            "mobile_background_color": "#ECE7DA"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d89ab6_q8E3iM"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_hero_x3Ti6k": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_ggVWLH": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE ART OF FIT",
+            "heading_text_size": 32,
+            "text_max_width": 40
+          }
+        },
+        "subheading_xqh4gp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<p>A couture garment should never ask a woman to change herself.<br/><br/>It should adapt to her with extraordinary precision, honoring her proportions, her movement, and her individuality until it feels as though it has always belonged to her.<br/><br/>Every fitting is a dialogue between designer, artisan, and client, refining every line until beauty and comfort become one.<br/><br/>This is something almost no couture house explains.<br/><br/>Yet it’s one of your biggest strengths.</p>",
+            "subheading_text_size": 14,
+            "text_max_width": 41
+          }
+        }
+      },
+      "block_order": [
+        "heading_ggVWLH",
+        "subheading_xqh4gp"
+      ],
+      "name": "t:sections.image_hero.presets.name",
+      "settings": {
+        "enable_animation": true,
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 90,
+        "image": "shopify://shop_images/YARA_SHOEMAKER_FW27_LOOKBOOK16071.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "alignment": "center_center",
+        "text_container_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "color_text_button": "#181818",
+        "color_background_button": "#ffffff",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60
+      }
+    },
     "image_with_text_J8MDQ6": {
       "type": "image-with-text",
       "blocks": {
@@ -710,6 +773,8 @@
   },
   "order": [
     "video_hero_w9UyFh",
+    "1788528675c6f1b474",
+    "image_hero_x3Ti6k",
     "image_with_text_J8MDQ6",
     "text_columns_with_images_U6bPDa",
     "video_hero_eaKHnW",
