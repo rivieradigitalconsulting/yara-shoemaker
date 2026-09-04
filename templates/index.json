@@ -73,6 +73,7 @@
         "heading_ggVWLH",
         "subheading_xqh4gp"
       ],
+      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "enable_animation": true,
