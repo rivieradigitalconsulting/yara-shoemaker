@@ -1,6 +1,82 @@
+{% doc %}
+  @prompt
+    mi serve uno spazio bianco da separatore dove posso scegliare colori e dimensioni sia mobile che desktop
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-spacer-{{ ai_gen_id }} {
+    width: 100%;
+    display: block;
+  }
+
+  @media screen and (min-width: 750px) {
+    .ai-spacer-{{ ai_gen_id }} {
+      height: {{ block.settings.desktop_height }}px;
+      background-color: {{ block.settings.desktop_background_color }};
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-spacer-{{ ai_gen_id }} {
+      height: {{ block.settings.mobile_height }}px;
+      background-color: {{ block.settings.mobile_background_color }};
+    }
+  }
+{% endstyle %}
+
+<div class="ai-spacer-{{ ai_gen_id }}" {{ block.shopify_attributes }}></div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Spacer",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Desktop"
+    },
+    {
+      "type": "range",
+      "id": "desktop_height",
+      "label": "Height",
+      "min": 10,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "desktop_background_color",
+      "label": "Background color",
+      "default": "#fcfcfc"
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "range",
+      "id": "mobile_height",
+      "label": "Height",
+      "min": 10,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "color",
+      "id": "mobile_background_color",
+      "label": "Background color",
+      "default": "#fcfcfc"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Spacer"
+    }
+  ]
+}
 {% endschema %}
