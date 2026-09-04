@@ -36,9 +36,9 @@
           "type": "ai_gen_block_7d89ab6",
           "settings": {
             "desktop_height": 50,
-            "desktop_background_color": "#ECE7DA",
+            "desktop_background_color": "#ece7da",
             "mobile_height": 30,
-            "mobile_background_color": "#ECE7DA"
+            "mobile_background_color": "#ece7da"
           },
           "blocks": {}
         }
@@ -73,7 +73,6 @@
         "heading_ggVWLH",
         "subheading_xqh4gp"
       ],
-      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "enable_animation": true,
