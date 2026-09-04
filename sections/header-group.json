@@ -17,14 +17,14 @@
         "announcement_D4qE9W": {
           "type": "announcement",
           "settings": {
-            "text": "RTW Launch — Coming Soon.",
+            "text": "RTW Launch — Coming Soon",
             "link": ""
           }
         },
         "announcement-0": {
           "type": "announcement",
           "settings": {
-            "text": "COUTURE DESIGNED FOR WOMEN WITH INFLUENCE",
+            "text": "Couture designed for women with influence",
             "link": ""
           }
         }
@@ -38,7 +38,7 @@
         "show_social_icons": false,
         "show_locale_selector": true,
         "show_currency_selector": false,
-        "utility_bar_animation_timing": 3
+        "utility_bar_animation_timing": 4
       }
     },
     "header": {
