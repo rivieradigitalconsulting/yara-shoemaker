@@ -14,6 +14,13 @@
     "utility-bar": {
       "type": "utility-bar",
       "blocks": {
+        "announcement_D4qE9W": {
+          "type": "announcement",
+          "settings": {
+            "text": "RTW Launch — Coming Soon.",
+            "link": ""
+          }
+        },
         "announcement-0": {
           "type": "announcement",
           "settings": {
@@ -23,6 +30,7 @@
         }
       },
       "block_order": [
+        "announcement_D4qE9W",
         "announcement-0"
       ],
       "settings": {
@@ -30,7 +38,7 @@
         "show_social_icons": false,
         "show_locale_selector": true,
         "show_currency_selector": false,
-        "utility_bar_animation_timing": 5
+        "utility_bar_animation_timing": 3
       }
     },
     "header": {
