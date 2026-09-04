@@ -55,17 +55,17 @@
         "heading_ggVWLH": {
           "type": "heading",
           "settings": {
-            "heading": "THE ART OF FIT",
+            "heading": "Coming Soon: Ready-to-Wear Collection",
             "heading_text_size": 32,
-            "text_max_width": 40
+            "text_max_width": 38
           }
         },
         "subheading_xqh4gp": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>A couture garment should never ask a woman to change herself.<br/><br/>It should adapt to her with extraordinary precision, honoring her proportions, her movement, and her individuality until it feels as though it has always belonged to her.<br/><br/>Every fitting is a dialogue between designer, artisan, and client, refining every line until beauty and comfort become one.<br/><br/>This is something almost no couture house explains.<br/><br/>Yet it’s one of your biggest strengths.</p>",
+            "subheading": "<p>For the first time, Yara Shoemaker's couture craftsmanship meets everyday elegance. The Ready-to-Wear collection launches soon, bringing the same artisanal spirit to a new way of dressing.<br/><br/></p>",
             "subheading_text_size": 14,
-            "text_max_width": 41
+            "text_max_width": 45
           }
         }
       },
@@ -73,7 +73,6 @@
         "heading_ggVWLH",
         "subheading_xqh4gp"
       ],
-      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "enable_animation": true,
