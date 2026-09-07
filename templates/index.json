@@ -67,11 +67,19 @@
             "subheading_text_size": 14,
             "text_max_width": 45
           }
+        },
+        "button_Q496Qz": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "WAITLIST SIGN UP"
+          }
         }
       },
       "block_order": [
         "heading_ggVWLH",
-        "subheading_xqh4gp"
+        "subheading_xqh4gp",
+        "button_Q496Qz"
       ],
       "name": "t:sections.image_hero.presets.name",
       "settings": {
@@ -86,7 +94,7 @@
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
-        "color_background_button": "#ffffff",
+        "color_background_button": "#ECE7DA",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 60
