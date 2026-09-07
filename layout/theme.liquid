@@ -121,5 +121,16 @@
 
     {{ '//www.youtube.com/iframe_api' | script_tag }}
     {{ '//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css' | stylesheet_tag }}
+  
+    <script type="text/javascript">
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('a[href$="#waitlist"], a[href="#waitlist"]');
+    if (!el) return;
+    e.preventDefault();
+    window._klOnsite = window._klOnsite || [];
+    window._klOnsite.push(['openForm', 'RNXfhV']);
+  });
+</script>
+
   </body>
 </html>
