@@ -11,6 +11,18 @@
   "sections": {
     "video_hero_w9UyFh": {
       "type": "video-hero",
+      "blocks": {
+        "button_cka8Qa": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/contact",
+            "link_text": "Book an Appointment"
+          }
+        }
+      },
+      "block_order": [
+        "button_cka8Qa"
+      ],
       "custom_css": [],
       "settings": {
         "enable_animation": true,
