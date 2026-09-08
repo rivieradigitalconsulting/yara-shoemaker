@@ -49,7 +49,7 @@
         "dropdown_interaction": "mouseover",
         "show_cart_icon": true,
         "show_search": true,
-        "show_search_mobile_icon": true,
+        "show_search_mobile_icon": false,
         "logo_max_size": 300,
         "menu": "riviera-main-menu",
         "transparent_index_header_enabled": true,
