@@ -35,35 +35,21 @@
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
-        "color_background_button": "#ECE7DA",
+        "color_background_button": "#ece7da",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 10
       }
     },
-    "1788528675c6f1b474": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_7d89ab6_q8E3iM": {
-          "type": "ai_gen_block_7d89ab6",
-          "settings": {
-            "desktop_height": 50,
-            "desktop_background_color": "#ece7da",
-            "mobile_height": 30,
-            "mobile_background_color": "#ece7da"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_7d89ab6_q8E3iM"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "image_hero_x3Ti6k": {
       "type": "image-hero",
       "blocks": {
+        "overline_Gixi7W": {
+          "type": "overline",
+          "settings": {
+            "overline": "RTW LAUNCH"
+          }
+        },
         "heading_ggVWLH": {
           "type": "heading",
           "settings": {
@@ -89,6 +75,7 @@
         }
       },
       "block_order": [
+        "overline_Gixi7W",
         "heading_ggVWLH",
         "subheading_xqh4gp",
         "button_Q496Qz"
@@ -97,8 +84,8 @@
       "settings": {
         "enable_animation": true,
         "image_aspect": "custom",
-        "desktop_height": 70,
-        "mobile_height": 90,
+        "desktop_height": 100,
+        "mobile_height": 100,
         "image": "shopify://shop_images/YARA-SHOEMAKER-FW27-LOOKBOOK16410.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
@@ -149,6 +136,7 @@
         "subheading_f4wFGR",
         "button_y36kDL"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "section_style": "contrast",
@@ -164,39 +152,6 @@
         "text_container_color": "",
         "color_background_gradient": "",
         "button_background_color": "#000"
-      }
-    },
-    "text_columns_with_images_U6bPDa": {
-      "type": "text-columns-with-images",
-      "blocks": {
-        "column_FM3aaF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/YARA_SHOEMAKER_FW27_LOOKBOOK15498_1_ed3a2f49-b5e7-4a81-ae35-812ba4895df7.jpg",
-            "image_max_width": 50,
-            "title": "",
-            "subheading": "",
-            "text_max_width": 50,
-            "link": "shopify://pages/our-couture-process",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_FM3aaF"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_style": "contrast",
-        "enable_animation": true,
-        "columns": 1,
-        "overline": "Yara Shoemaker",
-        "title": "HAUTE COUTURE",
-        "subheading": "<p>Exquisite craftsmanship distills centuries of culture into the epitome of luxury. Yara is devoted to the creation of breathtaking, desire-inducing designs that transcend time and trends, each piece a testament to our unwavering commitment to artistry and sophistication.</p>",
-        "link": "",
-        "link_text": "",
-        "text_alignment": "center",
-        "text_max_width": 50
       }
     },
     "video_hero_eaKHnW": {
@@ -241,7 +196,7 @@
       "settings": {
         "enable_animation": true,
         "image_aspect": "custom",
-        "desktop_height": 75,
+        "desktop_height": 100,
         "mobile_height": 100,
         "video_url": "https://cdn.shopify.com/videos/c/o/v/2065ddef1cde43618d6adc1fea5fc7bd.mp4",
         "focal_point": "image_presentation",
@@ -793,10 +748,8 @@
   },
   "order": [
     "video_hero_w9UyFh",
-    "1788528675c6f1b474",
     "image_hero_x3Ti6k",
     "image_with_text_J8MDQ6",
-    "text_columns_with_images_U6bPDa",
     "video_hero_eaKHnW",
     "mosaic_grid_j7HBFq",
     "text_columns_with_images_1",
