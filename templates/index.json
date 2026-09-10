@@ -41,65 +41,6 @@
         "overlay_opacity": 0
       }
     },
-    "image_hero_x3Ti6k": {
-      "type": "image-hero",
-      "blocks": {
-        "overline_Gixi7W": {
-          "type": "overline",
-          "settings": {
-            "overline": "YARA SHOEMAKER"
-          }
-        },
-        "heading_ggVWLH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coming Soon: Ready-to-Wear Collection",
-            "heading_text_size": 32,
-            "text_max_width": 38
-          }
-        },
-        "subheading_xqh4gp": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "<p>For the first time, Yara Shoemaker's couture craftsmanship meets everyday elegance. The Ready-to-Wear collection launches soon, bringing the same artisanal spirit to a new way of dressing.</p>",
-            "subheading_text_size": 14,
-            "text_max_width": 45
-          }
-        },
-        "button_Q496Qz": {
-          "type": "button",
-          "settings": {
-            "link": "#waitlist",
-            "link_text": "WAITLIST SIGN UP"
-          }
-        }
-      },
-      "block_order": [
-        "overline_Gixi7W",
-        "heading_ggVWLH",
-        "subheading_xqh4gp",
-        "button_Q496Qz"
-      ],
-      "name": "t:sections.image_hero.presets.name",
-      "settings": {
-        "enable_animation": true,
-        "image_aspect": "custom",
-        "desktop_height": 100,
-        "mobile_height": 100,
-        "image": "shopify://shop_images/YARA-SHOEMAKER-FW27-LOOKBOOK16410.jpg",
-        "focal_point": "image_presentation",
-        "mobile_focal_point": "image_presentation",
-        "alignment": "center_center",
-        "text_container_color": "rgba(0,0,0,0)",
-        "text_color": "#ffffff",
-        "color_text_button": "#181818",
-        "color_background_button": "#ece7da",
-        "overlay_color": "#000000",
-        "color_overlay_gradient": "",
-        "overlay_opacity": 20
-      }
-    },
     "image_hero_48KeJz": {
       "type": "image-hero",
       "blocks": {
@@ -216,6 +157,65 @@
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 20
+      }
+    },
+    "image_hero_x3Ti6k": {
+      "type": "image-hero",
+      "blocks": {
+        "overline_Gixi7W": {
+          "type": "overline",
+          "settings": {
+            "overline": "YARA SHOEMAKER"
+          }
+        },
+        "heading_ggVWLH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coming Soon: Ready-to-Wear Collection",
+            "heading_text_size": 32,
+            "text_max_width": 38
+          }
+        },
+        "subheading_xqh4gp": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "<p>For the first time, Yara Shoemaker's couture craftsmanship meets everyday elegance. The Ready-to-Wear collection launches soon, bringing the same artisanal spirit to a new way of dressing.</p>",
+            "subheading_text_size": 14,
+            "text_max_width": 45
+          }
+        },
+        "button_Q496Qz": {
+          "type": "button",
+          "settings": {
+            "link": "#waitlist",
+            "link_text": "WAITLIST SIGN UP"
+          }
+        }
+      },
+      "block_order": [
+        "overline_Gixi7W",
+        "heading_ggVWLH",
+        "subheading_xqh4gp",
+        "button_Q496Qz"
+      ],
+      "name": "t:sections.image_hero.presets.name",
+      "settings": {
+        "enable_animation": true,
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/YARA-SHOEMAKER-FW27-LOOKBOOK16410.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "alignment": "center_center",
+        "text_container_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "color_text_button": "#181818",
+        "color_background_button": "#ece7da",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 30
       }
     },
     "image_with_text_J8MDQ6": {
@@ -852,6 +852,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "enable_animation": true,
         "image_aspect": "custom",
@@ -873,9 +874,9 @@
   },
   "order": [
     "video_hero_w9UyFh",
-    "image_hero_x3Ti6k",
     "image_hero_48KeJz",
     "image_hero_gtW7ga",
+    "image_hero_x3Ti6k",
     "image_with_text_J8MDQ6",
     "video_hero_eaKHnW",
     "mosaic_grid_j7HBFq",
