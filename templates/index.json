@@ -313,6 +313,7 @@
         "subheading_yKQcHV",
         "button_De938P"
       ],
+      "disabled": true,
       "settings": {
         "enable_animation": true,
         "image_aspect": "custom",
