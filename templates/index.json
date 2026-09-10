@@ -47,7 +47,7 @@
         "overline_Gixi7W": {
           "type": "overline",
           "settings": {
-            "overline": "RTW LAUNCH"
+            "overline": "YARA SHOEMAKER"
           }
         },
         "heading_ggVWLH": {
@@ -89,7 +89,7 @@
         "image": "shopify://shop_images/YARA-SHOEMAKER-FW27-LOOKBOOK16410.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
-        "alignment": "center_bottom",
+        "alignment": "center_center",
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
@@ -105,7 +105,7 @@
         "overline_Fz86iY": {
           "type": "overline",
           "settings": {
-            "overline": "FALL/WINTER 2026-2027"
+            "overline": "YARA SHOEMAKER"
           }
         },
         "heading_jQDbQP": {
@@ -138,7 +138,6 @@
         "subheading_38mgJD",
         "button_QxaaC6"
       ],
-      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "enable_animation": true,
@@ -148,7 +147,65 @@
         "image": "shopify://shop_images/YARASHOEMAKER_7-COUTURE.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
-        "alignment": "center_bottom",
+        "alignment": "center_center",
+        "text_container_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "color_text_button": "#181818",
+        "color_background_button": "#ece7da",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40
+      }
+    },
+    "image_hero_gtW7ga": {
+      "type": "image-hero",
+      "blocks": {
+        "overline_qmJeQp": {
+          "type": "overline",
+          "settings": {
+            "overline": "YARA SHOEMAKER"
+          }
+        },
+        "heading_w7nhAJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bridal Collection",
+            "heading_text_size": 32,
+            "text_max_width": 38
+          }
+        },
+        "subheading_PwcwD4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<p>Some moments transform a life forever.</p><p>A YARA SHOEMAKER bridal gown is created for one of them.</p><p>Designed exclusively for the woman who will wear it, each gown becomes part of the memories she will carry for a lifetime and the legacy her family will treasure for generations.<br/></p>",
+            "subheading_text_size": 14,
+            "text_max_width": 41
+          }
+        },
+        "button_jbGJHL": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/bridal",
+            "link_text": "DISCOVER BRIDAL"
+          }
+        }
+      },
+      "block_order": [
+        "overline_qmJeQp",
+        "heading_w7nhAJ",
+        "subheading_PwcwD4",
+        "button_jbGJHL"
+      ],
+      "name": "t:sections.image_hero.presets.name",
+      "settings": {
+        "enable_animation": true,
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/bridal_2_YARA_SHOEMAKER.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "alignment": "center_center",
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
@@ -195,6 +252,7 @@
         "subheading_f4wFGR",
         "button_y36kDL"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "section_style": "contrast",
@@ -258,7 +316,7 @@
         "mobile_height": 100,
         "video_url": "https://cdn.shopify.com/videos/c/o/v/2065ddef1cde43618d6adc1fea5fc7bd.mp4",
         "focal_point": "image_presentation",
-        "alignment": "center_bottom",
+        "alignment": "center_center",
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
@@ -398,6 +456,7 @@
         "small_square_WzUtW3",
         "small_square_xniCYb"
       ],
+      "disabled": true,
       "settings": {
         "section_style": "contrast",
         "enable_animation": true,
@@ -452,6 +511,7 @@
         "column_2",
         "column_3"
       ],
+      "disabled": true,
       "settings": {
         "section_style": "default",
         "enable_animation": true,
@@ -467,6 +527,7 @@
     },
     "image_with_text_split_1": {
       "type": "image-with-text-split",
+      "disabled": true,
       "settings": {
         "enable_animation": true,
         "feature_image": "shopify://shop_images/Screenshot_2024-07-21_at_3.26.19_PM.png",
@@ -510,6 +571,7 @@
         "heading_3recbW",
         "subheading_34dUdw"
       ],
+      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "enable_animation": true,
@@ -566,6 +628,7 @@
         "subheading_chDQgp",
         "button_GLNyBB"
       ],
+      "disabled": true,
       "settings": {
         "section_style": "contrast",
         "enable_animation": true,
@@ -808,6 +871,7 @@
     "video_hero_w9UyFh",
     "image_hero_x3Ti6k",
     "image_hero_48KeJz",
+    "image_hero_gtW7ga",
     "image_with_text_J8MDQ6",
     "video_hero_eaKHnW",
     "mosaic_grid_j7HBFq",
