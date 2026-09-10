@@ -60,6 +60,7 @@
         },
         "subheading_xqh4gp": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "<p>For the first time, Yara Shoemaker's couture craftsmanship meets everyday elegance. The Ready-to-Wear collection launches soon, bringing the same artisanal spirit to a new way of dressing.</p>",
             "subheading_text_size": 14,
@@ -118,8 +119,9 @@
         },
         "subheading_38mgJD": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "subheading": "<p>True luxury begins with intention.</p><p>Every creation begins with a woman.<br/>Before a sketch is drawn or a fabric is selected, we seek to understand who she is, what she wishes to celebrate, and the memories she hopes to preserve.<br/></p><p>From the first conversation to the final fitting, every decision is guided by her individuality.  What we create is never simply a garment, but a piece of her story — crafted to accompany life’s most meaningful moments with beauty, confidence, and grace.<br/></p>",
+            "subheading": "<p>True luxury begins with intention.</p><p>Every creation begins with a woman.<br/>Before a sketch is drawn or a fabric is selected, we seek to understand who she is, what she wishes to celebrate, and the memories she hopes to preserve.<br/></p><p>From the first conversation to the final fitting, every decision is guided by her individuality.  What we create is never simply a garment, but a piece of her story — crafted to accompany life’s most meaningful moments with beauty, confidence, and grace.</p>",
             "subheading_text_size": 14,
             "text_max_width": 41
           }
@@ -176,8 +178,9 @@
         },
         "subheading_PwcwD4": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "subheading": "<p>Some moments transform a life forever.</p><p>A YARA SHOEMAKER bridal gown is created for one of them.</p><p>Designed exclusively for the woman who will wear it, each gown becomes part of the memories she will carry for a lifetime and the legacy her family will treasure for generations.<br/></p>",
+            "subheading": "<p>Some moments transform a life forever.</p><p>A YARA SHOEMAKER bridal gown is created for one of them.</p><p>Designed exclusively for the woman who will wear it, each gown becomes part of the memories she will carry for a lifetime and the legacy her family will treasure for generations.</p>",
             "subheading_text_size": 14,
             "text_max_width": 41
           }
@@ -289,6 +292,7 @@
         },
         "subheading_yKQcHV": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "<p>YARA SHOEMAKER was founded on a simple belief. The most precious things in life cannot be replaced.</p><p>Time.</p><p>The people we love.</p><p>The moments that shape who we become.<br/><br/>Every creation is conceived to honor those moments with beauty that endures, becoming part of the memories that remain long after the celebration has passed.</p>",
             "subheading_text_size": 14,
