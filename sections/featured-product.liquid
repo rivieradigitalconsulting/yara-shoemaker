@@ -42,7 +42,7 @@
   endif
 -%}
 
-{% capture "form_classes" -%}
+{% capture form_classes -%}
   product-form product-form-{{ section.id }}
   {%- unless section.settings.show_variant_labels %} product-form--hide-variant-labels {% endunless %}
   {%- if show_dynamic_checkout and product.has_only_default_variant %}
@@ -887,3 +887,13 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% capture "form_classes" -%}'
+  to: "{% capture form_classes -%}"
+  position: 1332..1359
+{% endcomment %}
