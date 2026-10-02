@@ -43,9 +43,7 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [
-        "a[href$=\"/account\"],a[href*=\"/account/login\"],a[href$=\"/account\"] + *,li:has(> a[href$=\"/account\"]) {display: none !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "header_style": "icon",
         "nav_position": "below_center",
