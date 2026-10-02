@@ -97,7 +97,7 @@
         "color_background_button": "#ece7da",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
-        "overlay_opacity": 20
+        "overlay_opacity": 10
       }
     },
     "image_hero_gtW7ga": {
@@ -156,7 +156,7 @@
         "color_background_button": "#ece7da",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
-        "overlay_opacity": 20
+        "overlay_opacity": 10
       }
     },
     "image_hero_x3Ti6k": {
@@ -215,7 +215,7 @@
         "color_background_button": "#ece7da",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
-        "overlay_opacity": 30
+        "overlay_opacity": 10
       }
     },
     "image_with_text_J8MDQ6": {
