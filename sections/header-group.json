@@ -45,7 +45,7 @@
       "type": "header",
       "settings": {
         "header_style": "icon",
-        "nav_position": "inline_left",
+        "nav_position": "below_center",
         "dropdown_interaction": "mouseover",
         "show_cart_icon": false,
         "show_search": false,
