@@ -43,7 +43,9 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.icon-header-button__icon {display: none !important; }}"
+      ],
       "settings": {
         "header_style": "icon",
         "nav_position": "below_center",
