@@ -44,7 +44,7 @@
         "text_color": "#313131",
         "color_text_button": "#181818",
         "color_background_button": "#ffffff",
-        "overlay_color": "#ece7da",
+        "overlay_color": "#F6F3EB",
         "color_overlay_gradient": "",
         "overlay_opacity": 70
       }
@@ -134,7 +134,7 @@
             "link_text": "",
             "link": "",
             "text_position": "center_center",
-            "background_color": "#ece7da",
+            "background_color": "#F6F3EB",
             "color_text": "#313131",
             "color_text_button": "#181818",
             "color_background_button": "#ffffff",
