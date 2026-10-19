@@ -53,7 +53,7 @@
         "text_color": "#313131",
         "color_text_button": "#181818",
         "color_background_button": "#ffffff",
-        "overlay_color": "#ece7da",
+        "overlay_color": "#F6F3EB",
         "color_overlay_gradient": "",
         "overlay_opacity": 100
       }
@@ -177,7 +177,7 @@
         "text_color": "#313131",
         "color_text_button": "#181818",
         "color_background_button": "#ffffff",
-        "overlay_color": "#ece7da",
+        "overlay_color": "#F6F3EB",
         "color_overlay_gradient": "",
         "overlay_opacity": 100
       }
