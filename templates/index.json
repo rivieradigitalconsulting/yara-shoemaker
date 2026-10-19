@@ -35,7 +35,7 @@
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
-        "color_background_button": "#ece7da",
+        "color_background_button": "#F6F3EB",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 0
@@ -94,7 +94,7 @@
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
-        "color_background_button": "#ece7da",
+        "color_background_button": "#F6F3EB",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 10
@@ -153,7 +153,7 @@
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
-        "color_background_button": "#ece7da",
+        "color_background_button": "#F6F3EB",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 10
@@ -322,7 +322,7 @@
         "text_container_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "color_text_button": "#181818",
-        "color_background_button": "#ece7da",
+        "color_background_button": "#F6F3EB",
         "overlay_color": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 10
